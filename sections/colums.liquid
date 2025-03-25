@@ -1,0 +1,77 @@
+{%- if section.blocks.size > 0 -%}
+  <style>
+    /* Custom CSS for review section */
+    .review-grid {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      gap: 20px;
+      justify-items: center;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .review-card {
+      background-color: white;
+      border: 2px solid #24421F;
+      padding: 15px;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .review-card img {
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      margin-bottom: 10px;
+    }
+    .review-card h3 {
+      font-size: 16px;
+      margin: 10px 0;
+      color: #24421F;
+    }
+    .review-card p {
+      font-size: 14px;
+      color: #333;
+      margin: 10px 0;
+    }
+    .review-card .rating {
+      font-size: 14px;
+      color: #FFD700; /* Gold for star rating */
+    }
+    .review-card .name {
+      font-size: 14px;
+      color: #24421F;
+      font-weight: bold;
+    }
+
+    /* Responsive Design for smaller screens */
+    @media (max-width: 768px) {
+      .review-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+    @media (max-width: 480px) {
+      .review-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+
+  <div class="section">
+    <div class="review-grid">
+      {%- for block in section.blocks -%}
+        {%- if block.type == 'item' -%}
+          <div class="review-card">
+            {%- if block.settings.image -%}
+              <img src="{{ block.settings.image | image_url: width: 200 }}" alt="Customer Photo">
+            {%- endif -%}
+            <h3>{{ block.settings.title }}</h3>
+            <p class="rating">⭐⭐⭐⭐⭐</p>
+            <p>{{ block.settings.content }}</p>
+            <p class="name">{{ block.settings.name }}</p>
+          </div>
+        {%- endif -%}
+      {%- endfor -%}
+    </div>
+  </div>
+{%- endif -%}
