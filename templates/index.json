@@ -20,7 +20,7 @@
             "content_max_width": 720,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "Réduisez l'inflammation, boostez votre énergie et dormez mieux, des résultats visibles dès la première nuit !",
+            "subheading": "",
             "title": "Obtenez le sommeil que vous méritez",
             "heading_tag": "h1",
             "button_text": "Dors mieux dès maintenant !",
@@ -63,26 +63,14 @@
         "text_color": ""
       }
     },
-    "custom_liquid_azdXEk": {
-      "type": "custom-liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<div class=\"rich-text__wrapper\" style=\"margin-top: 50px;\"> <!-- Ajout de l'espacement -->\n  <div class=\"prose justify-items-center text-center\">\n    <div>\n      <p>\n        Passez de nuits agitées à un <strong>sommeil réparateur</strong> avec notre technologie de <strong> mise à la terre,</strong> anti-<strong>inflammatoire</strong> et <strong>régénératrice !</strong>\n      </p>\n    </div>\n    <div style=\"margin-block-start: 0\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0932/1719/4322/files/8fc6b620875c4ccb9ecb8768f2908b5c.HD-1080p-2.5Mbps-41014851_1.gif?v=1742868714\" \n           alt=\"\" \n           srcset=\"https://cdn.shopify.com/s/files/1/0932/1719/4322/files/8fc6b620875c4ccb9ecb8768f2908b5c.HD-1080p-2.5Mbps-41014851_1.gif?v=1742868714;width=200 200w, https://cdn.shopify.com/s/files/1/0932/1719/4322/files/8fc6b620875c4ccb9ecb8768f2908b5c.HD-1080p-2.5Mbps-41014851_1.gif?v=1742868714;width=300 300w\" \n           width=\"370\" \n           height=\"370\" \n           loading=\"lazy\" \n           sizes=\"(max-width: 699px) min(400px, 100vw), min(680px, 100vw)\" \n           style=\"margin-inline: auto; --image-max-width: 680px; --image-mobile-max-width: 400px\">\n    </div>\n  </div>\n</div>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "custom_html_bdTEDF": {
       "type": "custom-html",
       "custom_css": [
-        "p {font-size: 28px;}"
+        "p {font-size: 28px; margin-top: 28px;}"
       ],
       "settings": {
         "full_width": true,
-        "remove_vertical_spacing": false,
+        "remove_vertical_spacing": true,
         "remove_horizontal_spacing": false,
         "html": "<p style=\"text-align: center\">Pourquoi choisir la solution Vitalsleep ?</p>",
         "background": "",
@@ -129,233 +117,125 @@
         "background_gradient": ""
       }
     },
-    "image-link-blocks": {
-      "type": "image-link-blocks",
+    "custom_liquid_azdXEk": {
+      "type": "custom-liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": true,
+        "liquid": "<div class=\"rich-text__wrapper\" style=\"margin-top: 50px;\"> <!-- Ajout de l'espacement -->\n  <div class=\"prose justify-items-center text-center\">\n    <div>\n      <p style=\"font-size: 1.6rem; line-height: 1.6;\"> <!-- Augmenter la taille du texte -->\n        Passez de nuits agitées à un <strong>sommeil réparateur</strong> avec notre technologie de <strong>mise à la terre,</strong> anti-<strong>inflammatoire</strong> et <strong>régénératrice !</strong>\n      </p>\n    </div>\n    <div style=\"margin-block-start: 0\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0932/1719/4322/files/8fc6b620875c4ccb9ecb8768f2908b5c.HD-1080p-2.5Mbps-41014851_1.gif?v=1742868714\" \n           alt=\"\" \n           srcset=\"https://cdn.shopify.com/s/files/1/0932/1719/4322/files/8fc6b620875c4ccb9ecb8768f2908b5c.HD-1080p-2.5Mbps-41014851_1.gif?v=1742868714;width=500 500w, https://cdn.shopify.com/s/files/1/0932/1719/4322/files/8fc6b620875c4ccb9ecb8768f2908b5c.HD-1080p-2.5Mbps-41014851_1.gif?v=1742868714;width=700 700w\" \n           width=\"700\" \n           height=\"700\" \n           loading=\"lazy\" \n           sizes=\"(max-width: 699px) min(600px, 100vw), min(700px, 100vw)\" \n           style=\"margin-inline: auto; max-width: 100%; height: auto;\">\n    </div>\n  </div>\n</div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "custom_liquid_Laz94U": {
+      "type": "custom-liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "{%- if section.blocks.size > 0 -%}\n  <style>\n    /* Custom CSS for review section */\n    .review-grid {\n      display: grid;\n      grid-template-columns: repeat(6, 1fr);\n      gap: 20px;\n      justify-items: center;\n      margin: 0 auto;\n      padding: 20px;\n    }\n    .review-card {\n      background-color: white;\n      border: 2px solid #24421F;\n      padding: 15px;\n      border-radius: 10px;\n      text-align: center;\n      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);\n    }\n    .review-card img {\n      border-radius: 50%;\n      width: 100px;\n      height: 100px;\n      object-fit: cover;\n      margin-bottom: 10px;\n    }\n    .review-card h3 {\n      font-size: 16px;\n      margin: 10px 0;\n      color: #24421F;\n    }\n    .review-card p {\n      font-size: 14px;\n      color: #333;\n      margin: 10px 0;\n    }\n    .review-card .rating {\n      font-size: 14px;\n      color: #FFD700; /* Gold for star rating */\n    }\n    .review-card .name {\n      font-size: 14px;\n      color: #24421F;\n      font-weight: bold;\n    }\n\n    /* Responsive Design for smaller screens */\n    @media (max-width: 768px) {\n      .review-grid {\n        grid-template-columns: repeat(2, 1fr);\n      }\n    }\n    @media (max-width: 480px) {\n      .review-grid {\n        grid-template-columns: 1fr;\n      }\n    }\n  </style>\n\n  <div class=\"section\">\n    <div class=\"review-grid\">\n      {%- for block in section.blocks -%}\n        {%- if block.type == 'item' -%}\n          <div class=\"review-card\">\n            {%- if block.settings.image -%}\n              <img src=\"{{ block.settings.image | image_url: width: 200 }}\" alt=\"Customer Photo\">\n            {%- endif -%}\n            <h3>{{ block.settings.title }}</h3>\n            <p class=\"rating\">⭐⭐⭐⭐⭐</p>\n            <p>{{ block.settings.content }}</p>\n            <p class=\"name\">{{ block.settings.name }}</p>\n          </div>\n        {%- endif -%}\n      {%- endfor -%}\n    </div>\n  </div>\n{%- endif -%}",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "multi_column_Lwa8dA": {
+      "type": "multi-column",
       "blocks": {
-        "1664424046b00c932c-0": {
+        "item_36qHVW": {
           "type": "item",
           "settings": {
-            "stretch_image": true,
-            "link_text": "",
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "link_text": "",
+            "link_style": "link"
           }
         },
-        "1664424046b00c932c-1": {
+        "item_QHRcqV": {
           "type": "item",
           "settings": {
-            "stretch_image": true,
-            "link_text": "",
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "link_text": "",
+            "link_style": "link"
           }
         },
-        "1664424046b00c932c-2": {
+        "item_wBGdJt": {
           "type": "item",
           "settings": {
-            "stretch_image": true,
-            "link_text": "",
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "link_text": "",
+            "link_style": "link"
           }
         },
-        "1664424046b00c932c-3": {
+        "item_GJmyxT": {
           "type": "item",
           "settings": {
-            "stretch_image": true,
-            "link_text": "",
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "link_text": "",
+            "link_style": "link"
           }
         },
-        "e4a0ef18-1856-4ddd-83d8-871a60d7acac": {
+        "item_YkDP3F": {
           "type": "item",
           "settings": {
-            "stretch_image": true,
-            "link_text": "",
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_DPY7jL": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
           }
         }
       },
       "block_order": [
-        "1664424046b00c932c-0",
-        "1664424046b00c932c-1",
-        "1664424046b00c932c-2",
-        "1664424046b00c932c-3",
-        "e4a0ef18-1856-4ddd-83d8-871a60d7acac"
+        "item_36qHVW",
+        "item_QHRcqV",
+        "item_wBGdJt",
+        "item_GJmyxT",
+        "item_YkDP3F",
+        "item_DPY7jL"
       ],
       "settings": {
-        "full_width": false,
-        "block_size": "medium",
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "large",
+        "text_alignment": "center",
         "subheading": "",
         "title": "",
-        "content": "",
-        "link_url": "",
-        "link_text": "",
+        "content": "<h2>Nos clients en parlent le mieux</h2>",
         "background": "",
         "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
-      }
-    },
-    "scrolling-text": {
-      "type": "scrolling-text",
-      "settings": {
-        "full_width": true,
-        "text": "Promotion text",
-        "text_size": "large",
-        "text_style": "fill",
-        "scrolling_mode": "auto",
-        "scrolling_speed": 5,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "text_gradient": ""
-      }
-    },
-    "collection-list": {
-      "type": "collection-list",
-      "blocks": {
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "subheading": "",
-            "title": "",
-            "url": "",
-            "heading_tag": "h2",
-            "text_position": "place-self-center text-center",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection-2": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "subheading": "",
-            "title": "",
-            "url": "",
-            "heading_tag": "h2",
-            "text_position": "place-self-center text-center",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection-3": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "subheading": "",
-            "title": "",
-            "url": "",
-            "heading_tag": "h2",
-            "text_position": "place-self-center text-center",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        }
-      },
-      "block_order": [
-        "collection-1",
-        "collection-2",
-        "collection-3"
-      ],
-      "settings": {
-        "full_width": true,
-        "stack_collections": false,
-        "collections_per_row": 3,
-        "show_progress_bar": false,
-        "subheading": "",
-        "title": "Collection list",
-        "content": "",
-        "link_url": "",
-        "link_text": "View all",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
-      }
-    },
-    "featured-collection": {
-      "type": "featured-collection",
-      "settings": {
-        "collection": "",
-        "products": [],
-        "full_width": true,
-        "stack_products": false,
-        "show_progress_bar": false,
-        "products_count": 6,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "subheading": "",
-        "title": "Featured collection",
-        "content": "",
-        "link_url": "",
-        "link_text": "View all",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": ""
-      }
-    },
-    "impact-text": {
-      "type": "impact-text",
-      "blocks": {
-        "1664424181b38582d5-0": {
-          "type": "item",
-          "settings": {
-            "title": "100%",
-            "subheading": "Showcase a benefit of your product",
-            "content": "",
-            "button_text": "",
-            "button_url": "",
-            "animate_impact_text": false,
-            "animate_impact_text_duration": 2
-          }
-        }
-      },
-      "block_order": [
-        "1664424181b38582d5-0"
-      ],
-      "settings": {
-        "full_width": true,
-        "stack_mobile": true,
-        "text_alignment": "center",
-        "impact_text_style": "fill",
-        "text_divider": "none",
-        "impact_text_size_ratio": 1,
-        "background": "",
-        "background_gradient": "",
-        "heading_text_color": "",
-        "heading_gradient": "linear-gradient(180deg, rgba(26, 26, 26, 0.2), rgba(26, 26, 26, 0) 100%)",
-        "text_color": "",
-        "button_background": "",
-        "button_text_color": ""
+        "text_color": ""
       }
     },
     "image-with-text-overlay": {
@@ -941,11 +821,8 @@
     "custom_html_bdTEDF",
     "slideshow_QYyeay",
     "custom_liquid_azdXEk",
-    "image-link-blocks",
-    "scrolling-text",
-    "collection-list",
-    "featured-collection",
-    "impact-text",
+    "custom_liquid_Laz94U",
+    "multi_column_Lwa8dA",
     "image-with-text-overlay",
     "media-grid",
     "before-after-image",
