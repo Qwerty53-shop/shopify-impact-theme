@@ -9,16 +9,46 @@
  */
 {
   "sections": {
-    "custom_liquid_E48KrP": {
-      "type": "custom-liquid",
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "image_p3FgTn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/How_Does_Melatonin_Affect_Dreams_1-min.webp",
+            "mobile_image": "shopify://shop_images/How_Does_Melatonin_Affect_Dreams_1-min.webp",
+            "content_max_width": 720,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "Réduisez l'inflammation, boostez votre énergie et dormez mieux, des résultats visibles dès la première nuit !",
+            "title": "Obtenez le sommeil que vous méritez",
+            "heading_tag": "h1",
+            "button_text": "Dors mieux dès maintenant !",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#24421f",
+            "button_text_color": "#f0f0f0",
+            "overlay_color": "#000000",
+            "overlay_opacity": 32,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_p3FgTn"
+      ],
+      "custom_css": [],
       "settings": {
         "full_width": true,
-        "remove_vertical_spacing": true,
-        "remove_horizontal_spacing": true,
-        "liquid": "<section class=\"sleep-section\" style=\"background-image: url('https://thegrounding.co/cdn/shop/files/How_Does_Melatonin_Affect_Dreams_1-min.png?v=1714731327&width=2727'); background-size: cover; background-position: center; height: 100vh; width: 100%; display: flex; justify-content: center; align-items: center; color: white; text-align: center; padding: 0;\">\n  \n  <div class=\"sleep-container\" style=\"width: 100%; max-width: 1200px; padding: 20px; background: transparent; box-sizing: border-box; text-align: center; display: flex; flex-direction: column; justify-content: center; align-items: center;\">\n    <!-- Titre centré -->\n    <h1 style=\"font-size: 4rem; font-weight: 700; line-height: 1.3; margin-bottom: 20px; font-family: 'Helvetica Neue', sans-serif; color: white; text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);\">\n      Obtenez le sommeil que vous méritez\n    </h1>\n    \n    <!-- Description centrée -->\n    <p style=\"font-size: 1.3rem; margin-bottom: 30px; font-family: 'Arial', sans-serif; color: white; text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5); max-width: 600px; line-height: 1.8;\">\n      Réduisez l'inflammation, boostez votre énergie et dormez mieux, des résultats visibles dès la première nuit !\n    </p>\n\n    <!-- Bouton centré -->\n    <a href=\"#\" class=\"cta-button\" style=\"display: inline-block; background-color: #24421F; color: white; font-size: 1.2rem; font-weight: bold; padding: 15px 30px; border-radius: 30px; text-decoration: none; transition: background-color 0.3s ease;\">\n      Dors mieux dès maintenant !\n    </a>\n  </div>\n  \n</section>\n\n<!-- Responsive adjustments -->\n<style>\n  /* PC - centré et taille de texte inchangée */\n  @media (min-width: 1200px) {\n    .sleep-section h1 {\n      font-size: 4rem; /* Titre taille pour PC */\n    }\n    .sleep-section p {\n      font-size: 1.3rem; /* Description taille pour PC */\n    }\n    .cta-button {\n      font-size: 1.2rem; /* Bouton taille pour PC */\n    }\n  }\n\n  /* Ajustements pour tablettes et petits écrans (max-width: 992px) */\n  @media (max-width: 992px) {\n    .sleep-section h1 {\n      font-size: 3.5rem; /* Réduction de la taille du titre pour tablette */\n    }\n    .sleep-section p {\n      font-size: 1.2rem; /* Réduction de la taille de la description pour tablette */\n    }\n    .cta-button {\n      font-size: 1.1rem; /* Réduction de la taille du bouton pour tablette */\n      padding: 12px 25px; /* Ajustement du padding pour un bouton plus petit */\n    }\n  }\n\n  /* Ajustements pour mobile (max-width: 768px) */\n  @media (max-width: 768px) {\n    .sleep-section h1 {\n      font-size: 3rem; /* Ajustement de la taille du titre pour mobile */\n    }\n    .sleep-section p {\n      font-size: 1.1rem; /* Taille de la description pour mobile */\n    }\n    .cta-button {\n      font-size: 1rem; /* Réduction de la taille du bouton pour mobile */\n      padding: 10px 20px; /* Ajustement du padding pour mobile */\n    }\n  }\n\n  /* Ajustements pour très petits écrans (max-width: 480px) */\n  @media (max-width: 480px) {\n    .sleep-section h1 {\n      font-size: 2.5rem; /* Réduction encore de la taille du titre pour très petit écran */\n    }\n    .sleep-section p {\n      font-size: 1rem; /* Taille de texte ajustée pour très petit écran */\n    }\n    .cta-button {\n      font-size: 1rem; /* Taille du bouton réduite pour très petit écran */\n      padding: 10px 20px; /* Padding réduit pour les petits écrans */\n    }\n  }\n</style>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "controls_type": "numbers",
+        "transition_type": "fade_with_text",
+        "autoplay": true,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
       }
     },
     "custom_liquid_gVmCwf": {
@@ -33,19 +63,70 @@
         "text_color": ""
       }
     },
-    "slideshow": {
+    "custom_liquid_azdXEk": {
+      "type": "custom-liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div class=\"rich-text__wrapper\" style=\"margin-top: 50px;\"> <!-- Ajout de l'espacement -->\n  <div class=\"prose justify-items-center text-center\">\n    <div>\n      <p>\n        Passez de nuits agitées à un <strong>sommeil réparateur</strong> avec notre technologie de <strong> mise à la terre,</strong> anti-<strong>inflammatoire</strong> et <strong>régénératrice !</strong>\n      </p>\n    </div>\n    <div style=\"margin-block-start: 0\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0932/1719/4322/files/8fc6b620875c4ccb9ecb8768f2908b5c.HD-1080p-2.5Mbps-41014851_1.gif?v=1742868714\" \n           alt=\"\" \n           srcset=\"https://cdn.shopify.com/s/files/1/0932/1719/4322/files/8fc6b620875c4ccb9ecb8768f2908b5c.HD-1080p-2.5Mbps-41014851_1.gif?v=1742868714;width=200 200w, https://cdn.shopify.com/s/files/1/0932/1719/4322/files/8fc6b620875c4ccb9ecb8768f2908b5c.HD-1080p-2.5Mbps-41014851_1.gif?v=1742868714;width=300 300w\" \n           width=\"370\" \n           height=\"370\" \n           loading=\"lazy\" \n           sizes=\"(max-width: 699px) min(400px, 100vw), min(680px, 100vw)\" \n           style=\"margin-inline: auto; --image-max-width: 680px; --image-mobile-max-width: 400px\">\n    </div>\n  </div>\n</div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "custom_html_bdTEDF": {
+      "type": "custom-html",
+      "custom_css": [
+        "p {font-size: 28px;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<p style=\"text-align: center\">Pourquoi choisir la solution Vitalsleep ?</p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "slideshow_QYyeay": {
       "type": "slideshow",
-      "custom_css": [],
+      "blocks": {
+        "image_kfwHLM": {
+          "type": "image",
+          "settings": {
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_kfwHLM"
+      ],
       "settings": {
         "full_width": true,
         "allow_transparent_header": true,
         "image_size": "auto",
-        "controls_type": "numbers",
+        "controls_type": "dots",
         "transition_type": "fade_with_text",
-        "autoplay": true,
+        "autoplay": false,
         "cycle_speed": 6,
-        "background": "#f2f2f2",
-        "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
+        "background": "#F2F2F2",
+        "background_gradient": ""
       }
     },
     "image-link-blocks": {
@@ -855,9 +936,11 @@
     }
   },
   "order": [
-    "custom_liquid_E48KrP",
-    "custom_liquid_gVmCwf",
     "slideshow",
+    "custom_liquid_gVmCwf",
+    "custom_html_bdTEDF",
+    "slideshow_QYyeay",
+    "custom_liquid_azdXEk",
     "image-link-blocks",
     "scrolling-text",
     "collection-list",
