@@ -294,10 +294,6 @@
             "show_empty": false
           }
         },
-        "separator": {
-          "type": "separator",
-          "settings": {}
-        },
         "description": {
           "type": "description",
           "settings": {
@@ -334,7 +330,6 @@
         "liquid_Wn8UgL",
         "image_DwmHFg",
         "rating",
-        "separator",
         "description",
         "variant-picker",
         "buy-buttons"
@@ -355,6 +350,61 @@
         "text_color": "",
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
+      }
+    },
+    "tabs_JWmpBg": {
+      "type": "tabs",
+      "blocks": {
+        "tab_JWTR3e": {
+          "type": "tab",
+          "settings": {
+            "title": "Caractéristiques",
+            "content": "<p><strong>Rechargez pendant la nuit</strong><br/><br/>La mise à la terre reconnecte votre corps aux électrons naturels de la Terre, rétablissant son équilibre électrique pour améliorer le sommeil et réduire l’inflammation.</p><p><strong>Fonctionne pour tous les âges</strong><br/><br/>Naturelle et sûre, la mise à la terre convient à tous, quel que soit l’âge, et agit comme marcher pieds nus.</p><p><strong>Matériaux de qualité supérieure</strong><br/><br/>Fabriqué en coton biologique et argent pur, testé dermatologiquement pour respecter même les peaux les plus sensibles.</p>",
+            "page": ""
+          }
+        },
+        "tab_zNNtVp": {
+          "type": "tab",
+          "settings": {
+            "title": "Détails du produit",
+            "content": "<p><strong>Tailles :</strong>✓ 90 cm x 190 cm x 30 cm<br/>✓ 140 cm x 200 cm x 30 cm<br/>✓ 160 cm x 200 cm x 31 cm<br/>✓ 180 cm x 200 cm x 33 cm<br/>✓ 200 cm x 200 cm x 30 cm<br/><br/><strong>Matériaux</strong>:<br/>95 % coton biologique<br/>5 % tissu conducteur argenté</p>",
+            "page": ""
+          }
+        },
+        "tab_fkDFED": {
+          "type": "tab",
+          "settings": {
+            "title": "Livraison",
+            "content": "<p>Une fois votre commande passée, elle sera rapidement transmise à notre équipe d'expédition pour traitement. Dès son expédition, vous recevrez un numéro de suivi par e-mail.</p><p>Nous utilisons une gamme de fournisseurs d'expédition fiables, notamment Yunexpress, USPS, DHL, FedEx, Aramex et des coursiers locaux de votre région.</p><p>Notre délai de traitement actuel est de 8 à 12 jours ouvrables.</p><p></p>",
+            "page": ""
+          }
+        },
+        "tab_NHR6TJ": {
+          "type": "tab",
+          "settings": {
+            "title": "Lavage",
+            "content": "<p>Les draps Vitalsleep™ contiennent des fils d’argent naturellement antibactériens et anti-odeurs, ce qui leur permet de nécessiter moins de lavages que des draps classiques. Cependant, pour préserver leur conductivité, il est essentiel de les maintenir propres et exempts de transpiration et de sébum.</p><p>L’utilisation de produits non adaptés peut endommager les fils d’argent, réduire l’efficacité des draps et compromettre leur conductivité. En respectant ces consignes, vous prolongerez la durée de vie de vos draps Vitalsleep™ et profiterez pleinement de leurs bienfaits pour votre santé.</p><p>L’utilisation de produits non adaptés peut endommager les fils d’argent, réduire l’efficacité des draps et compromettre leur conductivité. En respectant ces consignes, vous prolongerez la durée de vie de vos draps Vitalsleep™ et profiterez pleinement de leurs bienfaits pour votre santé.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "tab_JWTR3e",
+        "tab_zNNtVp",
+        "tab_fkDFED",
+        "tab_NHR6TJ"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_size": "medium",
+        "subheading": "",
+        "title": "",
+        "first_tab_open": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "#000000",
+        "heading_color": "",
+        "heading_gradient": ""
       }
     },
     "faq": {
@@ -422,6 +472,7 @@
     "custom_liquid_gytXCC",
     "custom_liquid_Laz94U",
     "featured-product",
+    "tabs_JWmpBg",
     "faq"
   ]
 }
