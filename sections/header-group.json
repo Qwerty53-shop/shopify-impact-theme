@@ -30,7 +30,7 @@
         "text_size": "text-xs",
         "navigation_mode": "scrolling",
         "scrolling_speed": 10,
-        "background": "#1a1a1a",
+        "background": "#24421f",
         "background_gradient": "",
         "text_color": "#ffffff"
       }
@@ -41,7 +41,7 @@
         "enable_sticky": false,
         "hide_on_scroll": true,
         "logo": "{{shop.brand.logo}}",
-        "logo_max_width": 120,
+        "logo_max_width": 55,
         "logo_mobile_max_width": 100,
         "menu": "main-menu",
         "sidebar_menu": "",
@@ -55,9 +55,10 @@
         "show_country_flag": false,
         "show_country_name": false,
         "transparent_header_text_color": "#1a1a1a",
+        "transparent_logo": "shopify://shop_images/Eye_Serenity_3.png",
         "reduce_padding": true,
         "background_opacity": 100,
-        "background_blur_radius": 12
+        "background_blur_radius": 0
       }
     }
   },
