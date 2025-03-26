@@ -53,7 +53,6 @@
     },
     "custom_liquid_gVmCwf": {
       "type": "custom-liquid",
-      "disabled": true,
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": true,
@@ -62,64 +61,6 @@
         "background": "",
         "background_gradient": "",
         "text_color": ""
-      }
-    },
-    "logo_list_gTE7rw": {
-      "type": "logo-list",
-      "blocks": {
-        "logo_bKB3HG": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/press_-_01.svg",
-            "logo_width": 120,
-            "link": ""
-          }
-        },
-        "logo_7EYGxJ": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/press_-_04.svg",
-            "logo_width": 120,
-            "link": ""
-          }
-        },
-        "logo_e9iBpc": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/press_-_02.svg",
-            "logo_width": 120,
-            "link": ""
-          }
-        },
-        "logo_JGcQ4e": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/press_-_03.svg",
-            "logo_width": 120,
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "logo_bKB3HG",
-        "logo_7EYGxJ",
-        "logo_e9iBpc",
-        "logo_JGcQ4e"
-      ],
-      "settings": {
-        "full_width": true,
-        "stack_mobile": true,
-        "title": "Vu sur:",
-        "content": "",
-        "text_alignment": "center",
-        "items_per_row": 4,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "logo_item_background": "#24421f",
-        "logo_item_border": ""
       }
     },
     "custom_liquid_MKJRpq": {
@@ -400,9 +341,58 @@
         "subheading": "",
         "title": "",
         "first_tab_open": false,
-        "background": "",
+        "background": "#ffffff",
         "background_gradient": "",
         "text_color": "#000000",
+        "heading_color": "#24421f",
+        "heading_gradient": ""
+      }
+    },
+    "images_with_text_scrolling_Xm3tzH": {
+      "type": "images-with-text-scrolling",
+      "blocks": {
+        "item_3Jd9EH": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Heading 1",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "item_xnYAnr": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Heading 2",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "item_iy3GyL": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Heading",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_3Jd9EH",
+        "item_xnYAnr",
+        "item_iy3GyL"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "show_counter": true,
+        "desktop_image_effect": "reveal",
+        "image_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
         "heading_color": "",
         "heading_gradient": ""
       }
@@ -413,22 +403,22 @@
         "166442457738b23caf-0": {
           "type": "item",
           "settings": {
-            "title": "Do you ship overseas?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
+            "title": "Qu'est-ce que la mise à la terre",
+            "content": "<p>La mise à la terre consiste à établir un contact direct entre le corps humain et la surface de la terre. Ce contact peut être établi en marchant pieds nus sur un terrain naturel ou en utilisant des produits spécialisés tels que des couvertures de lit, des tapis ou d'autres articles conçus à cet effet. Il a été scientifiquement démontré que la mise à la terre des effets positifs significatifs sur le bien-être des humains et des animaux</p>"
           }
         },
         "166442457738b23caf-1": {
           "type": "item",
           "settings": {
-            "title": "How long will it take to get my orders?",
-            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+            "title": "En combien de temps vais-je voir des effets après avoir commencé la mise à terre  ?",
+            "content": "<p>La vitesse à laquelle vous pouvez ressentir des effets après avoir commencé la mise à la terre peut varier d'une personne à l'autre. Certaines personnes déclarent ressentir des bienfaits peu de temps après avoir commencé les pratiques de mise à la terre, tandis que d'autres peuvent mettre plus de temps à remarquer des changements. Des facteurs tels que l'état de santé individuel, la durée et la régularité de la mise à la terre, ainsi que le mode de vie en général, peuvent influencer le délai d'apparition des effets. Il est recommandé d'être patient et cohérent avec les pratiques de la mise à la terre afin de maximiser les bénéfices potentiels au fil du temps.</p>"
           }
         },
         "166442457738b23caf-2": {
           "type": "item",
           "settings": {
-            "title": "Any question?",
-            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+            "title": "Les sols de ma maison sont-ils compatible avec la mise à la terre ?",
+            "content": "<p>Dans la plupart des cas, la réponse est probablement non. À moins que vos sols ne soient construits directement sur la terre ou constitués de béton ou de pierre en contact direct avec le sol, les sols de votre maison ne vous mettront généralement pas en situation de mise à la terre.</p>"
           }
         }
       },
@@ -441,29 +431,54 @@
         "full_width": false,
         "subheading": "",
         "title": "FAQ",
-        "content": "<p>Use this text to share information about your product or shipping policies.</p>",
+        "content": "",
         "team_avatar_width": 160,
-        "support_hours": "Our customer support is available Monday to Friday: 8am-8:30pm.",
-        "answer_time": "Average answer time: 24h",
+        "support_hours": "",
+        "answer_time": "",
         "button_text": "",
         "button_url": "",
-        "text_position": "start",
+        "text_position": "center",
         "background": "#ffffff",
         "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
+        "text_color": "#ffffff",
+        "heading_color": "#000000",
         "heading_gradient": "",
         "button_background": "",
         "button_text_color": "",
-        "accordion_background": "",
+        "accordion_background": "#24421f",
         "accordion_text_color": ""
+      }
+    },
+    "rich_text_EPw3rk": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_JYBtqd": {
+          "type": "heading",
+          "settings": {
+            "text": "Vu sur:",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_JYBtqd"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     }
   },
   "order": [
     "slideshow",
+    "rich_text_EPw3rk",
     "custom_liquid_gVmCwf",
-    "logo_list_gTE7rw",
     "custom_liquid_MKJRpq",
     "custom_html_bdTEDF",
     "slideshow_QYyeay",
@@ -473,6 +488,7 @@
     "custom_liquid_Laz94U",
     "featured-product",
     "tabs_JWmpBg",
+    "images_with_text_scrolling_Xm3tzH",
     "faq"
   ]
 }
