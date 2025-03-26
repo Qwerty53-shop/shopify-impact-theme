@@ -188,13 +188,38 @@
         "background_gradient": ""
       }
     },
+    "before_after_image_fkwnAM": {
+      "type": "before-after-image",
+      "settings": {
+        "full_width": true,
+        "subheading": "Passez de nuits agitées à un sommeil réparateur avec notre technologie de mise à la terre.",
+        "title": "",
+        "content": "",
+        "before_image": "shopify://shop_images/SANS_MISE_A_LA_TERRE.jpg",
+        "after_image": "shopify://shop_images/SANS_MISE_A_LA_TERRE.jpg",
+        "expand_image": false,
+        "text_position": "center",
+        "before_after_text_position": "top",
+        "before_text": "Before",
+        "after_text": "After",
+        "drag_initial_position": 50,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "before_text_color": "#ffffff",
+        "after_text_color": "#ffffff",
+        "drag_cursor_background": "#ffffff",
+        "drag_cursor_color": "#000000"
+      }
+    },
     "custom_liquid_azdXEk": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": true,
-        "liquid": "<div class=\"rich-text__wrapper\" style=\"margin-top: 50px;\"> <!-- Ajout de l'espacement -->\n  <div class=\"prose justify-items-center text-center\">\n    <div>\n      <p style=\"font-size: 1.6rem; line-height: 1.6;\"> <!-- Augmenter la taille du texte -->\n        Passez de nuits agitées à un <strong>sommeil réparateur</strong> avec notre technologie de <strong>mise à la terre.</strong> </strong>\n      </p>\n    </div>\n    <div style=\"margin-block-start: 0\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0932/1719/4322/files/8fc6b620875c4ccb9ecb8768f2908b5c.HD-1080p-2.5Mbps-41014851_1.gif?v=1742868714\" \n           alt=\"\" \n           srcset=\"À \" \n           width=\"700\" \n           height=\"700\" \n           loading=\"lazy\" \n           sizes=\"(max-width: 699px) min(600px, 100vw), min(700px, 100vw)\" \n           style=\"margin-inline: auto; max-width: 100%; height: auto;\">\n    </div>\n  </div>\n</div>",
+        "liquid": "<div class=\"rich-text__wrapper\" style=\"margin-top: 50px;\"> <!-- Ajout de l'espacement -->\n  <div class=\"prose justify-items-center text-center\">\n    <div>\n      <p style=\"font-size: 1.6rem; line-height: 1.6;\"> <!-- Augmenter la taille du texte -->\n        Passez de nuits agitées à un <strong>sommeil réparateur</strong> avec notre technologie de <strong>mise à la terre.</strong> </strong>\n      </p>\n    </div>\n    <div style=\"margin-block-start: 0\">\n      <img src=\"\" \n           alt=\"https://cdn.shopify.com/s/files/1/0932/1719/4322/files/SANS_MISE_A_LA_TERRE.jpg?v=1743010185\" \n           srcset=\"À \" \n           width=\"700\" \n           height=\"700\" \n           loading=\"lazy\" \n           sizes=\"(max-width: 699px) min(600px, 100vw), min(700px, 100vw)\" \n           style=\"margin-inline: auto; max-width: 100%; height: auto;\">\n    </div>\n  </div>\n</div>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -206,8 +231,8 @@
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "liquid": "<style>\n  /* CSS pour la section de notation des avis */\n  .rating-section {\n    text-align: center;\n    padding: 20px;\n    background-color: #f4f4f4;\n  }\n\n  .rating-section h2 {\n    font-size: 24px;\n    font-weight: bold;\n    margin-bottom: 10px;\n    color: #333;\n  }\n\n  .rating-section .rating-text {\n    font-size: 18px;\n    color: #333;\n  }\n\n  .rating-section .rating-number {\n    font-size: 22px;\n    font-weight: bold;\n    color: #333;\n  }\n\n  .rating-section .stars {\n    margin-top: 10px;\n    display: flex;\n    justify-content: center;\n    gap: 5px;\n  }\n\n  .rating-section .stars svg {\n    width: 32px;\n    height: 32px;\n    fill: #00b67a; /* Couleur verte des étoiles */\n  }\n\n  .rating-section .reviews-count {\n    font-size: 16px;\n    color: #666;\n    margin-top: 10px;\n  }\n\n</style>\n\n<div class=\"rating-section\">\n  <!-- Titre de la section -->\n  <h2>Nos clients en parlent le mieux</h2>\n\n  <!-- Texte de la notation -->\n  <div class=\"rating-text\">\n    <span>Excellent</span>\n    <span class=\"rating-number\">4.5</span>\n    <span>/ 5</span>\n  </div>\n\n  <!-- Étoiles de notation -->\n  <div class=\"stars\">\n    <svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect width=\"32\" height=\"32\" fill=\"#00b67a\"></rect>\n      <path d=\"M9.20283 27L16.001 21.807L22.7972 27L20.2018 18.596L27 13.403H18.5984L16.001 5L13.4037 13.403H5L11.7982 18.596L9.20283 27Z\" fill=\"#ffffff\"></path>\n    </svg>\n    <svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect width=\"32\" height=\"32\" fill=\"#00b67a\"></rect>\n      <path d=\"M9.20283 27L16.001 21.807L22.7972 27L20.2018 18.596L27 13.403H18.5984L16.001 5L13.4037 13.403H5L11.7982 18.596L9.20283 27Z\" fill=\"#ffffff\"></path>\n    </svg>\n    <svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect width=\"32\" height=\"32\" fill=\"#00b67a\"></rect>\n      <path d=\"M9.20283 27L16.001 21.807L22.7972 27L20.2018 18.596L27 13.403H18.5984L16.001 5L13.4037 13.403H5L11.7982 18.596L9.20283 27Z\" fill=\"#ffffff\"></path>\n    </svg>\n    <svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect width=\"32\" height=\"32\" fill=\"#00b67a\"></rect>\n      <path d=\"M9.20283 27L16.001 21.807L22.7972 27L20.2018 18.596L27 13.403H18.5984L16.001 5L13.4037 13.403H5L11.7982 18.596L9.20283 27Z\" fill=\"#ffffff\"></path>\n    </svg>\n    <svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect width=\"32\" height=\"32\" fill=\"#00b67a\"></rect>\n      <path d=\"M9.20283 27L16.001 21.807L22.7972 27L20.2018 18.596L27 13.403H18.5984L16.001 5L13.4037 13.403H5L11.7982 18.596L9.20283 27Z\" fill=\"#ffffff\"></path>\n    </svg>\n  </div>\n\n  <!-- Nombre d'avis -->\n  <div class=\"reviews-count\">\n    <p>basé sur +<strong>1 067</strong> avis</p>\n  </div>\n</div>",
-        "background": "",
+        "liquid": "<style>\n  /* CSS pour la section de notation des avis */\n  .rating-section {\n    text-align: center;\n    padding: 20px;\n    background-color: #ffff;\n  }\n\n  .rating-section h2 {\n    font-size: 24px;\n    font-weight: bold;\n    margin-bottom: 10px;\n    color: #333;\n  }\n\n  .rating-section .rating-text {\n    font-size: 18px;\n    color: #333;\n  }\n\n  .rating-section .rating-number {\n    font-size: 22px;\n    font-weight: bold;\n    color: #333;\n  }\n\n  .rating-section .stars {\n    margin-top: 10px;\n    display: flex;\n    justify-content: center;\n    gap: 5px;\n  }\n\n  .rating-section .stars svg {\n    width: 32px;\n    height: 32px;\n    fill: #00b67a; /* Couleur verte des étoiles */\n  }\n\n  .rating-section .reviews-count {\n    font-size: 16px;\n    color: #666;\n    margin-top: 10px;\n  }\n\n</style>\n\n<div class=\"rating-section\">\n  <!-- Titre de la section -->\n  <h2>Nos clients en parlent le mieux</h2>\n\n  <!-- Texte de la notation -->\n  <div class=\"rating-text\">\n    <span>Excellent</span>\n    <span class=\"rating-number\">4.8</span>\n    <span>/ 5</span>\n  </div>\n\n  <!-- Étoiles de notation -->\n  <div class=\"stars\">\n    <svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect width=\"32\" height=\"32\" fill=\"#00b67a\"></rect>\n      <path d=\"M9.20283 27L16.001 21.807L22.7972 27L20.2018 18.596L27 13.403H18.5984L16.001 5L13.4037 13.403H5L11.7982 18.596L9.20283 27Z\" fill=\"#ffffff\"></path>\n    </svg>\n    <svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect width=\"32\" height=\"32\" fill=\"#00b67a\"></rect>\n      <path d=\"M9.20283 27L16.001 21.807L22.7972 27L20.2018 18.596L27 13.403H18.5984L16.001 5L13.4037 13.403H5L11.7982 18.596L9.20283 27Z\" fill=\"#ffffff\"></path>\n    </svg>\n    <svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect width=\"32\" height=\"32\" fill=\"#00b67a\"></rect>\n      <path d=\"M9.20283 27L16.001 21.807L22.7972 27L20.2018 18.596L27 13.403H18.5984L16.001 5L13.4037 13.403H5L11.7982 18.596L9.20283 27Z\" fill=\"#ffffff\"></path>\n    </svg>\n    <svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect width=\"32\" height=\"32\" fill=\"#00b67a\"></rect>\n      <path d=\"M9.20283 27L16.001 21.807L22.7972 27L20.2018 18.596L27 13.403H18.5984L16.001 5L13.4037 13.403H5L11.7982 18.596L9.20283 27Z\" fill=\"#ffffff\"></path>\n    </svg>\n    <svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect width=\"32\" height=\"32\" fill=\"#00b67a\"></rect>\n      <path d=\"M9.20283 27L16.001 21.807L22.7972 27L20.2018 18.596L27 13.403H18.5984L16.001 5L13.4037 13.403H5L11.7982 18.596L9.20283 27Z\" fill=\"#ffffff\"></path>\n    </svg>\n  </div>\n\n  <!-- Nombre d'avis -->\n  <div class=\"reviews-count\">\n    <p>basé sur +<strong>1 067</strong> avis</p>\n  </div>\n</div>",
+        "background": "#ffffff",
         "background_gradient": "",
         "text_color": ""
       }
@@ -565,7 +590,7 @@
         "liquid_Wn8UgL": {
           "type": "liquid",
           "settings": {
-            "liquid": "<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Stock Restant</title>\n    <style>\n        .stock-alert {\n            display: flex;\n            align-items: center;\n            background-color: #ffcccc;\n            color: red;\n            padding: 5px 10px;\n            border-radius: 8px;\n            font-weight: bold;\n            font-family: Arial, sans-serif;\n            font-size: 14px;\n            width: fit-content;\n        }\n        .dot {\n            width: 8px;\n            height: 8px;\n            background-color: red;\n            border-radius: 50%;\n            margin-right: 6px;\n            animation: blink 1s infinite alternate;\n        }\n        @keyframes blink {\n            0% { opacity: 1; }\n            100% { opacity: 0; }\n        }\n    </style>\n</head>\n<body>\n    <div class=\"stock-alert\">\n        <div class=\"dot\"></div>\n        <span id=\"stock-text\">Stock restant : 6 Vitalsleep</span>\n    </div>\n</body>\n</html>"
+            "liquid": "<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Stock Restant</title>\n    <style>\n        .stock-alert {\n            display: flex;\n            align-items: center;\n            background-color: #ffcccc;\n            color: red;\n            padding: 5px 10px;\n            border-radius: 8px;\n            font-weight: bold;\n            font-family: Arial, sans-serif;\n            font-size: 14px;\n            width: fit-content;\n        }\n        .dot {\n            width: 8px;\n            height: 8px;\n            background-color: red;\n            border-radius: 50%;\n            margin-right: 6px;\n            animation: blink 1s infinite alternate;\n        }\n        @keyframes blink {\n            0% { opacity: 1; }\n            100% { opacity: 0; }\n        }\n    </style>\n</head>\n<body>\n    <div class=\"stock-alert\">\n        <div class=\"dot\"></div>\n        <span id=\"stock-text\">En stock : 4 restants</span>\n    </div>\n</body>\n</html>"
           }
         },
         "rating": {
@@ -817,6 +842,7 @@
     "custom_liquid_MKJRpq",
     "custom_html_bdTEDF",
     "slideshow_QYyeay",
+    "before_after_image_fkwnAM",
     "custom_liquid_azdXEk",
     "custom_liquid_gytXCC",
     "custom_liquid_Laz94U",
