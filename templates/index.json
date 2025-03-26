@@ -139,31 +139,6 @@
     },
     "slideshow_QYyeay": {
       "type": "slideshow",
-      "blocks": {
-        "image_kfwHLM": {
-          "type": "image",
-          "settings": {
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "",
-            "title": "",
-            "heading_tag": "h0",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "background": "",
-            "background_gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_kfwHLM"
-      ],
       "settings": {
         "full_width": true,
         "allow_transparent_header": true,
@@ -174,6 +149,43 @@
         "cycle_speed": 6,
         "background": "#f2f2f2",
         "background_gradient": ""
+      }
+    },
+    "banner_9y3YTF": {
+      "type": "banner",
+      "settings": {
+        "parallax": false,
+        "parallax_mobile": false,
+        "banner_height": "fixed_height",
+        "banner_fixed_height": 910,
+        "banner_fixed_height_mobile": 400,
+        "image": "shopify://shop_images/Votre_texte_de_paragraphe_28.jpg",
+        "image_mobile": "shopify://shop_images/Votre_texte_de_paragraphe_1300_x_1500_px_16.jpg",
+        "overlay": 0,
+        "content_maxwidth": 65,
+        "content_maxwidth_mobile": 100,
+        "content_horizontal_position": "center",
+        "content_horizontal_position_mobile": "center",
+        "content_vertical_position": "center",
+        "content_vertical_position_mobile": "center",
+        "content_padding_vertical": 32,
+        "content_padding_vertical_mobile": 20,
+        "content_padding_horizontal": 20,
+        "content_padding_horizontal_mobile": 20,
+        "overlay_color": "#000000",
+        "background_color": "#FFFFFF",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": true,
+        "content_width": 120,
+        "border_thickness": 0,
+        "lazy": true
       }
     },
     "before_after_image_fkwnAM": {
@@ -454,6 +466,7 @@
     "logo_list_gTE7rw",
     "custom_html_bdTEDF",
     "slideshow_QYyeay",
+    "banner_9y3YTF",
     "before_after_image_fkwnAM",
     "custom_liquid_azdXEk",
     "custom_liquid_gytXCC",
