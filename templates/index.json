@@ -53,32 +53,80 @@
     },
     "custom_liquid_gVmCwf": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": true,
         "remove_horizontal_spacing": true,
-        "liquid": "<style>\n  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');\n\n  .logo-section {\n    text-align: center;\n    margin-bottom: 25px; /* Espacement entre le titre et les logos */\n  }\n\n  .logo-title {\n    font-size: 32px; /* Taille du titre */\n    font-weight: 600;\n    color: black;\n    font-family: 'Poppins', sans-serif; /* Police modernisée */\n    text-transform: none; /* Garde \"Vu sur\" avec la bonne casse */\n    letter-spacing: 2px;\n  }\n\n  .logo-slider {\n    display: flex;\n    overflow: hidden;\n    position: relative;\n    width: 100%;\n    padding: 20px 0;\n    background: white;\n  }\n\n  .logo-track {\n    display: flex;\n    gap: 30px; /* Espacement entre les logos */\n    animation: scroll 15s linear infinite;\n    white-space: nowrap;\n  }\n\n  @keyframes scroll {\n    from {\n      transform: translateX(0);\n    }\n    to {\n      transform: translateX(-50%);\n    }\n  }\n\n  .logo-item {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    background-color: #24421F; /* Fond vert */\n    padding: 20px;\n    width: 180px; /* Taille du conteneur */\n    height: 100px;\n  }\n\n  .logo-item img {\n    max-height: 60px;\n    max-width: 140px;\n    object-fit: contain;\n  }\n</style>\n\n<div class=\"logo-section\">\n  <h2 class=\"logo-title\">Vu sur</h2>\n</div>\n\n<div class=\"logo-slider\">\n  <div class=\"logo-track\">\n    <!-- Ajoute ici tes 8 logos -->\n    <div class=\"logo-item\"><img src=\"{{ 'logo1.png' | asset_url }}\" alt=\"Logo 1\"></div>\n    <div class=\"logo-item\"><img src=\"{{ 'logo2.png' | asset_url }}\" alt=\"Logo 2\"></div>\n    <div class=\"logo-item\"><img src=\"{{ 'logo3.png' | asset_url }}\" alt=\"Logo 3\"></div>\n    <div class=\"logo-item\"><img src=\"{{ 'logo4.png' | asset_url }}\" alt=\"Logo 4\"></div>\n    <div class=\"logo-item\"><img src=\"{{ 'logo5.png' | asset_url }}\" alt=\"Logo 5\"></div>\n    <div class=\"logo-item\"><img src=\"{{ 'logo6.png' | asset_url }}\" alt=\"Logo 6\"></div>\n    <div class=\"logo-item\"><img src=\"{{ 'logo7.png' | asset_url }}\" alt=\"Logo 7\"></div>\n    <div class=\"logo-item\"><img src=\"{{ 'logo8.png' | asset_url }}\" alt=\"Logo 8\"></div>\n\n    <!-- Duplication pour effet de défilement infini -->\n    <div class=\"logo-item\"><img src=\"{{ 'logo1.png' | asset_url }}\" alt=\"Logo 1\"></div>\n    <div class=\"logo-item\"><img src=\"{{ 'logo2.png' | asset_url }}\" alt=\"Logo 2\"></div>\n    <div class=\"logo-item\"><img src=\"{{ 'logo3.png' | asset_url }}\" alt=\"Logo 3\"></div>\n    <div class=\"logo-item\"><img src=\"{{ 'logo4.png' | asset_url }}\" alt=\"Logo 4\"></div>\n    <div class=\"logo-item\"><img src=\"{{ 'logo5.png' | asset_url }}\" alt=\"Logo 5\"></div>\n    <div class=\"logo-item\"><img src=\"{{ 'logo6.png' | asset_url }}\" alt=\"Logo 6\"></div>\n    <div class=\"logo-item\"><img src=\"{{ 'logo7.png' | asset_url }}\" alt=\"Logo 7\"></div>\n    <div class=\"logo-item\"><img src=\"{{ 'logo8.png' | asset_url }}\" alt=\"Logo 8\"></div>\n  </div>\n</div>",
+        "liquid": "<style>\n  /* Fond de la section contenant les logos */\n  .logo-carousel {\n    display: flex;\n    justify-content: start;\n    align-items: center;\n    overflow: hidden;\n    width: 100%;\n    background-color: #24421F; /* Couleur de fond personnalisée */\n    padding: 20px 0; /* Espacement autour du carrousel */\n    margin-top: 30px; /* Marge supérieure pour espacer la section du haut */\n  }\n\n  /* Phrase de confiance juste avant le carrousel */\n  .trust-message {\n    text-align: center;\n    font-size: 18px;\n    color: #000; /* Changement de couleur du texte en noir */\n    margin-top: 30px; /* Espacement supplémentaire en haut */\n    margin-bottom: 15px; /* Espacement sous la phrase de confiance */\n    font-weight: bold;\n  }\n\n  /* Style pour les logos */\n  .logo-slide {\n    flex: 0 0 auto;\n    margin-right: 40px; /* Espace entre les logos */\n  }\n\n  /* Animation du défilement horizontal */\n  @keyframes scroll {\n    0% {\n      transform: translateX(100%);\n    }\n    100% {\n      transform: translateX(-100%);\n    }\n  }\n\n  /* Conteneur des logos avec animation continue */\n  .logo-carousel-inner {\n    display: flex;\n    animation: scroll 12s linear infinite;\n  }\n\n  /* Style des images des logos */\n  .logo-carousel img {\n    max-height: 80px; /* Ajustez la taille des logos selon vos préférences */\n    filter: brightness(0) invert(1); /* Applique un effet de contraste pour que les logos ressortent sur fond foncé */\n  }\n</style>\n\n<!-- Phrase de confiance -->\n<div class=\"trust-message\">\n  Élu la référence en matière de bien-être, qualité de sommeil et réduction de l'inflammation.\n</div>\n\n<!-- Carrousel des logos -->\n<div class=\"logo-carousel\">\n  <div class=\"logo-carousel-inner\">\n    <!-- Anciens logos -->\n    <div class=\"logo-slide\">\n      <img src=\"https://puregroundingusa.com/cdn/shop/files/2_300x300.png?v=1726926103\" alt=\"Logo 1\" />\n    </div>\n    <div class=\"logo-slide\">\n      <img src=\"https://puregroundingusa.com/cdn/shop/files/1_300x300.png?v=1726925964\" alt=\"Logo 2\" />\n    </div>\n    <div class=\"logo-slide\">\n      <img src=\"https://puregroundingusa.com/cdn/shop/files/nbc_300x300.png?v=1726926103\" alt=\"Logo 3\" />\n    </div>\n    <div class=\"logo-slide\">\n      <img src=\"https://puregroundingusa.com/cdn/shop/files/6_300x300.png?v=1726926103\" alt=\"Logo 4\" />\n    </div>\n    <div class=\"logo-slide\">\n      <img src=\"https://upload.wikimedia.org/wikipedia/fr/thumb/a/a8/Logo-doctissimo.svg/357px-Logo-doctissimo.svg.png?20210806174559\" alt=\"Logo Doctissimo\" />\n    </div>\n\n    <!-- Nouveaux logos ajoutés -->\n    <div class=\"logo-slide\">\n      <img src=\"https://groundluxe.com/cdn/shop/files/forbeslogoblacktransparent-1-1661520004453_x30.png?v=1670926492\" alt=\"Forbes\" />\n    </div>\n    <div class=\"logo-slide\">\n      <img src=\"https://groundluxe.com/cdn/shop/files/2560px-Business_Insider_Logo_svg_x30.png?v=1713353256\" alt=\"Business Insider\" />\n    </div>\n    <div class=\"logo-slide\">\n      <img src=\"https://groundluxe.com/cdn/shop/files/HuffPost_x30.png?v=1713353661\" alt=\"HuffPost\" />\n    </div>\n    <div class=\"logo-slide\">\n      <img src=\"https://groundluxe.com/cdn/shop/files/New_Bloomberg_Logo_svg_x30.png?v=1713353341\" alt=\"Bloomberg\" />\n    </div>\n    <div class=\"logo-slide\">\n      <img src=\"https://groundluxe.com/cdn/shop/files/Entrepreneur__magazine__logo_2012_svg_x30.png?v=1713353841\" alt=\"Entrepreneur Magazine\" />\n    </div>\n    <div class=\"logo-slide\">\n      <img src=\"https://groundluxe.com/cdn/shop/files/vw_mind_main_logo11661520004455removebgpreview-1663527384072_x30.png?v=1670926505\" alt=\"VW Mind\" />\n    </div>\n\n    <!-- Dupliquer les logos pour assurer un défilement continu sans interruption -->\n    <div class=\"logo-slide\">\n      <img src=\"https://puregroundingusa.com/cdn/shop/files/2_300x300.png?v=1726926103\" alt=\"Logo 1\" />\n    </div>\n    <div class=\"logo-slide\">\n      <img src=\"https://puregroundingusa.com/cdn/shop/files/1_300x300.png?v=1726925964\" alt=\"Logo 2\" />\n    </div>\n    <div class=\"logo-slide\">\n      <img src=\"https://puregroundingusa.com/cdn/shop/files/nbc_300x300.png?v=1726926103\" alt=\"Logo 3\" />\n    </div>\n    <div class=\"logo-slide\">\n      <img src=\"https://puregroundingusa.com/cdn/shop/files/6_300x300.png?v=1726926103\" alt=\"Logo 4\" />\n    </div>\n    <div class=\"logo-slide\">\n      <img src=\"https://upload.wikimedia.org/wikipedia/fr/thumb/a/a8/Logo-doctissimo.svg/357px-Logo-doctissimo.svg.png?20210806174559\" alt=\"Logo Doctissimo\" />\n    </div>\n\n    <!-- Nouveaux logos ajoutés, dupliqués -->\n    <div class=\"logo-slide\">\n      <img src=\"https://groundluxe.com/cdn/shop/files/forbeslogoblacktransparent-1-1661520004453_x30.png?v=1670926492\" alt=\"Forbes\" />\n    </div>\n    <div class=\"logo-slide\">\n      <img src=\"https://groundluxe.com/cdn/shop/files/2560px-Business_Insider_Logo_svg_x30.png?v=1713353256\" alt=\"Business Insider\" />\n    </div>\n    <div class=\"logo-slide\">\n      <img src=\"https://groundluxe.com/cdn/shop/files/HuffPost_x30.png?v=1713353661\" alt=\"HuffPost\" />\n    </div>\n    <div class=\"logo-slide\">\n      <img src=\"https://groundluxe.com/cdn/shop/files/New_Bloomberg_Logo_svg_x30.png?v=1713353341\" alt=\"Bloomberg\" />\n    </div>\n    <div class=\"logo-slide\">\n      <img src=\"https://groundluxe.com/cdn/shop/files/Entrepreneur__magazine__logo_2012_svg_x30.png?v=1713353841\" alt=\"Entrepreneur Magazine\" />\n    </div>\n    <div class=\"logo-slide\">\n      <img src=\"https://groundluxe.com/cdn/shop/files/vw_mind_main_logo11661520004455removebgpreview-1663527384072_x30.png?v=1670926505\" alt=\"VW Mind\" />\n    </div>\n  </div>\n</div>\n\n<script>\n  // Code JavaScript pour faire défiler les logos continuellement\n  let carousel = document.querySelector('.logo-carousel-inner');\n  carousel.addEventListener('animationiteration', function () {\n    carousel.appendChild(carousel.firstElementChild); // Déplace le premier élément à la fin pour une continuité infinie\n  });\n</script>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
       }
     },
-    "custom_liquid_MKJRpq": {
-      "type": "custom-liquid",
+    "logo_list_gTE7rw": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_bKB3HG": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/press_-_01.svg",
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "logo_7EYGxJ": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/press_-_04.svg",
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "logo_e9iBpc": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/press_-_02.svg",
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "logo_JGcQ4e": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/press_-_03.svg",
+            "logo_width": 120,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_bKB3HG",
+        "logo_7EYGxJ",
+        "logo_e9iBpc",
+        "logo_JGcQ4e"
+      ],
+      "custom_css": [],
       "settings": {
         "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "",
+        "stack_mobile": true,
+        "title": "Vu sur:",
+        "content": "",
+        "text_alignment": "center",
+        "items_per_row": 4,
         "background": "",
         "background_gradient": "",
-        "text_color": ""
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "#24421f",
+        "logo_item_border": ""
       }
     },
     "custom_html_bdTEDF": {
       "type": "custom-html",
       "custom_css": [
-        "p {font-size: 28px; margin-top: 28px;}"
+        "p {font-size: 28px; margin-top: 28px; margin-bottom: 28px;}"
       ],
       "settings": {
         "full_width": true,
@@ -141,14 +189,14 @@
         "expand_image": false,
         "text_position": "center",
         "before_after_text_position": "top",
-        "before_text": "Avant",
-        "after_text": "Après",
+        "before_text": "Before",
+        "after_text": "After",
         "drag_initial_position": 50,
         "background": "",
         "background_gradient": "",
-        "text_color": "#1a1a1a",
-        "before_text_color": "#1a1a1a",
-        "after_text_color": "#1a1a1a",
+        "text_color": "",
+        "before_text_color": "#ffffff",
+        "after_text_color": "#ffffff",
         "drag_cursor_background": "#ffffff",
         "drag_cursor_color": "#000000"
       }
@@ -172,7 +220,7 @@
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "liquid": "<style>\n  /* CSS pour la section de notation des avis */\n  .rating-section {\n    text-align: center;\n    padding: 20px;\n    background-color: #ffff;\n  }\n\n  .rating-section h2 {\n    font-size: 24px;\n    font-weight: bold;\n    margin-bottom: 10px;\n    color: #333;\n  }\n\n  .rating-section .rating-text {\n    font-size: 18px;\n    color: #333;\n  }\n\n  .rating-section .rating-number {\n    font-size: 22px;\n    font-weight: bold;\n    color: #333;\n  }\n\n  .rating-section .stars {\n    margin-top: 10px;\n    display: flex;\n    justify-content: center;\n    gap: 5px;\n  }\n\n  .rating-section .stars svg {\n    width: 32px;\n    height: 32px;\n    fill: #00b67a; /* Couleur verte des étoiles */\n  }\n\n  .rating-section .reviews-count {\n    font-size: 16px;\n    color: #666;\n    margin-top: 10px;\n  }\n\n</style>\n\n<div class=\"rating-section\">\n  <!-- Titre de la section -->\n  <h2>Nos clients en parlent le mieux</h2>\n\n  <!-- Texte de la notation -->\n  <div class=\"rating-text\">\n    <span>Excellent</span>\n    <span class=\"rating-number\">4.8</span>\n    <span>/ 5</span>\n  </div>\n\n  <!-- Étoiles de notation -->\n  <div class=\"stars\">\n    <svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect width=\"32\" height=\"32\" fill=\"#00b67a\"></rect>\n      <path d=\"M9.20283 27L16.001 21.807L22.7972 27L20.2018 18.596L27 13.403H18.5984L16.001 5L13.4037 13.403H5L11.7982 18.596L9.20283 27Z\" fill=\"#ffffff\"></path>\n    </svg>\n    <svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect width=\"32\" height=\"32\" fill=\"#00b67a\"></rect>\n      <path d=\"M9.20283 27L16.001 21.807L22.7972 27L20.2018 18.596L27 13.403H18.5984L16.001 5L13.4037 13.403H5L11.7982 18.596L9.20283 27Z\" fill=\"#ffffff\"></path>\n    </svg>\n    <svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect width=\"32\" height=\"32\" fill=\"#00b67a\"></rect>\n      <path d=\"M9.20283 27L16.001 21.807L22.7972 27L20.2018 18.596L27 13.403H18.5984L16.001 5L13.4037 13.403H5L11.7982 18.596L9.20283 27Z\" fill=\"#ffffff\"></path>\n    </svg>\n    <svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect width=\"32\" height=\"32\" fill=\"#00b67a\"></rect>\n      <path d=\"M9.20283 27L16.001 21.807L22.7972 27L20.2018 18.596L27 13.403H18.5984L16.001 5L13.4037 13.403H5L11.7982 18.596L9.20283 27Z\" fill=\"#ffffff\"></path>\n    </svg>\n    <svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect width=\"32\" height=\"32\" fill=\"#00b67a\"></rect>\n      <path d=\"M9.20283 27L16.001 21.807L22.7972 27L20.2018 18.596L27 13.403H18.5984L16.001 5L13.4037 13.403H5L11.7982 18.596L9.20283 27Z\" fill=\"#ffffff\"></path>\n    </svg>\n  </div>\n\n  <!-- Nombre d'avis -->\n  <div class=\"reviews-count\">\n    <p>basé sur +<strong>1600</strong> avis</p>\n  </div>\n</div>",
+        "liquid": "<style>\n  /* CSS pour la section de notation des avis */\n  .rating-section {\n    text-align: center;\n    padding: 20px;\n    background-color: #ffff;\n  }\n\n  .rating-section h2 {\n    font-size: 24px;\n    font-weight: bold;\n    margin-bottom: 10px;\n    color: #333;\n  }\n\n  .rating-section .rating-text {\n    font-size: 18px;\n    color: #333;\n  }\n\n  .rating-section .rating-number {\n    font-size: 22px;\n    font-weight: bold;\n    color: #333;\n  }\n\n  .rating-section .stars {\n    margin-top: 10px;\n    display: flex;\n    justify-content: center;\n    gap: 5px;\n  }\n\n  .rating-section .stars svg {\n    width: 32px;\n    height: 32px;\n    fill: #00b67a; /* Couleur verte des étoiles */\n  }\n\n  .rating-section .reviews-count {\n    font-size: 16px;\n    color: #666;\n    margin-top: 10px;\n  }\n\n</style>\n\n<div class=\"rating-section\">\n  <!-- Titre de la section -->\n  <h2>Nos clients en parlent le mieux</h2>\n\n  <!-- Texte de la notation -->\n  <div class=\"rating-text\">\n    <span>Excellent</span>\n    <span class=\"rating-number\">4.8</span>\n    <span>/ 5</span>\n  </div>\n\n  <!-- Étoiles de notation -->\n  <div class=\"stars\">\n    <svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect width=\"32\" height=\"32\" fill=\"#00b67a\"></rect>\n      <path d=\"M9.20283 27L16.001 21.807L22.7972 27L20.2018 18.596L27 13.403H18.5984L16.001 5L13.4037 13.403H5L11.7982 18.596L9.20283 27Z\" fill=\"#ffffff\"></path>\n    </svg>\n    <svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect width=\"32\" height=\"32\" fill=\"#00b67a\"></rect>\n      <path d=\"M9.20283 27L16.001 21.807L22.7972 27L20.2018 18.596L27 13.403H18.5984L16.001 5L13.4037 13.403H5L11.7982 18.596L9.20283 27Z\" fill=\"#ffffff\"></path>\n    </svg>\n    <svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect width=\"32\" height=\"32\" fill=\"#00b67a\"></rect>\n      <path d=\"M9.20283 27L16.001 21.807L22.7972 27L20.2018 18.596L27 13.403H18.5984L16.001 5L13.4037 13.403H5L11.7982 18.596L9.20283 27Z\" fill=\"#ffffff\"></path>\n    </svg>\n    <svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect width=\"32\" height=\"32\" fill=\"#00b67a\"></rect>\n      <path d=\"M9.20283 27L16.001 21.807L22.7972 27L20.2018 18.596L27 13.403H18.5984L16.001 5L13.4037 13.403H5L11.7982 18.596L9.20283 27Z\" fill=\"#ffffff\"></path>\n    </svg>\n    <svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect width=\"32\" height=\"32\" fill=\"#00b67a\"></rect>\n      <path d=\"M9.20283 27L16.001 21.807L22.7972 27L20.2018 18.596L27 13.403H18.5984L16.001 5L13.4037 13.403H5L11.7982 18.596L9.20283 27Z\" fill=\"#ffffff\"></path>\n    </svg>\n  </div>\n\n  <!-- Nombre d'avis -->\n  <div class=\"reviews-count\">\n    <p>basé sur +<strong>1 067</strong> avis</p>\n  </div>\n</div>",
         "background": "#ffffff",
         "background_gradient": "",
         "text_color": ""
@@ -184,7 +232,7 @@
         "full_width": true,
         "remove_vertical_spacing": true,
         "remove_horizontal_spacing": true,
-        "liquid": "<style>\n  /* CSS personnalisé pour la section des avis */\n  .review-grid-top {\n    display: grid; /* Grille à 3 colonnes pour la première ligne */\n    grid-template-columns: repeat(3, 1fr);\n    gap: 20px; /* Espacement entre les cartes */\n    padding: 20px;\n    overflow-x: hidden; /* Désactive le défilement horizontal */\n  }\n\n  .review-grid-bottom {\n    display: grid; /* Grille à 3 colonnes pour la deuxième ligne qui occupe toute la largeur */\n    grid-template-columns: repeat(3, 1fr);\n    gap: 20px; /* Espacement entre les cartes */\n    padding: 20px;\n  }\n\n  .review-card {\n    background-color: white;\n    border: 2px solid #24421F;\n    padding: 15px;\n    border-radius: 10px;\n    text-align: center;\n    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);\n    height: auto; /* Hauteur automatique pour s'adapter au texte */\n    display: flex;\n    flex-direction: column;\n    justify-content: space-between; /* Équilibre l'espace entre l'image et le texte */\n    word-wrap: break-word;\n    flex-shrink: 0; /* Empêche la carte de rétrécir */\n  }\n\n  .review-card img {\n    width: 100%; /* L'image occupe toute la largeur de la carte */\n    height: 350px; /* Ajuste la hauteur de l'image */\n    object-fit: cover; /* Assure que l'image est bien coupée pour remplir l'espace sans déborder */\n    border-radius: 10px; /* Coins arrondis */\n    margin-bottom: 15px; /* Espacement entre l'image et le texte */\n  }\n\n  .review-card h3 {\n    font-size: 14px;\n    margin: 5px 0;\n    color: #24421F;\n    text-align: center;\n  }\n\n  .review-card p {\n    font-size: 12px;\n    color: #333;\n    margin: 5px 0;\n    line-height: 1.4; /* Espacement entre les lignes pour une lecture plus agréable */\n    word-wrap: break-word; /* Le texte peut maintenant revenir à la ligne sans débordement */\n    overflow-wrap: break-word; /* Permet également au texte de s'ajuster */\n  }\n\n  .review-card .rating {\n    font-size: 14px;\n    color: #FFD700; /* Or pour l'étoile de notation */\n    display: flex;\n    align-items: center; /* Aligne les étoiles et le texte horizontalement */\n    justify-content: center;\n  }\n\n  .review-card .rating span {\n    font-size: 14px;\n    margin-left: 5px; /* Espacement entre les étoiles et le texte */\n    color: #333;\n  }\n\n  .review-card .name {\n    font-size: 14px;\n    color: #24421F;\n    font-weight: bold;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    margin-top: auto; /* Place le nom en bas */\n  }\n\n  .review-card .name svg {\n    margin-left: 5px;\n    fill: #24421F; /* Couleur du logo */\n    width: 14px; /* Taille réduite du logo */\n    height: 14px; /* Taille réduite du logo */\n  }\n\n  /* Grille responsive : */\n  @media (max-width: 768px) {\n    .review-grid-top {\n      grid-template-columns: repeat(2, 1fr); /* 2 colonnes pour les petits écrans */\n    }\n    .review-grid-bottom {\n      grid-template-columns: 1fr; /* 1 colonne pour les très petits écrans */\n    }\n    .review-card {\n      width: 100%;\n    }\n  }\n\n  @media (max-width: 480px) {\n    .review-grid-top {\n      grid-template-columns: 1fr; /* 1 colonne pour les très petits écrans */\n    }\n    .review-grid-bottom {\n      grid-template-columns: 1fr; /* 1 colonne pour les très petits écrans */\n    }\n  }\n</style>\n\n<div class=\"section\">\n  <!-- Première ligne (3 avis en colonne) -->\n  <div class=\"review-grid-top\">\n    <!-- Avis 1 -->\n    <div class=\"review-card\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0932/1719/4322/files/m4_1.webp?v=1742928289\" alt=\"Photo du client\">\n      <h3>\"J'ai arrêté de recevoir des chocs électriques\"</h3>\n      <p class=\"rating\">⭐⭐⭐⭐⭐ <span>5/5</span></p> <!-- Ajout du 5/5 -->\n      <p>Ma fille m’a offert ceci il y a quelques semaines et ça m'a vraiment aidé à mieux dormir. Je ne reçois plus de chocs électriques la nuit. J'aurais dû le savoir plus tôt !</p>\n      <p class=\"name\">James C.\n        <!-- Petit logo V à côté du nom -->\n        <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\" class=\"w-6 h-6 mr-1\">\n          <path fill-rule=\"evenodd\" d=\"M8.603 3.799A4.49 4.49 0 0 1 12 2.25c1.357 0 2.573.6 3.397 1.549a4.49 4.49 0 0 1 3.498 1.307 4.491 4.491 0 0 1 1.307 3.497A4.49 4.49 0 0 1 21.75 12a4.49 4.49 0 0 1-1.549 3.397 4.491 4.491 0 0 1-1.307 3.497 4.491 4.491 0 0 1-3.497 1.307A4.49 4.49 0 0 1 12 21.75a4.49 4.49 0 0 1-3.397-1.549 4.49 4.49 0 0 1-3.498-1.306 4.491 4.491 0 0 1-1.307-3.498A4.49 4.49 0 0 1 2.25 12c0-1.357.6-2.573 1.549-3.397a4.49 4.49 0 0 1 1.307-3.497 4.49 4.49 0 0 1 3.497-1.307Zm7.007 6.387a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z\" clip-rule=\"evenodd\"></path>\n        </svg>\n      </p>\n    </div>\n\n    <!-- Avis 2 -->\n    <div class=\"review-card\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0932/1719/4322/files/sss.jpg?v=1742920434\" alt=\"Photo du client\">\n      <h3>\"Moins de douleur !\"</h3>\n      <p class=\"rating\">⭐⭐⭐⭐⭐ <span>5/5</span></p> <!-- Ajout du 5/5 -->\n      <p>J'ai des douleurs arthritiques aux genoux et aux jambes depuis 2 ans. Depuis que je dors sur ces draps, je me sens beaucoup mieux, surtout le matin !</p>\n      <p class=\"name\">Christina B.\n        <!-- Petit logo V à côté du nom -->\n        <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\" class=\"w-6 h-6 mr-1\">\n          <path fill-rule=\"evenodd\" d=\"M8.603 3.799A4.49 4.49 0 0 1 12 2.25c1.357 0 2.573.6 3.397 1.549a4.49 4.49 0 0 1 3.498 1.307 4.491 4.491 0 0 1 1.307 3.497A4.49 4.49 0 0 1 21.75 12a4.49 4.49 0 0 1-1.549 3.397 4.491 4.491 0 0 1-1.307 3.497 4.491 4.491 0 0 1-3.497 1.307A4.49 4.49 0 0 1 12 21.75a4.49 4.49 0 0 1-3.397-1.549 4.49 4.49 0 0 1-3.498-1.306 4.491 4.491 0 0 1-1.307-3.498A4.49 4.49 0 0 1 2.25 12c0-1.357.6-2.573 1.549-3.397a4.49 4.49 0 0 1 1.307-3.497 4.49 4.49 0 0 1 3.497-1.307Zm7.007 6.387a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z\" clip-rule=\"evenodd\"></path>\n        </svg>\n      </p>\n    </div>\n\n    <!-- Avis 3 -->\n    <div class=\"review-card\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0932/1719/4322/files/m2.jpg?v=1742928289\" alt=\"Photo du client\">\n      <h3>\"Plus détendu, et mon chien adore aussi\"</h3>\n      <p class=\"rating\">⭐⭐⭐⭐⭐ <span>5/5</span></p> <!-- Ajout du 5/5 -->\n      <p>J’utilise ce drap depuis une semaine et j’ai la meilleure qualité de sommeil. Mon chien semble aussi l'apprécier, il l’utilise pour ses siestes !</p>\n      <p class=\"name\">Hayden F.\n        <!-- Petit logo V à côté du nom -->\n        <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\" class=\"w-6 h-6 mr-1\">\n          <path fill-rule=\"evenodd\" d=\"M8.603 3.799A4.49 4.49 0 0 1 12 2.25c1.357 0 2.573.6 3.397 1.549a4.49 4.49 0 0 1 3.498 1.307 4.491 4.491 0 0 1 1.307 3.497A4.49 4.49 0 0 1 21.75 12a4.49 4.49 0 0 1-1.549 3.397 4.491 4.491 0 0 1-1.307 3.497 4.491 4.491 0 0 1-3.497 1.307A4.49 4.49 0 0 1 12 21.75a4.49 4.49 0 0 1-3.397-1.549 4.49 4.49 0 0 1-3.498-1.306 4.491 4.491 0 0 1-1.307-3.498A4.49 4.49 0 0 1 2.25 12c0-1.357.6-2.573 1.549-3.397a4.49 4.49 0 0 1 1.307-3.497 4.49 4.49 0 0 1 3.497-1.307Zm7.007 6.387a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z\" clip-rule=\"evenodd\"></path>\n        </svg>\n      </p>\n    </div>\n  </div>\n\n  <!-- Deuxième ligne (3 avis qui prennent toute la largeur de l'écran) -->\n  <div class=\"review-grid-bottom\">\n    <!-- Avis 4 -->\n    <div class=\"review-card\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0932/1719/4322/files/Screenshot_2024-07-03_004649.jpg?v=1742920434\" alt=\"Photo du client\">\n      <h3>\"Excellente qualité de sommeil\"</h3>\n      <p class=\"rating\">⭐⭐⭐⭐⭐ <span>5/5</span></p> <!-- Ajout du 5/5 -->\n      <p>Je dors tellement mieux depuis que j'utilise ces draps. Le confort est incroyable et je me réveille vraiment reposé.</p>\n      <p class=\"name\">Julie L.\n        <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\" class=\"w-6 h-6 mr-1\">\n          <path fill-rule=\"evenodd\" d=\"M8.603 3.799A4.49 4.49 0 0 1 12 2.25c1.357 0 2.573.6 3.397 1.549a4.49 4.49 0 0 1 3.498 1.307 4.491 4.491 0 0 1 1.307 3.497A4.49 4.49 0 0 1 21.75 12a4.49 4.49 0 0 1-1.549 3.397 4.491 4.491 0 0 1-1.307 3.497 4.491 4.491 0 0 1-3.497 1.307A4.49 4.49 0 0 1 12 21.75a4.49 4.49 0 0 1-3.397-1.549 4.49 4.49 0 0 1-3.498-1.306 4.491 4.491 0 0 1-1.307-3.498A4.49 4.49 0 0 1 2.25 12c0-1.357.6-2.573 1.549-3.397a4.49 4.49 0 0 1 1.307-3.497 4.49 4.49 0 0 1 3.497-1.307Zm7.007 6.387a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z\" clip-rule=\"evenodd\"></path>\n        </svg>\n      </p>\n    </div>\n\n    <!-- Avis 5 -->\n    <div class=\"review-card\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0932/1719/4322/files/ggkzaeupnwx01.jpg?v=1742920433\" alt=\"Photo du client\">\n      <h3>\"Je recommande vivement\"</h3>\n      <p class=\"rating\">⭐⭐⭐⭐⭐ <span>5/5</span></p> <!-- Ajout du 5/5 -->\n      <p>Mes douleurs au dos ont diminué depuis que j’ai commencé à utiliser ce produit. Je me sens beaucoup plus relaxé chaque matin.</p>\n      <p class=\"name\">Michelle R.\n        <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\" class=\"w-6 h-6 mr-1\">\n          <path fill-rule=\"evenodd\" d=\"M8.603 3.799A4.49 4.49 0 0 1 12 2.25c1.357 0 2.573.6 3.397 1.549a4.49 4.49 0 0 1 3.498 1.307 4.491 4.491 0 0 1 1.307 3.497A4.49 4.49 0 0 1 21.75 12a4.49 4.49 0 0 1-1.549 3.397 4.491 4.491 0 0 1-1.307 3.497 4.491 4.491 0 0 1-3.497 1.307A4.49 4.49 0 0 1 12 21.75a4.49 4.49 0 0 1-3.397-1.549 4.49 4.49 0 0 1-3.498-1.306 4.491 4.491 0 0 1-1.307-3.498A4.49 4.49 0 0 1 2.25 12c0-1.357.6-2.573 1.549-3.397a4.49 4.49 0 0 1 1.307-3.497 4.49 4.49 0 0 1 3.497-1.307Zm7.007 6.387a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z\" clip-rule=\"evenodd\"></path>\n        </svg>\n      </p>\n    </div>\n\n    <!-- Avis 6 -->\n    <div class=\"review-card\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0932/1719/4322/files/videoframe_804-min_f20f35ab-590e-4bf0-9ee3-9505c4fbbbac_1.png?v=1742920026\" alt=\"Photo du client\">\n      <h3>\"Produit révolutionnaire\"</h3>\n      <p class=\"rating\">⭐⭐⭐⭐⭐ <span>5/5</span></p> <!-- Ajout du 5/5 -->\n      <p>Ces draps ont changé ma manière de dormir. Je recommande vivement à tous ceux qui ont des problèmes de sommeil.</p>\n      <p class=\"name\">Sophie M.\n        <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\" class=\"w-6 h-6 mr-1\">\n          <path fill-rule=\"evenodd\" d=\"M8.603 3.799A4.49 4.49 0 0 1 12 2.25c1.357 0 2.573.6 3.397 1.549a4.49 4.49 0 0 1 3.498 1.307 4.491 4.491 0 0 1 1.307 3.497A4.49 4.49 0 0 1 21.75 12a4.49 4.49 0 0 1-1.549 3.397 4.491 4.491 0 0 1-1.307 3.497 4.491 4.491 0 0 1-3.497 1.307A4.49 4.49 0 0 1 12 21.75a4.49 4.49 0 0 1-3.397-1.549 4.49 4.49 0 0 1-3.498-1.306 4.491 4.491 0 0 1-1.307-3.498A4.49 4.49 0 0 1 2.25 12c0-1.357.6-2.573 1.549-3.397a4.49 4.49 0 0 1 1.307-3.497 4.49 4.49 0 0 1 3.497-1.307Zm7.007 6.387a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z\" clip-rule=\"evenodd\"></path>\n        </svg>\n      </p>\n    </div>\n  </div>\n</div>",
+        "liquid": "<style>\n  .review-container {\n    display: grid;\n    grid-template-columns: repeat(3, 1fr);\n    gap: 20px;\n    padding: 20px;\n    overflow-x: hidden;\n    margin-bottom: 120px;\n  }\n\n  .review-card {\n    background-color: white;\n    border: 2px solid #24421F;\n    padding: 15px;\n    border-radius: 10px;\n    text-align: center;\n    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);\n    height: auto;\n    display: flex;\n    flex-direction: column;\n    justify-content: space-between;\n    word-wrap: break-word;\n    flex-shrink: 0;\n  }\n\n  .review-card img {\n    width: 100%;\n    height: 350px;\n    object-fit: cover;\n    border-radius: 10px;\n    margin-bottom: 15px;\n  }\n\n  .review-card h3 {\n    font-size: 14px;\n    margin: 5px 0;\n    color: #24421F;\n  }\n\n  .review-card p {\n    font-size: 12px;\n    color: #333;\n    margin: 5px 0;\n    line-height: 1.4;\n    word-wrap: break-word;\n    overflow-wrap: break-word;\n  }\n\n  .review-card .rating {\n    font-size: 14px;\n    color: #FFD700;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n  }\n\n  .review-card .rating span {\n    font-size: 14px;\n    margin-left: 5px;\n    color: #333;\n  }\n\n  .review-card .name {\n    font-size: 14px;\n    color: #24421F;\n    font-weight: bold;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    margin-top: auto;\n  }\n\n  .review-card .name svg {\n    margin-left: 5px;\n    fill: #24421F;\n    width: 14px;\n    height: 14px;\n  }\n\n  @media (max-width: 768px) {\n    .review-container {\n      display: flex;\n      flex-wrap: nowrap;\n      overflow-x: auto;\n      gap: 10px;\n      padding: 10px 0;\n    }\n\n    .review-card {\n      flex: 0 0 auto;\n      width: 300px;\n    }\n  }\n\n  @media (max-width: 480px) {\n    .review-card {\n      width: 250px;\n    }\n  }\n</style>\n\n<div class=\"section\">\n  <div class=\"review-container\">\n    <!-- Avis 1 -->\n    <div class=\"review-card\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0932/1719/4322/files/m4_1.webp?v=1742928289\" alt=\"Photo du client\">\n      <h3>\"J'ai arrêté de recevoir des chocs électriques\"</h3>\n      <p class=\"rating\">⭐⭐⭐⭐⭐ <span>5/5</span></p>\n      <p>Ma fille m’a offert ceci il y a quelques semaines et ça m'a vraiment aidé à mieux dormir. Je ne reçois plus de chocs électriques la nuit. J'aurais dû le savoir plus tôt !</p>\n      <p class=\"name\">James C.\n        <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\" class=\"w-6 h-6 mr-1\">\n          <path fill-rule=\"evenodd\" d=\"M8.603 3.799A4.49 4.49 0 0 1 12 2.25c1.357 0 2.573.6 3.397 1.549a4.49 4.49 0 0 1 3.498 1.307 4.491 4.491 0 0 1 1.307 3.497A4.49 4.49 0 0 1 21.75 12a4.49 4.49 0 0 1-1.549 3.397 4.491 4.491 0 0 1-1.307 3.497 4.491 4.491 0 0 1-3.497 1.307A4.49 4.49 0 0 1 12 21.75a4.49 4.49 0 0 1-3.397-1.549 4.49 4.49 0 0 1-3.498-1.306 4.491 4.491 0 0 1-1.307-3.498A4.49 4.49 0 0 1 2.25 12c0-1.357.6-2.573 1.549-3.397a4.49 4.49 0 0 1 1.307-3.497 4.49 4.49 0 0 1 3.497-1.307Zm7.007 6.387a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z\" clip-rule=\"evenodd\"></path>\n        </svg>\n      </p>\n    </div>\n\n    <!-- Avis 2 -->\n    <div class=\"review-card\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0932/1719/4322/files/sss.jpg?v=1742920434\" alt=\"Photo du client\">\n      <h3>\"Moins de douleur !\"</h3>\n      <p class=\"rating\">⭐⭐⭐⭐⭐ <span>5/5</span></p>\n      <p>J'ai des douleurs arthritiques aux genoux et aux jambes depuis 2 ans. Depuis que je dors sur ces draps, je me sens beaucoup mieux, surtout le matin !</p>\n      <p class=\"name\">Christina B.\n        <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\" class=\"w-6 h-6 mr-1\">\n          <path fill-rule=\"evenodd\" d=\"M8.603 3.799A4.49 4.49 0 0 1 12 2.25c1.357 0 2.573.6 3.397 1.549a4.49 4.49 0 0 1 3.498 1.307 4.491 4.491 0 0 1 1.307 3.497A4.49 4.49 0 0 1 21.75 12a4.49 4.49 0 0 1-1.549 3.397 4.491 4.491 0 0 1-1.307 3.497 4.491 4.491 0 0 1-3.497 1.307A4.49 4.49 0 0 1 12 21.75a4.49 4.49 0 0 1-3.397-1.549 4.49 4.49 0 0 1-3.498-1.306 4.491 4.491 0 0 1-1.307-3.498A4.49 4.49 0 0 1 2.25 12c0-1.357.6-2.573 1.549-3.397a4.49 4.49 0 0 1 1.307-3.497 4.49 4.49 0 0 1 3.497-1.307Zm7.007 6.387a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z\" clip-rule=\"evenodd\"></path>\n        </svg>\n      </p>\n    </div>\n\n    <!-- Avis 3 -->\n    <div class=\"review-card\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0932/1719/4322/files/m2.jpg?v=1742928289\" alt=\"Photo du client\">\n      <h3>\"Plus détendu, et mon chien adore aussi\"</h3>\n      <p class=\"rating\">⭐⭐⭐⭐⭐ <span>5/5</span></p>\n      <p>J’utilise ce drap depuis une semaine et j’ai la meilleure qualité de sommeil. Mon chien semble aussi l'apprécier, il l’utilise pour ses siestes !</p>\n      <p class=\"name\">Hayden F.\n        <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\" class=\"w-6 h-6 mr-1\">\n          <path fill-rule=\"evenodd\" d=\"M8.603 3.799A4.49 4.49 0 0 1 12 2.25c1.357 0 2.573.6 3.397 1.549a4.49 4.49 0 0 1 3.498 1.307 4.491 4.491 0 0 1 1.307 3.497A4.49 4.49 0 0 1 21.75 12a4.49 4.49 0 0 1-1.549 3.397 4.491 4.491 0 0 1-1.307 3.497 4.491 4.491 0 0 1-3.497 1.307A4.49 4.49 0 0 1 12 21.75a4.49 4.49 0 0 1-3.397-1.549 4.49 4.49 0 0 1-3.498-1.306 4.491 4.491 0 0 1-1.307-3.498A4.49 4.49 0 0 1 2.25 12c0-1.357.6-2.573 1.549-3.397a4.49 4.49 0 0 1 1.307-3.497 4.49 4.49 0 0 1 3.497-1.307Zm7.007 6.387a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z\" clip-rule=\"evenodd\"></path>\n        </svg>\n      </p>\n    </div>\n\n    <!-- Avis 4 -->\n    <div class=\"review-card\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0932/1719/4322/files/Screenshot_2024-07-03_004649.jpg?v=1742920434\" alt=\"Photo du client\">\n      <h3>\"Excellente qualité de sommeil\"</h3>\n      <p class=\"rating\">⭐⭐⭐⭐⭐ <span>5/5</span></p>\n      <p>Je dors tellement mieux depuis que j'utilise ces draps. Le confort est incroyable et je me réveille vraiment reposé.</p>\n      <p class=\"name\">Julie L.\n        <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\" class=\"w-6 h-6 mr-1\">\n          <path fill-rule=\"evenodd\" d=\"M8.603 3.799A4.49 4.49 0 0 1 12 2.25c1.357 0 2.573.6 3.397 1.549a4.49 4.49 0 0 1 3.498 1.307 4.491 4.491 0 0 1 1.307 3.497A4.49 4.49 0 0 1 21.75 12a4.49 4.49 0 0 1-1.549 3.397 4.491 4.491 0 0 1-1.307 3.497 4.491 4.491 0 0 1-3.497 1.307A4.49 4.49 0 0 1 12 21.75a4.49 4.49 0 0 1-3.397-1.549 4.49 4.49 0 0 1-3.498-1.306 4.491 4.491 0 0 1-1.307-3.498A4.49 4.49 0 0 1 2.25 12c0-1.357.6-2.573 1.549-3.397a4.49 4.49 0 0 1 1.307-3.497 4.49 4.49 0 0 1 3.497-1.307Zm7.007 6.387a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z\" clip-rule=\"evenodd\"></path>\n        </svg>\n      </p>\n    </div>\n\n    <!-- Avis 5 -->\n    <div class=\"review-card\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0932/1719/4322/files/ggkzaeupnwx01.jpg?v=1742920433\" alt=\"Photo du client\">\n      <h3>\"Je recommande vivement\"</h3>\n      <p class=\"rating\">⭐⭐⭐⭐⭐ <span>5/5</span></p>\n      <p>Mes douleurs au dos ont diminué depuis que j’ai commencé à utiliser ce produit. Je me sens beaucoup plus relaxé chaque matin.</p>\n      <p class=\"name\">Michelle R.\n        <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\" class=\"w-6 h-6 mr-1\">\n          <path fill-rule=\"evenodd\" d=\"M8.603 3.799A4.49 4.49 0 0 1 12 2.25c1.357 0 2.573.6 3.397 1.549a4.49 4.49 0 0 1 3.498 1.307 4.491 4.491 0 0 1 1.307 3.497A4.49 4.49 0 0 1 21.75 12a4.49 4.49 0 0 1-1.549 3.397 4.491 4.491 0 0 1-1.307 3.497 4.491 4.491 0 0 1-3.497 1.307A4.49 4.49 0 0 1 12 21.75a4.49 4.49 0 0 1-3.397-1.549 4.49 4.49 0 0 1-3.498-1.306 4.491 4.491 0 0 1-1.307-3.498A4.49 4.49 0 0 1 2.25 12c0-1.357.6-2.573 1.549-3.397a4.49 4.49 0 0 1 1.307-3.497 4.49 4.49 0 0 1 3.497-1.307Zm7.007 6.387a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z\" clip-rule=\"evenodd\"></path>\n        </svg>\n      </p>\n    </div>\n\n    <!-- Avis 6 -->\n    <div class=\"review-card\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0932/1719/4322/files/videoframe_804-min_f20f35ab-590e-4bf0-9ee3-9505c4fbbbac_1.png?v=1742920026\" alt=\"Photo du client\">\n      <h3>\"Produit révolutionnaire\"</h3>\n      <p class=\"rating\">⭐⭐⭐⭐⭐ <span>5/5</span></p>\n      <p>Ces draps ont changé ma manière de dormir. Je recommande vivement à tous ceux qui ont des problèmes de sommeil.</p>\n      <p class=\"name\">Sophie M.\n        <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\" class=\"w-6 h-6 mr-1\">\n          <path fill-rule=\"evenodd\" d=\"M8.603 3.799A4.49 4.49 0 0 1 12 2.25c1.357 0 2.573.6 3.397 1.549a4.49 4.49 0 0 1 3.498 1.307 4.491 4.491 0 0 1 1.307 3.497A4.49 4.49 0 0 1 21.75 12a4.49 4.49 0 0 1-1.549 3.397 4.491 4.491 0 0 1-1.307 3.497 4.491 4.491 0 0 1-3.497 1.307A4.49 4.49 0 0 1 12 21.75a4.49 4.49 0 0 1-3.397-1.549 4.49 4.49 0 0 1-3.498-1.306 4.491 4.491 0 0 1-1.307-3.498A4.49 4.49 0 0 1 2.25 12c0-1.357.6-2.573 1.549-3.397a4.49 4.49 0 0 1 1.307-3.497 4.49 4.49 0 0 1 3.497-1.307Zm7.007 6.387a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z\" clip-rule=\"evenodd\"></path>\n        </svg>\n      </p>\n    </div>\n  </div>\n</div>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -341,58 +389,9 @@
         "subheading": "",
         "title": "",
         "first_tab_open": false,
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": "#000000",
-        "heading_color": "#24421f",
-        "heading_gradient": ""
-      }
-    },
-    "images_with_text_scrolling_Xm3tzH": {
-      "type": "images-with-text-scrolling",
-      "blocks": {
-        "item_3Jd9EH": {
-          "type": "item",
-          "settings": {
-            "icon": "none",
-            "icon_width": 48,
-            "title": "Heading 1",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
-          }
-        },
-        "item_xnYAnr": {
-          "type": "item",
-          "settings": {
-            "icon": "none",
-            "icon_width": 48,
-            "title": "Heading 2",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
-          }
-        },
-        "item_iy3GyL": {
-          "type": "item",
-          "settings": {
-            "icon": "none",
-            "icon_width": 48,
-            "title": "Heading",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "item_3Jd9EH",
-        "item_xnYAnr",
-        "item_iy3GyL"
-      ],
-      "settings": {
-        "full_width": true,
-        "stack_on_mobile": false,
-        "show_counter": true,
-        "desktop_image_effect": "reveal",
-        "image_position": "start",
         "background": "",
         "background_gradient": "",
-        "text_color": "",
+        "text_color": "#000000",
         "heading_color": "",
         "heading_gradient": ""
       }
@@ -403,22 +402,22 @@
         "166442457738b23caf-0": {
           "type": "item",
           "settings": {
-            "title": "Qu'est-ce que la mise à la terre",
-            "content": "<p>La mise à la terre consiste à établir un contact direct entre le corps humain et la surface de la terre. Ce contact peut être établi en marchant pieds nus sur un terrain naturel ou en utilisant des produits spécialisés tels que des couvertures de lit, des tapis ou d'autres articles conçus à cet effet. Il a été scientifiquement démontré que la mise à la terre des effets positifs significatifs sur le bien-être des humains et des animaux</p>"
+            "title": "Do you ship overseas?",
+            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
           }
         },
         "166442457738b23caf-1": {
           "type": "item",
           "settings": {
-            "title": "En combien de temps vais-je voir des effets après avoir commencé la mise à terre  ?",
-            "content": "<p>La vitesse à laquelle vous pouvez ressentir des effets après avoir commencé la mise à la terre peut varier d'une personne à l'autre. Certaines personnes déclarent ressentir des bienfaits peu de temps après avoir commencé les pratiques de mise à la terre, tandis que d'autres peuvent mettre plus de temps à remarquer des changements. Des facteurs tels que l'état de santé individuel, la durée et la régularité de la mise à la terre, ainsi que le mode de vie en général, peuvent influencer le délai d'apparition des effets. Il est recommandé d'être patient et cohérent avec les pratiques de la mise à la terre afin de maximiser les bénéfices potentiels au fil du temps.</p>"
+            "title": "How long will it take to get my orders?",
+            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
           }
         },
         "166442457738b23caf-2": {
           "type": "item",
           "settings": {
-            "title": "Les sols de ma maison sont-ils compatible avec la mise à la terre ?",
-            "content": "<p>Dans la plupart des cas, la réponse est probablement non. À moins que vos sols ne soient construits directement sur la terre ou constitués de béton ou de pierre en contact direct avec le sol, les sols de votre maison ne vous mettront généralement pas en situation de mise à la terre.</p>"
+            "title": "Any question?",
+            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
           }
         }
       },
@@ -431,21 +430,21 @@
         "full_width": false,
         "subheading": "",
         "title": "FAQ",
-        "content": "",
+        "content": "<p>Use this text to share information about your product or shipping policies.</p>",
         "team_avatar_width": 160,
-        "support_hours": "",
-        "answer_time": "",
+        "support_hours": "Our customer support is available Monday to Friday: 8am-8:30pm.",
+        "answer_time": "Average answer time: 24h",
         "button_text": "",
         "button_url": "",
-        "text_position": "center",
+        "text_position": "start",
         "background": "#ffffff",
         "background_gradient": "",
-        "text_color": "#ffffff",
-        "heading_color": "#000000",
+        "text_color": "",
+        "heading_color": "",
         "heading_gradient": "",
         "button_background": "",
         "button_text_color": "",
-        "accordion_background": "#24421f",
+        "accordion_background": "",
         "accordion_text_color": ""
       }
     }
@@ -453,7 +452,7 @@
   "order": [
     "slideshow",
     "custom_liquid_gVmCwf",
-    "custom_liquid_MKJRpq",
+    "logo_list_gTE7rw",
     "custom_html_bdTEDF",
     "slideshow_QYyeay",
     "before_after_image_fkwnAM",
@@ -462,7 +461,6 @@
     "custom_liquid_Laz94U",
     "featured-product",
     "tabs_JWmpBg",
-    "images_with_text_scrolling_Xm3tzH",
     "faq"
   ]
 }
