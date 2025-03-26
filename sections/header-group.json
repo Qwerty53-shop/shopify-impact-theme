@@ -17,13 +17,37 @@
         "message": {
           "type": "message",
           "settings": {
-            "text": "Announce something here",
+            "text": "Livraison gratuite à domicile",
+            "url": ""
+          }
+        },
+        "message_er8W6M": {
+          "type": "message",
+          "settings": {
+            "text": "Offre limitée de printemps: -50%",
+            "url": ""
+          }
+        },
+        "message_GRaBap": {
+          "type": "message",
+          "settings": {
+            "text": "Satisfait ou remboursé",
+            "url": ""
+          }
+        },
+        "message_DJ3Dgy": {
+          "type": "message",
+          "settings": {
+            "text": "Payement sécurisé",
             "url": ""
           }
         }
       },
       "block_order": [
-        "message"
+        "message",
+        "message_er8W6M",
+        "message_GRaBap",
+        "message_DJ3Dgy"
       ],
       "settings": {
         "enable_sticky": false,
