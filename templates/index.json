@@ -15,7 +15,7 @@
         "image_p3FgTn": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/How_Does_Melatonin_Affect_Dreams_1-min.webp",
+            "image": "shopify://shop_images/Header_image_GE_desktop_2.jpg",
             "mobile_image": "shopify://shop_images/How_Does_Melatonin_Affect_Dreams_1-min.webp",
             "content_max_width": 720,
             "mobile_text_position": "place-self-center text-center",
@@ -30,7 +30,7 @@
             "button_text_color": "#f0f0f0",
             "overlay_color": "#000000",
             "overlay_opacity": 32,
-            "background": "",
+            "background": "#ffffff",
             "background_gradient": ""
           }
         }
@@ -84,7 +84,7 @@
         "full_width": true,
         "remove_vertical_spacing": true,
         "remove_horizontal_spacing": false,
-        "html": "<p style=\"text-align: center\">Pourquoi choisir la solution Vitalsleep ?</p>",
+        "html": "<p style=\"text-align: center\">Pourquoi tous les experts du sommeil conseillent Vitalsleep ?</p>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
