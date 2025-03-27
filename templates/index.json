@@ -209,12 +209,6 @@
           "type": "badges",
           "settings": {}
         },
-        "price": {
-          "type": "price",
-          "settings": {
-            "show_taxes_notice": false
-          }
-        },
         "liquid_Wn8UgL": {
           "type": "liquid",
           "settings": {
@@ -273,7 +267,6 @@
         "liquid_TL66Pd",
         "title",
         "badges",
-        "price",
         "liquid_Wn8UgL",
         "image_DwmHFg",
         "kaching_bundles_app_block_hikxdA",
