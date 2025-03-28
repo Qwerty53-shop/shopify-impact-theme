@@ -409,6 +409,66 @@
         "accordion_background": "",
         "accordion_text_color": ""
       }
+    },
+    "custom_liquid_AqMGYA": {
+      "type": "custom-liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div class=\"content-wrapper\">\n  <div class=\"content-inner\">\n    <div class=\"image-container\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0684/6572/1513/files/La_mise_a_la_terre_grounding_sheet_2.webp?v=1739298809\" alt=\"Mise à la Terre\" class=\"main-image\">\n    </div>\n\n    <div class=\"text-container\">\n      <h2 class=\"content-title\">Qu'est-ce que la mise à la terre ?</h2>\n      <p>\n        La « mise à la terre » – ou « grounding » – consiste à se reconnecter à l’énergie naturelle de la Terre par un contact direct, par exemple en marchant pieds nus sur l’herbe ou la terre.\n        <br><br>\n        En se connectant ainsi, vous bénéficiez de la légère charge négative du sol, ce qui peut contribuer à recharger votre énergie et soutenir l’équilibre naturel de vos systèmes bioélectriques.\n        <br><br>\n        Dans nos vies modernes, nous sommes souvent déconnectés de cette force énergisante – c’est un peu comme recharger sa batterie intérieure. Découvrez ci-dessous les avantages potentiels de cette pratique.\n        <br><br>\n        <span class=\"disclaimer\">*Les résultats peuvent varier. Ces informations ne remplacent pas un avis médical professionnel. \n      </p>\n    </div>\n  </div>\n</div>\n\n<style>\n  .content-wrapper {\n    max-width: 1200px;\n    margin: 0 auto;\n    padding: 20px;\n    font-family: 'Lato', sans-serif;\n    background-color: #f5f5f5;\n    border-radius: 10px;\n  }\n\n  .content-inner {\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: space-between;\n    opacity: 0;\n    animation: fadeInUp 1.2s ease-out forwards;\n  }\n\n  .image-container {\n    flex: 1;\n    padding-right: 20px;\n    opacity: 0;\n    animation: slideInLeft 1s ease-out forwards;\n  }\n\n  .main-image {\n    width: 100%;\n    border-radius: 10px;\n    transform: scale(0.98);\n    transition: transform 0.3s ease-in-out;\n  }\n\n  .main-image:hover {\n    transform: scale(1);\n  }\n\n  .text-container {\n    flex: 1;\n    padding-left: 20px;\n    opacity: 0;\n    animation: slideInRight 1s ease-out forwards;\n  }\n\n  .content-title {\n    font-size: 28px;\n    color: #333;\n    margin-bottom: 10px;\n    text-align: left;\n    animation: fadeIn 1s ease-out 0.5s forwards;\n  }\n\n  .text-container p {\n    font-size: 16px;\n    color: #555;\n    line-height: 1.6;\n    text-align: justify;\n    opacity: 0;\n    animation: fadeIn 1s ease-out 1s forwards;\n  }\n\n  .disclaimer {\n    font-size: 12px;\n    color: #777;\n    opacity: 0;\n    animation: fadeIn 1s ease-out 1.5s forwards;\n  }\n\n  .text-container a {\n    color: #4CAF50;\n    text-decoration: none;\n    transition: color 0.3s ease;\n  }\n\n  .text-container a:hover {\n    color: #388E3C;\n    text-decoration: underline;\n  }\n\n  @media (max-width: 768px) {\n    .content-inner {\n      flex-direction: column;\n      align-items: center;\n    }\n\n    .image-container {\n      padding-right: 0;\n      padding-left: 0;\n    }\n\n    .text-container {\n      padding-left: 0;\n    }\n  }\n\n  /* Animation Definitions */\n  @keyframes fadeIn {\n    0% { opacity: 0; }\n    100% { opacity: 1; }\n  }\n\n  @keyframes fadeInUp {\n    0% { opacity: 0; transform: translateY(30px); }\n    100% { opacity: 1; transform: translateY(0); }\n  }\n\n  @keyframes slideInLeft {\n    0% { transform: translateX(-50%); opacity: 0; }\n    100% { transform: translateX(0); opacity: 1; }\n  }\n\n  @keyframes slideInRight {\n    0% { transform: translateX(50%); opacity: 0; }\n    100% { transform: translateX(0); opacity: 1; }\n  }\n</style>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "custom_liquid_96Rzcg": {
+      "type": "custom-liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div class=\"content-wrapper\">\n  <div class=\"content-inner\">\n    <div class=\"text-container\">\n      <h2 class=\"content-title\">Pourquoi dormir connecté à la Terre ?</h2>\n      <p class=\"content-text\">\n        Des études scientifiques montrent que marcher pieds nus sur la Terre ou dormir connecté à elle peut favoriser une meilleure qualité de sommeil en réduisant le stress et en équilibrant votre énergie. Le contact direct avec la Terre aide à réguler votre système bioélectrique et à diminuer les effets des champs électromagnétiques artificiels.\n      </p>\n      <p class=\"disclaimer\">\n        *Ces informations se basent sur des <a href=\"https://grounding-sheet.com/pages/etudes-scientifiques\" target=\"_blank\">études scientifiques</a>.\n      </p>\n    </div>\n\n    <div class=\"image-container\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0684/6572/1513/files/BringingYourStoriestoLight1-ezgif.com-png-to-webp-converter.webp?v=1739072060\" alt=\"Thermographie de la Terre\" class=\"main-image\">\n    </div>\n  </div>\n</div>\n\n<style>\n  .content-wrapper {\n    max-width: 1200px;\n    margin: 0 auto;\n    padding: 20px;\n    font-family: 'Lato', sans-serif;\n    background-color: #f7f7f7;\n    border-radius: 8px;\n  }\n\n  .content-inner {\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: space-between;\n    align-items: center;\n    opacity: 0;\n    animation: fadeIn 1s ease-out forwards;\n  }\n\n  .text-container {\n    flex: 1;\n    padding-right: 20px;\n    animation: slideInLeft 1s ease-out forwards;\n  }\n\n  .content-title {\n    font-size: 28px;\n    color: #333;\n    margin-bottom: 10px;\n    text-align: left;\n    opacity: 0;\n    animation: fadeIn 1s ease-out 0.5s forwards;\n  }\n\n  .content-text {\n    font-size: 16px;\n    color: #555;\n    line-height: 1.6;\n    text-align: justify;\n    margin-bottom: 20px;\n    opacity: 0;\n    animation: fadeIn 1s ease-out 1s forwards;\n  }\n\n  .disclaimer {\n    font-size: 12px;\n    color: #777;\n  }\n\n  .text-container a {\n    color: #4CAF50;\n    text-decoration: none;\n  }\n\n  .text-container a:hover {\n    text-decoration: underline;\n  }\n\n  .image-container {\n    flex: 1;\n    padding-left: 20px;\n    opacity: 0;\n    animation: slideInRight 1s ease-out forwards;\n  }\n\n  .main-image {\n    width: 100%;\n    border-radius: 8px;\n  }\n\n  @media (max-width: 768px) {\n    .content-inner {\n      flex-direction: column;\n      align-items: center;\n    }\n\n    .text-container {\n      padding-right: 0;\n      padding-left: 0;\n    }\n\n    .image-container {\n      padding-left: 0;\n    }\n  }\n\n  @keyframes fadeIn {\n    0% { opacity: 0; }\n    100% { opacity: 1; }\n  }\n\n  @keyframes slideInLeft {\n    0% { transform: translateX(-50%); opacity: 0; }\n    100% { transform: translateX(0); opacity: 1; }\n  }\n\n  @keyframes slideInRight {\n    0% { transform: translateX(50%); opacity: 0; }\n    100% { transform: translateX(0); opacity: 1; }\n  }\n</style>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "custom_html_Qf4A8z": {
+      "type": "custom-html",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<h1 style=\"text-align: center; font-size: 36px; margin-bottom: 0px;\">Comment ça marche ?</h1>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "custom_liquid_BRWcQy": {
+      "type": "custom-liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div class=\"content-wrapper\">\n  <div class=\"content-inner\">\n    <!-- Etape 1 -->\n    <div class=\"step-column\">\n      <div class=\"step-video\">\n        <video autoplay loop muted playsinline preload=\"metadata\" loading=\"lazy\">\n          <source src=\"https://www.groundingwell.com/cdn/shop/videos/c/vp/640d6777896c4469bd8ce91833b47c65/640d6777896c4469bd8ce91833b47c65.HD-720p-3.0Mbps-29659372.mp4?v=0\" type=\"video/mp4\">\n        </video>\n      </div>\n      <h3 class=\"step-title\">Étape 1</h3>\n      <p class=\"step-description\">Placez le drap de mise à la terre sur votre lit.</p>\n    </div>\n\n    <!-- Etape 2 -->\n    <div class=\"step-column\">\n      <div class=\"step-video\">\n        <video autoplay loop muted playsinline preload=\"metadata\" loading=\"lazy\">\n          <source src=\"https://www.groundingwell.com/cdn/shop/videos/c/vp/b14913fa0e82423fb771d1df05d4e728/b14913fa0e82423fb771d1df05d4e728.HD-720p-4.5Mbps-29659373.mp4?v=0\" type=\"video/mp4\">\n        </video>\n      </div>\n      <h3 class=\"step-title\">Étape 2</h3>\n      <p class=\"step-description\">Branchez le drap à la prise de mise à la terre de votre prise électrique.</p>\n    </div>\n\n    <!-- Etape 3 -->\n    <div class=\"step-column\">\n      <div class=\"step-video\">\n        <video autoplay loop muted playsinline preload=\"metadata\" loading=\"lazy\">\n          <source src=\"https://www.groundingwell.com/cdn/shop/videos/c/vp/3e6392ecc0734b769f977123c88b77a0/3e6392ecc0734b769f977123c88b77a0.HD-720p-3.0Mbps-29659371.mp4?v=0\" type=\"video/mp4\">\n        </video>\n      </div>\n      <h3 class=\"step-title\">Étape 3</h3>\n      <p class=\"step-description\">Endormez-vous sur le drap en assurant un contact avec votre peau nue ou une fine couche de vêtements.</p>\n    </div>\n  </div>\n</div>\n\n<style>\n  .content-wrapper {\n    max-width: 1200px;\n    margin: 0 auto;\n    padding: 40px;\n    background-color: #f9f9f9;\n    border-radius: 12px;\n  }\n\n  .content-inner {\n    display: flex;\n    justify-content: center; /* Centrer les colonnes */\n    gap: 20px;\n    flex-wrap: wrap;\n    margin-top: 20px;\n  }\n\n  .step-column {\n    flex: 1;\n    min-width: 250px;\n    max-width: 350px;\n    text-align: center;\n    padding: 20px;\n    background-color: white;\n    border-radius: 10px;\n    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);\n    transition: transform 0.3s ease;\n  }\n\n  .step-column:hover {\n    transform: scale(1.05);\n  }\n\n  .step-video {\n    width: 100%;\n    height: 300px;\n    margin-bottom: 20px;\n    border-radius: 8px;\n    overflow: hidden;\n  }\n\n  video {\n    width: 100%;\n    height: 100%;\n    object-fit: cover;\n    border-radius: 8px;\n  }\n\n  .step-title {\n    font-size: 24px;\n    font-weight: bold;\n    color: #24421F; /* Couleur du titre des étapes */\n    margin-bottom: 10px;\n  }\n\n  .step-description {\n    font-size: 16px;\n    color: #24421F; /* Texte des étapes en couleur demandée */\n    line-height: 1.6;\n    margin-bottom: 20px;\n  }\n\n  @media (max-width: 768px) {\n    .content-inner {\n      flex-direction: column;\n      align-items: center;\n    }\n\n    .step-column {\n      margin-bottom: 20px;\n      flex: none;\n    }\n  }\n</style>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "custom_liquid_Abw7fJ": {
+      "type": "custom-liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div class=\"content-wrapper\">\n  <div class=\"content-inner\">\n    <!-- Vidéo Section -->\n    <div class=\"video-column\">\n      <div class=\"video-wrapper\">\n        <video id=\"mainVideo\" autoplay loop muted playsinline preload=\"metadata\" poster=\"https://cdn.shopify.com/s/files/1/0684/6572/1513/files/grounding-sheet-video-poster.webp\" loading=\"lazy\">\n          <source src=\"https://cdn.shopify.com/videos/c/o/v/d9d07451184240debd4320947c328046.mp4\" type=\"video/mp4\">\n        </video>\n      </div>\n    </div>\n\n    <!-- Text Section -->\n    <div class=\"text-column\">\n      <h2 class=\"content-title\">Se connecter à la Terre avec un drap de mise à la terre</h2>\n      <p class=\"content-text\">\n        En vous allongeant sur un drap de mise à la Terre, vous vous reconnectez à l'énergie pure de la planète. Ce simple contact aide à évacuer les charges électriques indésirables de votre corps, créant ainsi une sensation de bien-être immédiat.\n      </p>\n      <p class=\"content-text\">\n        Votre corps profite d'une influence apaisante tout au long de la nuit, favorisant une récupération naturelle et un équilibre énergétique harmonieux pour un sommeil profond et réparateur.\n      </p>\n   \n      </p>\n    </div>\n  </div>\n</div>\n\n<style>\n  .content-wrapper {\n    max-width: 1200px;\n    margin: 0 auto;\n    padding: 40px;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    flex-wrap: wrap;\n    background-color: #f9f9f9;\n    border-radius: 12px;\n  }\n\n  .content-inner {\n    display: flex;\n    align-items: center;\n    justify-content: space-between;\n    width: 100%;\n  }\n\n  .video-column {\n    flex: 1;\n    padding: 10px;\n  }\n\n  .video-wrapper {\n    width: 100%;\n    border-radius: 10px;\n    overflow: hidden;\n  }\n\n  video {\n    width: 100%;\n    border-radius: 10px;\n  }\n\n  .text-column {\n    flex: 1;\n    padding: 20px;\n    text-align: left;\n  }\n\n  .content-title {\n    font-size: 30px;\n    font-weight: 600;\n    color: #333;\n    margin-bottom: 20px;\n    font-family: 'Lato', sans-serif;\n  }\n\n  .content-text {\n    font-size: 16px;\n    color: #555;\n    line-height: 1.7;\n    margin-bottom: 15px;\n    font-family: 'Lato', sans-serif;\n  }\n\n  .content-disclaimer {\n    font-size: 12px;\n    color: #777;\n  }\n\n  .content-disclaimer a {\n    color: #4CAF50;\n    text-decoration: none;\n  }\n\n  .content-disclaimer a:hover {\n    text-decoration: underline;\n  }\n\n  @media (max-width: 768px) {\n    .content-wrapper {\n      padding: 20px;\n    }\n\n    .content-inner {\n      flex-direction: column;\n      align-items: center;\n      text-align: center;\n    }\n\n    .video-column, .text-column {\n      padding: 10px;\n    }\n  }\n</style>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
@@ -423,6 +483,11 @@
     "custom_liquid_Laz94U",
     "featured-product",
     "tabs_JWmpBg",
-    "faq"
+    "faq",
+    "custom_liquid_AqMGYA",
+    "custom_liquid_96Rzcg",
+    "custom_html_Qf4A8z",
+    "custom_liquid_BRWcQy",
+    "custom_liquid_Abw7fJ"
   ]
 }
