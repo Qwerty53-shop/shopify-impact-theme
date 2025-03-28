@@ -358,56 +358,16 @@
         "heading_gradient": ""
       }
     },
-    "faq": {
-      "type": "faq",
-      "blocks": {
-        "166442457738b23caf-0": {
-          "type": "item",
-          "settings": {
-            "title": "Do you ship overseas?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
-          }
-        },
-        "166442457738b23caf-1": {
-          "type": "item",
-          "settings": {
-            "title": "How long will it take to get my orders?",
-            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
-          }
-        },
-        "166442457738b23caf-2": {
-          "type": "item",
-          "settings": {
-            "title": "Any question?",
-            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "166442457738b23caf-0",
-        "166442457738b23caf-1",
-        "166442457738b23caf-2"
-      ],
+    "custom_liquid_BRWcQy": {
+      "type": "custom-liquid",
       "settings": {
-        "full_width": false,
-        "subheading": "",
-        "title": "FAQ",
-        "content": "<p>Use this text to share information about your product or shipping policies.</p>",
-        "team_avatar_width": 160,
-        "support_hours": "Our customer support is available Monday to Friday: 8am-8:30pm.",
-        "answer_time": "Average answer time: 24h",
-        "button_text": "",
-        "button_url": "",
-        "text_position": "start",
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div class=\"content-wrapper\">\n  <div class=\"content-inner\">\n    <!-- Etape 1 -->\n    <div class=\"step-column\">\n      <div class=\"step-video\">\n        <video autoplay loop muted playsinline preload=\"metadata\" loading=\"lazy\">\n          <source src=\"https://www.groundingwell.com/cdn/shop/videos/c/vp/640d6777896c4469bd8ce91833b47c65/640d6777896c4469bd8ce91833b47c65.HD-720p-3.0Mbps-29659372.mp4?v=0\" type=\"video/mp4\">\n        </video>\n      </div>\n      <h3 class=\"step-title\">Étape 1</h3>\n      <p class=\"step-description\">Placez le drap de mise à la terre sur votre lit.</p>\n    </div>\n\n    <!-- Etape 2 -->\n    <div class=\"step-column\">\n      <div class=\"step-video\">\n        <video autoplay loop muted playsinline preload=\"metadata\" loading=\"lazy\">\n          <source src=\"https://www.groundingwell.com/cdn/shop/videos/c/vp/b14913fa0e82423fb771d1df05d4e728/b14913fa0e82423fb771d1df05d4e728.HD-720p-4.5Mbps-29659373.mp4?v=0\" type=\"video/mp4\">\n        </video>\n      </div>\n      <h3 class=\"step-title\">Étape 2</h3>\n      <p class=\"step-description\">Branchez le drap à la prise de mise à la terre de votre prise électrique.</p>\n    </div>\n\n    <!-- Etape 3 -->\n    <div class=\"step-column\">\n      <div class=\"step-video\">\n        <video autoplay loop muted playsinline preload=\"metadata\" loading=\"lazy\">\n          <source src=\"https://www.groundingwell.com/cdn/shop/videos/c/vp/3e6392ecc0734b769f977123c88b77a0/3e6392ecc0734b769f977123c88b77a0.HD-720p-3.0Mbps-29659371.mp4?v=0\" type=\"video/mp4\">\n        </video>\n      </div>\n      <h3 class=\"step-title\">Étape 3</h3>\n      <p class=\"step-description\">Endormez-vous sur le drap en assurant un contact avec votre peau nue ou une fine couche de vêtements.</p>\n    </div>\n  </div>\n</div>\n\n<style>\n  .content-wrapper {\n    max-width: 1200px;\n    margin: 0 auto;\n    padding: 40px;\n    background-color: #fffff;\n    border-radius: 12px;\n  }\n\n  .content-inner {\n    display: flex;\n    justify-content: center; /* Centrer les colonnes */\n    gap: 20px;\n    flex-wrap: wrap;\n    margin-top: 20px;\n  }\n\n  .step-column {\n    flex: 1;\n    min-width: 250px;\n    max-width: 350px;\n    text-align: center;\n    padding: 20px;\n    background-color: white;\n    border-radius: 10px;\n    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);\n    transition: transform 0.3s ease;\n  }\n\n  .step-column:hover {\n    transform: scale(1.05);\n  }\n\n  .step-video {\n    width: 100%;\n    height: 300px;\n    margin-bottom: 20px;\n    border-radius: 8px;\n    overflow: hidden;\n  }\n\n  video {\n    width: 100%;\n    height: 100%;\n    object-fit: cover;\n    border-radius: 8px;\n  }\n\n  .step-title {\n    font-size: 24px;\n    font-weight: bold;\n    color: #24421F; /* Couleur du titre des étapes */\n    margin-bottom: 10px;\n  }\n\n  .step-description {\n    font-size: 16px;\n    color: #24421F; /* Texte des étapes en couleur demandée */\n    line-height: 1.6;\n    margin-bottom: 20px;\n  }\n\n  @media (max-width: 768px) {\n    .content-inner {\n      flex-direction: column;\n      align-items: center;\n    }\n\n    .step-column {\n      margin-bottom: 20px;\n      flex: none;\n    }\n  }\n</style>",
         "background": "#ffffff",
         "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "button_background": "",
-        "button_text_color": "",
-        "accordion_background": "",
-        "accordion_text_color": ""
+        "text_color": "#ffffff"
       }
     },
     "custom_liquid_AqMGYA": {
@@ -446,28 +406,56 @@
         "text_color": ""
       }
     },
-    "custom_liquid_BRWcQy": {
-      "type": "custom-liquid",
+    "faq": {
+      "type": "faq",
+      "blocks": {
+        "166442457738b23caf-0": {
+          "type": "item",
+          "settings": {
+            "title": "Do you ship overseas?",
+            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
+          }
+        },
+        "166442457738b23caf-1": {
+          "type": "item",
+          "settings": {
+            "title": "How long will it take to get my orders?",
+            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+          }
+        },
+        "166442457738b23caf-2": {
+          "type": "item",
+          "settings": {
+            "title": "Any question?",
+            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "166442457738b23caf-0",
+        "166442457738b23caf-1",
+        "166442457738b23caf-2"
+      ],
       "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<div class=\"content-wrapper\">\n  <div class=\"content-inner\">\n    <!-- Etape 1 -->\n    <div class=\"step-column\">\n      <div class=\"step-video\">\n        <video autoplay loop muted playsinline preload=\"metadata\" loading=\"lazy\">\n          <source src=\"https://www.groundingwell.com/cdn/shop/videos/c/vp/640d6777896c4469bd8ce91833b47c65/640d6777896c4469bd8ce91833b47c65.HD-720p-3.0Mbps-29659372.mp4?v=0\" type=\"video/mp4\">\n        </video>\n      </div>\n      <h3 class=\"step-title\">Étape 1</h3>\n      <p class=\"step-description\">Placez le drap de mise à la terre sur votre lit.</p>\n    </div>\n\n    <!-- Etape 2 -->\n    <div class=\"step-column\">\n      <div class=\"step-video\">\n        <video autoplay loop muted playsinline preload=\"metadata\" loading=\"lazy\">\n          <source src=\"https://www.groundingwell.com/cdn/shop/videos/c/vp/b14913fa0e82423fb771d1df05d4e728/b14913fa0e82423fb771d1df05d4e728.HD-720p-4.5Mbps-29659373.mp4?v=0\" type=\"video/mp4\">\n        </video>\n      </div>\n      <h3 class=\"step-title\">Étape 2</h3>\n      <p class=\"step-description\">Branchez le drap à la prise de mise à la terre de votre prise électrique.</p>\n    </div>\n\n    <!-- Etape 3 -->\n    <div class=\"step-column\">\n      <div class=\"step-video\">\n        <video autoplay loop muted playsinline preload=\"metadata\" loading=\"lazy\">\n          <source src=\"https://www.groundingwell.com/cdn/shop/videos/c/vp/3e6392ecc0734b769f977123c88b77a0/3e6392ecc0734b769f977123c88b77a0.HD-720p-3.0Mbps-29659371.mp4?v=0\" type=\"video/mp4\">\n        </video>\n      </div>\n      <h3 class=\"step-title\">Étape 3</h3>\n      <p class=\"step-description\">Endormez-vous sur le drap en assurant un contact avec votre peau nue ou une fine couche de vêtements.</p>\n    </div>\n  </div>\n</div>\n\n<style>\n  .content-wrapper {\n    max-width: 1200px;\n    margin: 0 auto;\n    padding: 40px;\n    background-color: #fffff;\n    border-radius: 12px;\n  }\n\n  .content-inner {\n    display: flex;\n    justify-content: center; /* Centrer les colonnes */\n    gap: 20px;\n    flex-wrap: wrap;\n    margin-top: 20px;\n  }\n\n  .step-column {\n    flex: 1;\n    min-width: 250px;\n    max-width: 350px;\n    text-align: center;\n    padding: 20px;\n    background-color: white;\n    border-radius: 10px;\n    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);\n    transition: transform 0.3s ease;\n  }\n\n  .step-column:hover {\n    transform: scale(1.05);\n  }\n\n  .step-video {\n    width: 100%;\n    height: 300px;\n    margin-bottom: 20px;\n    border-radius: 8px;\n    overflow: hidden;\n  }\n\n  video {\n    width: 100%;\n    height: 100%;\n    object-fit: cover;\n    border-radius: 8px;\n  }\n\n  .step-title {\n    font-size: 24px;\n    font-weight: bold;\n    color: #24421F; /* Couleur du titre des étapes */\n    margin-bottom: 10px;\n  }\n\n  .step-description {\n    font-size: 16px;\n    color: #24421F; /* Texte des étapes en couleur demandée */\n    line-height: 1.6;\n    margin-bottom: 20px;\n  }\n\n  @media (max-width: 768px) {\n    .content-inner {\n      flex-direction: column;\n      align-items: center;\n    }\n\n    .step-column {\n      margin-bottom: 20px;\n      flex: none;\n    }\n  }\n</style>",
+        "full_width": false,
+        "subheading": "",
+        "title": "FAQ",
+        "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
         "background": "#ffffff",
         "background_gradient": "",
-        "text_color": "#ffffff"
-      }
-    },
-    "custom_liquid_Abw7fJ": {
-      "type": "custom-liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<div class=\"content-wrapper\">\n  <div class=\"content-inner\">\n    <!-- Vidéo Section -->\n    <div class=\"video-column\">\n      <div class=\"video-wrapper\">\n        <video id=\"mainVideo\" autoplay loop muted playsinline preload=\"metadata\" poster=\"https://cdn.shopify.com/s/files/1/0684/6572/1513/files/grounding-sheet-video-poster.webp\" loading=\"lazy\">\n          <source src=\"https://cdn.shopify.com/videos/c/o/v/d9d07451184240debd4320947c328046.mp4\" type=\"video/mp4\">\n        </video>\n      </div>\n    </div>\n\n    <!-- Text Section -->\n    <div class=\"text-column\">\n      <h2 class=\"content-title\">Reconnectez-vous à la Terre</h2>\n      <p class=\"content-text\">\n        Allongez-vous sur un drap de mise à la Terre et laissez l'énergie naturelle de la planète apaiser votre corps. Une sensation de bien-être immédiate, libérée des charges électriques négatives.\n      </p>\n      <p class=\"content-text\">\n        Profitez d'une nuit réparatrice, où votre énergie se rééquilibre pour un sommeil profond et revitalisant.\n      </p>\n    </div>\n  </div>\n</div>\n\n<style>\n  .content-wrapper {\n    max-width: 1200px;\n    margin: 0 auto;\n    padding: 40px;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    flex-wrap: wrap;\n    background-color: #f9f9f9;\n    border-radius: 12px;\n  }\n\n  .content-inner {\n    display: flex;\n    align-items: center;\n    justify-content: space-between;\n    width: 100%;\n  }\n\n  .video-column {\n    flex: 1;\n    padding: 10px;\n  }\n\n  .video-wrapper {\n    width: 100%;\n    border-radius: 10px;\n    overflow: hidden;\n  }\n\n  video {\n    width: 100%;\n    border-radius: 10px;\n  }\n\n  .text-column {\n    flex: 1;\n    padding: 20px;\n    text-align: left;\n  }\n\n  .content-title {\n    font-size: 30px;\n    font-weight: 600;\n    color: #333;\n    margin-bottom: 20px;\n    font-family: 'Lato', sans-serif;\n  }\n\n  .content-text {\n    font-size: 16px;\n    color: #555;\n    line-height: 1.7;\n    margin-bottom: 15px;\n    font-family: 'Lato', sans-serif;\n  }\n\n  .content-disclaimer {\n    font-size: 12px;\n    color: #777;\n  }\n\n  .content-disclaimer a {\n    color: #4CAF50;\n    text-decoration: none;\n  }\n\n  .content-disclaimer a:hover {\n    text-decoration: underline;\n  }\n\n  @media (max-width: 768px) {\n    .content-wrapper {\n      padding: 20px;\n    }\n\n    .content-inner {\n      flex-direction: column;\n      align-items: center;\n      text-align: center;\n    }\n\n    .video-column, .text-column {\n      padding: 10px;\n    }\n  }\n</style>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
       }
     }
   },
@@ -483,11 +471,10 @@
     "custom_liquid_Laz94U",
     "featured-product",
     "tabs_JWmpBg",
+    "custom_html_Qf4A8z",
     "custom_liquid_BRWcQy",
     "custom_liquid_AqMGYA",
     "custom_liquid_96Rzcg",
-    "custom_html_Qf4A8z",
-    "custom_liquid_Abw7fJ",
     "faq"
   ]
 }
