@@ -212,7 +212,7 @@
         "liquid_VLeWpF": {
           "type": "liquid",
           "settings": {
-            "liquid": ""
+            "liquid": "<div class=\"price-container\">\n  <span class=\"current-price\">€79,99</span>\n  <span class=\"original-price\">€159,99</span>\n</div>\n\n<style>\n  .price-container {\n    display: flex;\n    align-items: center;\n    gap: 8px;\n    font-family:Inter;\n  }\n  \n  .current-price {\n    font-size: 22px;\n    font-weight: bold;\n    color: #33593F;\n  }\n  \n  .original-price {\n    font-size: 17px;\n    color: #777;\n    text-decoration: line-through;\n  }\n</style>"
           }
         },
         "liquid_Wn8UgL": {
