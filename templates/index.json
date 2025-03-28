@@ -209,10 +209,10 @@
           "type": "badges",
           "settings": {}
         },
-        "price_ya6HUn": {
-          "type": "price",
+        "liquid_VLeWpF": {
+          "type": "liquid",
           "settings": {
-            "show_taxes_notice": false
+            "liquid": ""
           }
         },
         "liquid_Wn8UgL": {
@@ -282,7 +282,7 @@
         "liquid_TL66Pd",
         "title",
         "badges",
-        "price_ya6HUn",
+        "liquid_VLeWpF",
         "liquid_Wn8UgL",
         "image_DwmHFg",
         "kaching_bundles_app_block_hikxdA",
