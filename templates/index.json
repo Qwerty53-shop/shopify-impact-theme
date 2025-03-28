@@ -436,12 +436,36 @@
             "title": "En combien de temps vais-je ressentir les effets ?",
             "content": "<p>Les bienfaits se font sentir naturellement :</p><p>✓ Premiers effets (1-3 nuits) :<br/>- Sommeil plus profond<br/>- Réveil plus facile- Sensation de repos</p><p>✓ Effets à moyen terme (2-4 semaines) :<br/>- Meilleure récupération<br/>- Plus d'énergie au quotidien<br/>- Réduction du stress<br/>- Diminution des inflammations<br/>- Renforcement du système immunitaire<br/>- Meilleure circulation sanguine- Régulation du rythme circadien</p><p>Essai sans risque pendant 90 jours</p>"
           }
+        },
+        "item_fLF8X6": {
+          "type": "item",
+          "settings": {
+            "title": "Comment entretenir mon drap ?",
+            "content": "<p>Un entretien simple pour préserver l'efficacité :<br/><br/>✓ Lavage :<br/>- Lavage en machine à 30°C maximum<br/>- Programme délicat<br/>- Sans adoucissant<br/><br/>✓ À éviter :<br/>- Le sèche-linge<br/>- Le repassage sur les zones conductrices<br/>- Les produits blanchissants<br/><br/>Séchage naturel recommandé</p>"
+          }
+        },
+        "item_cbkgm9": {
+          "type": "item",
+          "settings": {
+            "title": "Est-ce sûr pour ma santé ?",
+            "content": "<p>Votre sécurité est notre priorité :<br/><br/>✓ Fonctionnement 100% naturel :<br/>- Aucun courant électrique ne circule<br/>- Simple connexion à la terre<br/>- Comme dormir sur la plage<br/><br/>✓ Qualité certifiée :<br/>- Coton bio hypoallergénique<br/>- Testé dermatologiquement<br/>- Conforme aux normes européennes<br/>- Idéal pour les personnes sensibles aux CEM<br/>- Peut réduire l'impact des appareils électroniques<br/><br/>En cas de doute, consultez votre médecin</p>"
+          }
+        },
+        "item_CBjUWG": {
+          "type": "item",
+          "settings": {
+            "title": "Puis-je utiliser des appareils électroniques dans mon lit ?",
+            "content": "<p>Oui, vous pouvez utiliser vos appareils, mais voici nos recommandations :<br/><br/>✓ Pour un sommeil optimal :<br/>- Gardez les appareils à 30 cm minimum du drap<br/>- Évitez de poser les appareils directement sur le drap<br/>- Privilégiez le mode avion la nuit<br/><br/>✓ Avantages :<br/>- Le drap peut réduire l'impact des ondes électromagnétiques<br/>- Protection naturelle pendant votre sommeil<br/>- Améliore la qualité du repos<br/><br/>Idéalement, éloignez les appareils du lit pour un sommeil plus réparateur</p>"
+          }
         }
       },
       "block_order": [
         "166442457738b23caf-0",
         "166442457738b23caf-1",
-        "166442457738b23caf-2"
+        "166442457738b23caf-2",
+        "item_fLF8X6",
+        "item_cbkgm9",
+        "item_CBjUWG"
       ],
       "settings": {
         "full_width": false,
