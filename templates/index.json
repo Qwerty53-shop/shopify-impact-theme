@@ -190,6 +190,194 @@
         "text_color": ""
       }
     },
+    "multi_column_BmATjd": {
+      "type": "multi-column",
+      "blocks": {
+        "item_Ba4Wzi": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/m4_1.jpg",
+            "column_size": "3",
+            "title": "Richard V.",
+            "heading_tag": "h4",
+            "content": "<p>Le coucher et le réveil étaient vraiment pénibles pour mon cou et mon dos, et j'étais constamment raide ! Depuis que je dors avec ce drap  ,je constate une nette amélioration et un regain d'énergie tout au long de la journée.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_HAWqXa": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2024-07-03_004649_d88087ce-36b8-4e37-8adb-78535c95b214.jpg",
+            "column_size": "3",
+            "title": "Julie L.",
+            "heading_tag": "h4",
+            "content": "<p>Je dors tellement mieux depuis que j'utilise ces draps. Le confort est incroyable et je me réveille vraiment reposé.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_BzzNDq": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/ggkzaeupnwx01_667cd17f-ff35-42cc-b39d-5cf64e3773ae.jpg",
+            "column_size": "3",
+            "title": "Sophie M.",
+            "heading_tag": "h4",
+            "content": "<p>Mes douleurs au dos ont diminué depuis que j’ai commencé à utiliser cette housse. Je me sens beaucoup plus relaxé chaque matin.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_jyHri3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/videoframe_804-min_1_b748561d-cccf-4683-8faf-62bd48147d2e.png",
+            "column_size": "3",
+            "title": "Christina B.",
+            "heading_tag": "h4",
+            "content": "<p>Ces draps ont changé ma manière de dormir. Je recommande vivement à tous ceux qui ont des problèmes de sommeil.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_JxpgCA": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/sss_5adbc27a-feec-4c2d-9209-dad4130d7b10.jpg",
+            "column_size": "3",
+            "title": "Michelle R.",
+            "heading_tag": "h4",
+            "content": "<p>Ma fille me l'a offert il y a quelques semaines en disant que c'était pour m'aider à dormir. Au début, j'ai trouvé ça bizarre, mais j'ai été bluffée : maintenant, je dors beaucoup mieux. J'aurais aimé l'avoir plus tôt !</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_n9UibB": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/m2_80b4df8d-14a8-4a36-a2f5-4206e0ac602d.jpg",
+            "column_size": "3",
+            "title": "Luc T.",
+            "heading_tag": "h4",
+            "content": "<p>Je souffre de douleurs arthritiques aux genoux et aux jambes depuis deux ans maintenant. Après avoir dormi sur ces draps, je suis étonné de constater à quel point je me sens mieux au réveil.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_Ba4Wzi",
+        "item_HAWqXa",
+        "item_BzzNDq",
+        "item_jyHri3",
+        "item_JxpgCA",
+        "item_n9UibB"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": true,
+        "gap": "medium",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "multi_column_GxHNtk": {
+      "type": "multi-column",
+      "blocks": {
+        "item_8krxAT": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_Nr6UYA": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_rJYE4F": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_BMVgVe": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_pNpYAL": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_8krxAT",
+        "item_Nr6UYA",
+        "item_rJYE4F",
+        "item_BMVgVe",
+        "item_pNpYAL"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "About",
+        "title": "Featured content",
+        "content": "<p>Organize content into multiple columns to share useful information to your customers about your products, values...</p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "featured-product": {
       "type": "featured-product",
       "blocks": {
@@ -541,6 +729,8 @@
     "custom_liquid_azdXEk",
     "custom_liquid_gytXCC",
     "custom_liquid_Laz94U",
+    "multi_column_BmATjd",
+    "multi_column_GxHNtk",
     "featured-product",
     "tabs_JWmpBg",
     "custom_html_Qf4A8z",
