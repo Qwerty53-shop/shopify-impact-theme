@@ -503,10 +503,10 @@
         "accordion_text_color": "#000000"
       }
     },
-    "1743350886fb36edff": {
+    "17433510380b9799b0": {
       "type": "apps",
       "blocks": {
-        "judge_me_reviews_review_widget_homepage_TRW9nb": {
+        "judge_me_reviews_review_widget_homepage_PEhDD9": {
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget_homepage/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
             "product": "vitalsleep-la-technologie-grounding-qui-reinvente-le-sommeil"
@@ -514,7 +514,7 @@
         }
       },
       "block_order": [
-        "judge_me_reviews_review_widget_homepage_TRW9nb"
+        "judge_me_reviews_review_widget_homepage_PEhDD9"
       ],
       "settings": {
         "full_width": true,
@@ -548,6 +548,6 @@
     "custom_liquid_AqMGYA",
     "custom_liquid_96Rzcg",
     "faq",
-    "1743350886fb36edff"
+    "17433510380b9799b0"
   ]
 }
