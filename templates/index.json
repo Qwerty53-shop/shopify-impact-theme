@@ -180,6 +180,7 @@
     },
     "custom_liquid_Laz94U": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": true,
