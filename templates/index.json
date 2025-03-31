@@ -711,15 +711,15 @@
     "1743439310ecebf3df": {
       "type": "apps",
       "blocks": {
-        "judge_me_reviews_review_widget_homepage_ADY3bh": {
-          "type": "shopify://apps/judge-me-reviews/blocks/review_widget_homepage/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "judge_me_reviews_featured_carousel_Ci4Cyt": {
+          "type": "shopify://apps/judge-me-reviews/blocks/featured_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
-            "product": "eye-serenity-vapor"
+            "maxwidth": 1080
           }
         }
       },
       "block_order": [
-        "judge_me_reviews_review_widget_homepage_ADY3bh"
+        "judge_me_reviews_featured_carousel_Ci4Cyt"
       ],
       "settings": {
         "full_width": true,
