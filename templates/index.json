@@ -9,35 +9,63 @@
  */
 {
   "sections": {
-    "slideshow": {
-      "type": "slideshow",
+    "banner_76Hbw4": {
+      "type": "banner",
       "blocks": {
-        "image_p3FgTn": {
-          "type": "image",
+        "heading_8dpniF": {
+          "type": "heading",
           "settings": {
-            "image": "shopify://shop_images/she_thrive_gummy_photo_2_1.jpg",
-            "mobile_image": "shopify://shop_images/she_thrive_gummy_photo_2.jpg",
-            "content_max_width": 720,
-            "mobile_text_position": "place-self-start-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "",
-            "title": "Libérez-vous du stress hormonal et ressentez l'équilibre, chaque jour !",
-            "heading_tag": "h3",
-            "button_text": "",
-            "button_link": "shopify://products/vitalsleep-la-technologie-grounding-qui-reinvente-le-sommeil",
-            "text_color": "#ffffff",
-            "button_background": "#24421f",
-            "button_text_color": "#f0f0f0",
-            "overlay_color": "#000000",
-            "overlay_opacity": 32,
-            "background": "#ffffff",
-            "background_gradient": ""
+            "heading": "<p>Sentez-vous fraîche et sûre de vous toute la journée !<br/><br/><br/></p>",
+            "heading_custom": false,
+            "heading_font": "josefin_sans_n4",
+            "heading_size": 40,
+            "heading_size_mobile": 30,
+            "heading_height": 130,
+            "heading_mt": 0,
+            "heading_color": "#FFFFFF"
           }
         }
       },
       "block_order": [
-        "image_p3FgTn"
+        "heading_8dpniF"
       ],
+      "settings": {
+        "parallax": false,
+        "parallax_mobile": false,
+        "banner_height": "fixed_height",
+        "banner_fixed_height": 600,
+        "banner_fixed_height_mobile": 500,
+        "image": "shopify://shop_images/she_thrive_gummy_photo_2_1.jpg",
+        "image_mobile": "shopify://shop_images/she_thrive_gummy_photo_2_1.jpg",
+        "overlay": 0.2,
+        "content_maxwidth": 65,
+        "content_maxwidth_mobile": 100,
+        "content_horizontal_position": "center",
+        "content_horizontal_position_mobile": "center",
+        "content_vertical_position": "center",
+        "content_vertical_position_mobile": "center",
+        "content_padding_vertical": 32,
+        "content_padding_vertical_mobile": 20,
+        "content_padding_horizontal": 20,
+        "content_padding_horizontal_mobile": 20,
+        "overlay_color": "#000000",
+        "background_color": "#FFFFFF",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": true,
+        "content_width": 120,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
+    "slideshow": {
+      "type": "slideshow",
       "custom_css": [],
       "settings": {
         "full_width": true,
@@ -783,6 +811,7 @@
     }
   },
   "order": [
+    "banner_76Hbw4",
     "slideshow",
     "logo_list_TgC8yg",
     "custom_html_bdTEDF",
