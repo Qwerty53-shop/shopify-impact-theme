@@ -15,13 +15,13 @@
         "image_p3FgTn": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Header_image_GE_desktop_2.jpg",
-            "mobile_image": "shopify://shop_images/Header_image_GE_desktop_2.jpg",
+            "image": "shopify://shop_images/she_thrive_gummy_photo_2_1.jpg",
+            "mobile_image": "shopify://shop_images/she_thrive_gummy_photo_2.jpg",
             "content_max_width": 720,
-            "mobile_text_position": "place-self-center text-center",
+            "mobile_text_position": "place-self-start-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "subheading": "",
-            "title": "Obtenez le sommeil que vous méritez",
+            "title": "Libérez-vous du stress hormonal et ressentez l'équilibre, chaque jour !",
             "heading_tag": "h3",
             "button_text": "",
             "button_link": "shopify://products/vitalsleep-la-technologie-grounding-qui-reinvente-le-sommeil",
@@ -51,16 +51,62 @@
         "background_gradient": "linear-gradient(60deg, rgba(255, 255, 255, 1), rgba(23, 29, 33, 1) 98%)"
       }
     },
-    "custom_liquid_gVmCwf": {
-      "type": "custom-liquid",
+    "logo_list_TgC8yg": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_YmprDR": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/1200px-VOGUE_revista_-_logo_1.png",
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "logo_g6qjjg": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Comopolitan_Magazine_Logo_svg_1.png",
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "logo_knT9k7": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/logo-seo_1.png",
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "logo_nCWHdf": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Marie_Claire_Magazine_logo.svg_1.png",
+            "logo_width": 120,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_YmprDR",
+        "logo_g6qjjg",
+        "logo_knT9k7",
+        "logo_nCWHdf"
+      ],
       "settings": {
         "full_width": true,
-        "remove_vertical_spacing": true,
-        "remove_horizontal_spacing": true,
-        "liquid": "<style>\n  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');\n\n  .logo-section {\n    text-align: center;\n    margin-bottom: 25px; /* Espacement entre le titre et les logos */\n  }\n\n  .logo-title {\n    font-size: 32px; /* Taille du titre */\n    font-weight: 600;\n    color: black;\n    font-family: 'Poppins', sans-serif; /* Police modernisée */\n    text-transform: none; /* Garde \"Vu sur\" avec la bonne casse */\n    letter-spacing: 2px;\n    margin-bottom: 20px; /* Espacement entre le titre et les logos */\n  }\n\n  .logo-slider {\n    display: flex;\n    overflow: hidden;\n    position: relative;\n    width: 100%;\n    padding: 20px 0;\n    background: white;\n  }\n\n  .logo-track {\n    display: flex;\n    gap: 30px; /* Espacement entre les logos */\n    animation: scroll 15s linear infinite;\n    white-space: nowrap;\n  }\n\n  @keyframes scroll {\n    from {\n      transform: translateX(0);\n    }\n    to {\n      transform: translateX(-50%);\n    }\n  }\n\n  .logo-item {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    background-color: #24421F; /* Fond vert */\n    padding: 20px;\n    width: 180px; /* Taille du conteneur */\n    height: 100px;\n  }\n\n  .logo-item img {\n    max-height: 60px;\n    max-width: 140px;\n    object-fit: contain;\n  }\n\n  .logo-slider img {\n    max-height: 80px; /* Ajustez la taille des logos selon vos préférences */\n    filter: brightness(0) invert(1); /* Applique un effet de contraste pour que les logos ressortent sur fond foncé */\n  }\n\n  /* Style pour le texte du titre \"Vu sur\" */\n  .logo-title-text {\n    font-size: 28px; /* Augmente la taille du texte */\n    color: black; /* Texte en noir */\n    font-family: 'Poppins', sans-serif;\n    text-align: center;\n    font-weight: 600;\n    margin-bottom: 25px;\nmargin-top:25px;\n  }\n</style>\n\n<div class=\"logo-section\">\n  <!-- Titre remplacé par \"Vu sur\" -->\n  <div class=\"logo-title-text\">\n    Vu sur\n  </div>\n\n  <div class=\"logo-slider\">\n    <div class=\"logo-track\">\n      <!-- Ajoute ici tes 8 logos -->\n      <div class=\"logo-item\"><img src=\"https://puregroundingusa.com/cdn/shop/files/2_300x300.png?v=1726926103\" alt=\"Logo 1\"></div>\n      <div class=\"logo-item\"><img src=\"https://puregroundingusa.com/cdn/shop/files/1_300x300.png?v=1726925964\" alt=\"Logo 2\"></div>\n      <div class=\"logo-item\"><img src=\"https://puregroundingusa.com/cdn/shop/files/nbc_300x300.png?v=1726926103\" alt=\"Logo 3\"></div>\n      <div class=\"logo-item\"><img src=\"https://upload.wikimedia.org/wikipedia/fr/thumb/a/a8/Logo-doctissimo.svg/357px-Logo-doctissimo.svg.png?20210806174559\" alt=\"Logo 4\"></div>\n      <div class=\"logo-item\"><img src=\"https://groundluxe.com/cdn/shop/files/forbeslogoblacktransparent-1-1661520004453_x30.png?v=1670926492\" alt=\"Logo 5\"></div>\n      <div class=\"logo-item\"><img src=\"https://groundluxe.com/cdn/shop/files/2560px-Business_Insider_Logo_svg_x30.png?v=1713353256\" alt=\"Logo 6\"></div>\n      <div class=\"logo-item\"><img src=\"https://groundluxe.com/cdn/shop/files/HuffPost_x30.png?v=1713353661\" alt=\"Logo 7\"></div>\n      <div class=\"logo-item\"><img src=\"https://groundluxe.com/cdn/shop/files/Entrepreneur__magazine__logo_2012_svg_x30.png?v=1713353841\" alt=\"Logo 8\"></div>\n      <div class=\"logo-item\"><img src=\"https://groundluxe.com/cdn/shop/files/vw_mind_main_logo11661520004455removebgpreview-1663527384072_x30.png?v=1670926505\" alt=\"Logo 9\"></div>\n\n      <!-- Duplication pour effet de défilement infini -->\n      <div class=\"logo-item\"><img src=\"https://puregroundingusa.com/cdn/shop/files/2_300x300.png?v=1726926103\" alt=\"Logo 1\"></div>\n      <div class=\"logo-item\"><img src=\"https://puregroundingusa.com/cdn/shop/files/1_300x300.png?v=1726925964\" alt=\"Logo 2\"></div>\n      <div class=\"logo-item\"><img src=\"https://puregroundingusa.com/cdn/shop/files/nbc_300x300.png?v=1726926103\" alt=\"Logo 3\"></div>\n      <div class=\"logo-item\"><img src=\"https://upload.wikimedia.org/wikipedia/fr/thumb/a/a8/Logo-doctissimo.svg/357px-Logo-doctissimo.svg.png?20210806174559\" alt=\"Logo 4\"></div>\n      <div class=\"logo-item\"><img src=\"https://groundluxe.com/cdn/shop/files/forbeslogoblacktransparent-1-1661520004453_x30.png?v=1670926492\" alt=\"Logo 5\"></div>\n      <div class=\"logo-item\"><img src=\"https://groundluxe.com/cdn/shop/files/2560px-Business_Insider_Logo_svg_x30.png?v=1713353256\" alt=\"Logo 6\"></div>\n      <div class=\"logo-item\"><img src=\"https://groundluxe.com/cdn/shop/files/HuffPost_x30.png?v=1713353661\" alt=\"Logo 7\"></div>\n      <div class=\"logo-item\"><img src=\"https://groundluxe.com/cdn/shop/files/Entrepreneur__magazine__logo_2012_svg_x30.png?v=1713353841\" alt=\"Logo 8\"></div>\n      <div class=\"logo-item\"><img src=\"https://groundluxe.com/cdn/shop/files/vw_mind_main_logo11661520004455removebgpreview-1663527384072_x30.png?v=1670926505\" alt=\"Logo 9\"></div>\n    </div>\n  </div>\n</div>",
-        "background": "",
+        "stack_mobile": true,
+        "title": "Vu sur:",
+        "content": "",
+        "text_alignment": "center",
+        "items_per_row": 5,
+        "background": "#f4f0ec",
         "background_gradient": "",
-        "text_color": ""
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "",
+        "logo_item_border": ""
       }
     },
     "custom_html_bdTEDF": {
@@ -72,7 +118,7 @@
         "full_width": true,
         "remove_vertical_spacing": true,
         "remove_horizontal_spacing": false,
-        "html": "<p style=\"text-align: center\">Pourquoi tous les experts du sommeil conseillent Vitalsleep ?</p>",
+        "html": "<p style=\"text-align: center\">Pourquoi des milliers de femmes font confiance à nos gommes §</p>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -98,10 +144,10 @@
         "parallax": false,
         "parallax_mobile": false,
         "banner_height": "fixed_height",
-        "banner_fixed_height": 910,
-        "banner_fixed_height_mobile": 400,
-        "image": "shopify://shop_images/Votre_texte_de_paragraphe_29.jpg",
-        "image_mobile": "shopify://shop_images/Votre_texte_de_paragraphe_1300_x_1500_px_17.jpg",
+        "banner_fixed_height": 770,
+        "banner_fixed_height_mobile": 390,
+        "image": "shopify://shop_images/image_benefice.png",
+        "image_mobile": "shopify://shop_images/image_benefice.png",
         "overlay": 0,
         "content_maxwidth": 65,
         "content_maxwidth_mobile": 100,
@@ -738,7 +784,7 @@
   },
   "order": [
     "slideshow",
-    "custom_liquid_gVmCwf",
+    "logo_list_TgC8yg",
     "custom_html_bdTEDF",
     "slideshow_QYyeay",
     "banner_9y3YTF",
