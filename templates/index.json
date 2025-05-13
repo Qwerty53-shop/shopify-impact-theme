@@ -263,7 +263,7 @@
         "item_Ba4Wzi": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/m4_1.jpg",
+            "image": "shopify://shop_images/avant.svg",
             "column_size": "3",
             "title": "Richard V.",
             "heading_tag": "h4",
@@ -276,7 +276,7 @@
         "item_HAWqXa": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Screenshot_2024-07-03_004649_d88087ce-36b8-4e37-8adb-78535c95b214.jpg",
+            "image": "shopify://shop_images/avis_2_e072c652-b3e2-4250-8215-69bda217900b.svg",
             "column_size": "3",
             "title": "Julie L.",
             "heading_tag": "h4",
@@ -289,7 +289,7 @@
         "item_BzzNDq": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/ggkzaeupnwx01_667cd17f-ff35-42cc-b39d-5cf64e3773ae.jpg",
+            "image": "shopify://shop_images/avis_3_d5b5e1b7-a007-410f-8ad2-e659f7a5a760.svg",
             "column_size": "3",
             "title": "Sophie M.",
             "heading_tag": "h4",
@@ -302,7 +302,7 @@
         "item_jyHri3": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/videoframe_804-min_1_b748561d-cccf-4683-8faf-62bd48147d2e.png",
+            "image": "shopify://shop_images/avis_4_39a74a83-64ae-4ee3-9ad0-9e7d0c47753a.svg",
             "column_size": "3",
             "title": "Christina B.",
             "heading_tag": "h4",
@@ -315,7 +315,7 @@
         "item_JxpgCA": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/sss_5adbc27a-feec-4c2d-9209-dad4130d7b10.jpg",
+            "image": "shopify://shop_images/avant_600_x_600_px_1000_x_1000_px_500_x_500_px.png",
             "column_size": "3",
             "title": "Michelle R.",
             "heading_tag": "h4",
@@ -348,7 +348,7 @@
         "item_n9UibB"
       ],
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "stack_on_mobile": false,
         "gap": "small",
         "text_alignment": "center",
