@@ -15,14 +15,14 @@
         "heading_8dpniF": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Sentez-vous fraîche et sûre de vous toute la journée !<br/><br/><br/></p>",
+            "heading": "",
             "heading_custom": false,
             "heading_font": "josefin_sans_n4",
             "heading_size": 40,
             "heading_size_mobile": 30,
             "heading_height": 130,
             "heading_mt": 0,
-            "heading_color": "#FFFFFF"
+            "heading_color": "#ffffff"
           }
         }
       },
@@ -33,9 +33,9 @@
         "parallax": false,
         "parallax_mobile": false,
         "banner_height": "fixed_height",
-        "banner_fixed_height": 600,
+        "banner_fixed_height": 650,
         "banner_fixed_height_mobile": 500,
-        "image": "shopify://shop_images/she_thrive_gummy_photo_2_1.jpg",
+        "image": "shopify://shop_images/Add_a_heading_1.png",
         "image_mobile": "shopify://shop_images/she_thrive_gummy_photo_2_1.jpg",
         "overlay": 0.2,
         "content_maxwidth": 65,
@@ -49,13 +49,13 @@
         "content_padding_horizontal": 20,
         "content_padding_horizontal_mobile": 20,
         "overlay_color": "#000000",
-        "background_color": "#FFFFFF",
+        "background_color": "#ffffff",
         "background_gradient": "",
         "border_color": "#000000",
         "margin_top": 0,
         "margin_bottom": 0,
         "padding_top": 36,
-        "padding_bottom": 36,
+        "padding_bottom": 0,
         "padding_horizontal": 5,
         "padding_horizontal_mobile": 1.5,
         "full_width": true,
@@ -85,7 +85,7 @@
         "logo_YmprDR": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/1200px-VOGUE_revista_-_logo_1.png",
+            "logo": "shopify://shop_images/Elle.png",
             "logo_width": 120,
             "link": ""
           }
@@ -93,7 +93,7 @@
         "logo_g6qjjg": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/Comopolitan_Magazine_Logo_svg_1.png",
+            "logo": "shopify://shop_images/Comopolitan_Magazine_Logo_svg.png",
             "logo_width": 120,
             "link": ""
           }
@@ -101,7 +101,7 @@
         "logo_knT9k7": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/logo-seo_1.png",
+            "logo": "shopify://shop_images/1200px-VOGUE_revista_-_logo.png",
             "logo_width": 120,
             "link": ""
           }
@@ -109,7 +109,7 @@
         "logo_nCWHdf": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/Marie_Claire_Magazine_logo.svg_1.png",
+            "logo": "shopify://shop_images/logo-seo.png",
             "logo_width": 120,
             "link": ""
           }
@@ -124,16 +124,16 @@
       "settings": {
         "full_width": true,
         "stack_mobile": true,
-        "title": "Vu sur:",
+        "title": "Vu sur",
         "content": "",
         "text_alignment": "center",
         "items_per_row": 5,
-        "background": "#f4f0ec",
+        "background": "#ffffff",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
         "heading_gradient": "",
-        "logo_item_background": "",
+        "logo_item_background": "#ffffff",
         "logo_item_border": ""
       }
     },
@@ -146,7 +146,7 @@
         "full_width": true,
         "remove_vertical_spacing": true,
         "remove_horizontal_spacing": false,
-        "html": "<p style=\"text-align: center\">Pourquoi des milliers de femmes font confiance à nos gommes §</p>",
+        "html": "<p style=\"text-align: center\">Pourquoi toutes les femmes jurent que par notre huile ?</p>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -203,30 +203,6 @@
         "lazy": true
       }
     },
-    "before_after_image_fkwnAM": {
-      "type": "before-after-image",
-      "settings": {
-        "full_width": true,
-        "subheading": "Passez de nuits agitées à un sommeil réparateur avec notre technologie de mise à la terre.",
-        "title": "",
-        "content": "",
-        "before_image": "shopify://shop_images/SANS_MISE_A_LA_TERRE.jpg",
-        "after_image": "shopify://shop_images/SANS_MISE_A_LA_TERRE.jpg",
-        "expand_image": false,
-        "text_position": "center",
-        "before_after_text_position": "top",
-        "before_text": "Avant",
-        "after_text": "Après",
-        "drag_initial_position": 50,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "before_text_color": "#000000",
-        "after_text_color": "#000000",
-        "drag_cursor_background": "#ffffff",
-        "drag_cursor_color": "#000000"
-      }
-    },
     "custom_liquid_azdXEk": {
       "type": "custom-liquid",
       "disabled": true,
@@ -242,6 +218,7 @@
     },
     "custom_liquid_gytXCC": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
@@ -358,7 +335,7 @@
       "settings": {
         "full_width": true,
         "stack_on_mobile": false,
-        "gap": "medium",
+        "gap": "small",
         "text_alignment": "center",
         "subheading": "",
         "title": "",
@@ -629,6 +606,7 @@
         "tab_fkDFED",
         "tab_NHR6TJ"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "content_size": "medium",
@@ -782,31 +760,30 @@
         "review_button_text_color": "#ffffff"
       }
     },
-    "1743439310ecebf3df": {
-      "type": "apps",
+    "rich_text_HPcDUb": {
+      "type": "rich-text",
       "blocks": {
-        "judge_me_reviews_featured_carousel_Ci4Cyt": {
-          "type": "shopify://apps/judge-me-reviews/blocks/featured_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "heading_KGpYcY": {
+          "type": "heading",
           "settings": {
-            "maxwidth": 1080
+            "text": "Elles en  parlent  le mieux",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
           }
         }
       },
       "block_order": [
-        "judge_me_reviews_featured_carousel_Ci4Cyt"
+        "heading_KGpYcY"
       ],
+      "name": "Rich text",
       "settings": {
         "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
+        "content_width": "small",
+        "text_position": "center",
         "background": "",
         "background_gradient": "",
-        "text_color": "",
-        "enable_review_integration": true,
-        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
-        "review_header_text_color": "#000000",
-        "review_button_background": "#000000",
-        "review_button_text_color": "#ffffff"
+        "text_color": ""
       }
     }
   },
@@ -817,7 +794,7 @@
     "custom_html_bdTEDF",
     "slideshow_QYyeay",
     "banner_9y3YTF",
-    "before_after_image_fkwnAM",
+    "rich_text_HPcDUb",
     "custom_liquid_azdXEk",
     "custom_liquid_gytXCC",
     "custom_liquid_Laz94U",
@@ -830,7 +807,6 @@
     "custom_liquid_AqMGYA",
     "custom_liquid_96Rzcg",
     "faq",
-    "17434367067b748db4",
-    "1743439310ecebf3df"
+    "17434367067b748db4"
   ]
 }
