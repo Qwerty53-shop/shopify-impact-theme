@@ -22,7 +22,7 @@
             "heading_size_mobile": 22,
             "heading_height": 130,
             "heading_mt": 0,
-            "heading_color": "#FFFFFF"
+            "heading_color": "#ffffff"
           }
         },
         "text_WdNVVA": {
@@ -35,7 +35,7 @@
             "text_size_mobile": 16,
             "text_height": 150,
             "text_mt": 16,
-            "text_color": "#FFFFFF"
+            "text_color": "#ffffff"
           }
         }
       },
@@ -64,7 +64,7 @@
         "content_padding_horizontal": 20,
         "content_padding_horizontal_mobile": 20,
         "overlay_color": "#000000",
-        "background_color": "#FFFFFF",
+        "background_color": "#ffffff",
         "background_gradient": "",
         "border_color": "#000000",
         "margin_top": 0,
@@ -480,68 +480,14 @@
         "product_card_text_color": ""
       }
     },
-    "tabs_98xgHD": {
-      "type": "tabs",
-      "blocks": {
-        "tab_mXWXwW": {
-          "type": "tab",
-          "settings": {
-            "title": "Caractéristiques",
-            "content": "<p><strong>Rechargez pendant la nuit</strong><br/><br/>La mise à la terre reconnecte votre corps aux électrons naturels de la Terre, rétablissant son équilibre électrique pour améliorer le sommeil et réduire l’inflammation.</p><p><strong>Fonctionne pour tous les âges</strong><br/><br/>Naturelle et sûre, la mise à la terre convient à tous, quel que soit l’âge, et agit comme marcher pieds nus.</p><p><strong>Matériaux de qualité supérieure</strong><br/><br/>Fabriqué en coton biologique et argent pur, testé dermatologiquement pour respecter même les peaux les plus sensibles.</p>",
-            "page": ""
-          }
-        },
-        "tab_6KgCDt": {
-          "type": "tab",
-          "settings": {
-            "title": "Détails du produit",
-            "content": "<p><strong>Tailles :</strong>✓ 90 cm x 190 cm x 30 cm<br/>✓ 140 cm x 200 cm x 30 cm<br/>✓ 160 cm x 200 cm x 31 cm<br/>✓ 180 cm x 200 cm x 33 cm<br/>✓ 200 cm x 200 cm x 30 cm<br/><br/><strong>Matériaux</strong>:<br/>95 % coton biologique<br/>5 % tissu conducteur argenté</p>",
-            "page": ""
-          }
-        },
-        "tab_8UzR3t": {
-          "type": "tab",
-          "settings": {
-            "title": "Livraison",
-            "content": "<p>Une fois votre commande passée, elle sera rapidement transmise à notre équipe d'expédition pour traitement. Dès son expédition, vous recevrez un numéro de suivi par e-mail.</p><p>Nous utilisons une gamme de fournisseurs d'expédition fiables, notamment Yunexpress, USPS, DHL, FedEx, Aramex et des coursiers locaux de votre région.</p><p>Notre délai de traitement actuel est de 8 à 12 jours ouvrables.</p>",
-            "page": ""
-          }
-        },
-        "tab_K3itbd": {
-          "type": "tab",
-          "settings": {
-            "title": "Lavage",
-            "content": "<p>Les draps Vitalsleep™ contiennent des fils d’argent naturellement antibactériens et anti-odeurs, ce qui leur permet de nécessiter moins de lavages que des draps classiques. Cependant, pour préserver leur conductivité, il est essentiel de les maintenir propres et exempts de transpiration et de sébum.</p><p>L’utilisation de produits non adaptés peut endommager les fils d’argent, réduire l’efficacité des draps et compromettre leur conductivité. En respectant ces consignes, vous prolongerez la durée de vie de vos draps Vitalsleep™ et profiterez pleinement de leurs bienfaits pour votre santé.</p><p>L’utilisation de produits non adaptés peut endommager les fils d’argent, réduire l’efficacité des draps et compromettre leur conductivité. En respectant ces consignes, vous prolongerez la durée de vie de vos draps Vitalsleep™ et profiterez pleinement de leurs bienfaits pour votre santé.</p>",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "tab_mXWXwW",
-        "tab_6KgCDt",
-        "tab_8UzR3t",
-        "tab_K3itbd"
-      ],
-      "settings": {
-        "full_width": true,
-        "content_size": "medium",
-        "subheading": "",
-        "title": "",
-        "first_tab_open": false,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
-      }
-    },
-    "custom_html_3RdLjy": {
-      "type": "custom-html",
+    "custom_liquid_DGb9GB": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "html": "<h1 style=\"text-align: center; font-size: 36px; margin-bottom: 0px;\">Comment ça marche ?</h1>",
+        "liquid": "<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Section Ingrédients avec Effet Hover</title>\n  <style>\n    body {\n      margin: 0;\n      padding: 0;\n      font-family: \"DM Sans\", sans-serif;\n      background-color: #fff;\n    }\n\n    /* Animation d'affichage au scroll */\n    @keyframes fadeInUp {\n      from {\n        opacity: 0;\n        transform: translateY(30px);\n      }\n      to {\n        opacity: 1;\n        transform: translateY(0);\n      }\n    }\n\n    /* Section principale avec animation au scroll */\n    .ingredients-section {\n      padding: 40px 20px;\n      max-width: 1280px;\n      margin: 0 auto;\n      text-align: center;\n      opacity: 0;\n      animation: fadeInUp 0.8s ease forwards;\n    }\n\n    /* Titre et sous-titre */\n    .section-title {\n      font-size: 2.2rem;\n      font-weight: 700;\n      margin-bottom: 0.5rem;\n      color: #000;\n    }\n\n    .section-subtitle {\n      font-size: 1rem;\n      color: #333;\n      margin-bottom: 40px;\n      max-width: 800px;\n      margin-left: auto;\n      margin-right: auto;\n    }\n\n    /* Grille des cartes */\n    .cards-grid {\n      display: grid;\n      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));\n      gap: 20px;\n    }\n\n    /* Carte d'ingrédient avec ombre plus subtile */\n    .ingredient-card {\n      border-radius: 15px;\n      overflow: hidden;\n      position: relative;\n      height: 450px;\n      box-shadow: 0 2px 6px rgba(0,0,0,0.04);\n      transition: transform 0.3s ease, box-shadow 0.3s ease;\n      opacity: 0;\n    }\n\n    .ingredient-card:hover {\n      transform: translateY(-5px);\n      box-shadow: 0 4px 10px rgba(0,0,0,0.08);\n    }\n\n    /* Conteneur de l'image avec effet hover */\n    .image-container {\n      position: relative;\n      width: 100%;\n      height: 100%;\n      overflow: hidden;\n    }\n\n    .image-container img {\n      width: 100%;\n      height: 100%;\n      object-fit: cover;\n      transition: transform 0.5s ease;\n    }\n\n    .ingredient-card:hover .image-container img {\n      transform: scale(1.05);\n    }\n\n    /* Overlay sombre pour le contraste du texte */\n    .overlay {\n      position: absolute;\n      top: 0;\n      left: 0;\n      width: 100%;\n      height: 100%;\n      background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.6) 70%);\n      z-index: 1;\n    }\n\n    /* Contenu texte */\n    .card-content {\n      position: absolute;\n      bottom: 0;\n      left: 0;\n      width: 100%;\n      padding: 30px 20px;\n      color: white;\n      text-align: left;\n      z-index: 2;\n    }\n\n    .card-content h3 {\n      font-size: 1.8rem;\n      margin-bottom: 10px;\n    }\n\n    .card-content p {\n      font-size: 0.95rem;\n      line-height: 1.5;\n      margin: 0;\n    }\n\n    /* Responsive amélioré */\n    @media (max-width: 992px) {\n      .cards-grid {\n        grid-template-columns: repeat(2, 1fr);\n      }\n      \n      .ingredient-card {\n        height: 400px;\n      }\n    }\n    \n    @media (max-width: 768px) {\n      .cards-grid {\n        grid-template-columns: 1fr;\n      }\n      \n      .ingredient-card {\n        height: 350px;\n      }\n      \n      .section-title {\n        font-size: 1.8rem;\n      }\n      \n      .section-subtitle {\n        font-size: 0.9rem;\n        margin-bottom: 30px;\n      }\n      \n      .card-content h3 {\n        font-size: 1.6rem;\n      }\n    }\n  </style>\n</head>\n<body>\n\n<section class=\"ingredients-section\">\n  <h2 class=\"section-title\">Effacez les rides &amp; Restaurez l'élasticité de votre peau</h2>\n  <p class=\"section-subtitle\">\n    La formule innovante d'<strong>Aureva</strong> agit grâce à une synergie d'ingrédients naturels pour des résultats visibles dès les premières applications :\n  </p>\n\n  <div class=\"cards-grid\">\n    <!-- Carte Huile d'Onagre -->\n    <div class=\"ingredient-card\">\n      <div class=\"image-container\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0932/1719/4322/files/6f6e616772656c80ab2f.jpg?v=1747334125\" alt=\"Huile d'Onagre\">\n        <div class=\"overlay\"></div>\n      </div>\n      <div class=\"card-content\">\n        <h3>Huile d'Onagre</h3>\n        <p>Raffermit visiblement les zones relâchées des bras et du cou grâce à ses acides gras essentiels qui restaurent l'élasticité cutanée.</p>\n      </div>\n    </div>\n\n    <!-- Carte Patchouli -->\n    <div class=\"ingredient-card\">\n      <div class=\"image-container\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0932/1719/4322/files/Blog_Banner_11.jpg?v=1747334125\" alt=\"Patchouli\">\n        <div class=\"overlay\"></div>\n      </div>\n      <div class=\"card-content\">\n        <h3>Patchouli</h3>\n        <p>Stimule naturellement la production de collagène, redonnant fermeté et tonicité à votre peau pour un effet lifting immédiat.</p>\n      </div>\n    </div>\n\n    <!-- Carte Rose Musquée -->\n    <div class=\"ingredient-card\">\n      <div class=\"image-container\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0932/1719/4322/files/rosa-mosqueta.jpg?v=1747334125\" alt=\"Rose Musquée\">\n        <div class=\"overlay\"></div>\n      </div>\n      <div class=\"card-content\">\n        <h3>Rose Musquée</h3>\n        <p>Régénère en profondeur les tissus cutanés abîmés grâce à ses antioxydants et acides gras qui luttent contre les signes du vieillissement.</p>\n      </div>\n    </div>\n  </div>\n</section>\n\n<script>\n  // Script pour déclencher l'animation au scroll\n  document.addEventListener('DOMContentLoaded', function() {\n    const section = document.querySelector('.ingredients-section');\n    const cards = document.querySelectorAll('.ingredient-card');\n    \n    // Fonction pour vérifier si un élément est visible dans la fenêtre\n    function isElementInViewport(el) {\n      const rect = el.getBoundingClientRect();\n      return (\n        rect.top <= (window.innerHeight || document.documentElement.clientHeight) * 0.8\n      );\n    }\n    \n    // Fonction pour appliquer les animations au scroll\n    function handleScrollAnimation() {\n      if (isElementInViewport(section)) {\n        section.style.opacity = \"1\";\n        section.style.animation = \"fadeInUp 0.8s ease forwards\";\n        \n        // Animation séquentielle des cartes\n        cards.forEach((card, index) => {\n          setTimeout(() => {\n            card.style.opacity = \"1\";\n            card.style.animation = \"fadeInUp 0.5s ease forwards\";\n          }, 200 * (index + 1));\n        });\n        \n        // Supprimer l'écouteur d'événements une fois l'animation déclenchée\n        window.removeEventListener('scroll', handleScrollAnimation);\n      }\n    }\n    \n    // Réinitialiser les styles pour l'animation\n    section.style.opacity = \"0\";\n    cards.forEach(card => {\n      card.style.opacity = \"0\";\n    });\n    \n    // Ajouter l'écouteur d'événements pour le défilement\n    window.addEventListener('scroll', handleScrollAnimation);\n    \n    // Vérifier si la section est déjà visible au chargement\n    handleScrollAnimation();\n  });\n</script>\n\n</body>\n</html>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -651,8 +597,7 @@
     "main",
     "custom_liquid_abgRUh",
     "related-products",
-    "tabs_98xgHD",
-    "custom_html_3RdLjy",
+    "custom_liquid_DGb9GB",
     "faq_8bJRUf",
     "1743462426c6107fb7"
   ]
