@@ -488,15 +488,15 @@
             "heading_tag": "h3"
           }
         },
-        "liquid_CR38fP": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Section Avantages</title>\n  <style>\n    body {\n      margin: 0;\n      padding: 0;\n      font-family: \"DM Sans\", sans-serif;\n    }\n\n    /* Section des caractéristiques */\n    .features-section {\n      display: flex;\n      justify-content: space-around;\n      align-items: center;\n      padding: 15px 20px;\n      max-width: 900px;\n      margin: 0 auto;\n    }\n\n    /* Style pour chaque item */\n    .feature-item {\n      display: flex;\n      flex-direction: column;\n      align-items: center;\n      text-align: center;\n      margin: 0 10px;\n    }\n\n    /* Style pour les icônes */\n    .icon-wrapper {\n      width: 60px;\n      height: 60px;\n      border-radius: 50%;\n      border: 1px solid #e0e0e0;\n      display: flex;\n      align-items: center;\n      justify-content: center;\n      margin-bottom: 12px;\n    }\n\n    .icon-wrapper img {\n      width: 32px;\n      height: 32px;\n      object-fit: contain;\n    }\n\n    /* Style pour le texte */\n    .feature-text {\n      font-size: 14px;\n      font-weight: 600;\n      color: #333;\n    }\n\n    /* Responsive */\n    @media (max-width: 600px) {\n      .features-section {\n        flex-direction: column;\n        gap: 20px;\n      }\n    }\n  </style>\n</head>\n<body>\n\n<div class=\"features-section\">\n  <div class=\"feature-item\">\n    <div class=\"icon-wrapper\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0932/1719/4322/files/Icons_Smoothing.jpg?v=1747329424\" alt=\"Smoothing icon\">\n    </div>\n    <span class=\"feature-text\">Lisse la peau</span>\n  </div>\n  \n  <div class=\"feature-item\">\n    <div class=\"icon-wrapper\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0932/1719/4322/files/Icons_Hydrating.jpg?v=1747329424\" alt=\"Hydrating icon\">\n    </div>\n    <span class=\"feature-text\">Hydrate en profondeur</span>\n  </div>\n  \n  <div class=\"feature-item\">\n    <div class=\"icon-wrapper\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0932/1719/4322/files/Icons_Tightening_-_Toning.jpg?v=1747329425\" alt=\"Tightening icon\">\n    </div>\n    <span class=\"feature-text\">STonifie intensément</span>\n  </div>\n</div>\n\n</body>\n</html>"
-          }
-        },
         "badges": {
           "type": "badges",
           "settings": {}
+        },
+        "liquid_L6fLwY": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Section Avantages</title>\n  <style>\n    body {\n      margin: 0;\n      padding: 0;\n      font-family: \"DM Sans\", sans-serif;\n    }\n\n    /* Section des caractéristiques */\n    .features-section {\n      display: flex;\n      justify-content: space-around;\n      align-items: center;\n      padding: 15px 20px;\n      max-width: 900px;\n      margin: 0 auto;\n    }\n\n    /* Style pour chaque item */\n    .feature-item {\n      display: flex;\n      flex-direction: column;\n      align-items: center;\n      text-align: center;\n      margin: 0 10px;\n    }\n\n    /* Style pour les icônes */\n    .icon-wrapper {\n      width: 60px;\n      height: 60px;\n      border-radius: 50%;\n      border: 1px solid #e0e0e0;\n      display: flex;\n      align-items: center;\n      justify-content: center;\n      margin-bottom: 12px;\n    }\n\n    .icon-wrapper img {\n      width: 32px;\n      height: 32px;\n      object-fit: contain;\n    }\n\n    /* Style pour le texte */\n    .feature-text {\n      font-size: 14px;\n      font-weight: 600;\n      color: #333;\n    }\n\n    /* Responsive */\n    @media (max-width: 600px) {\n      .features-section {\n        flex-direction: column;\n        gap: 20px;\n      }\n    }\n  </style>\n</head>\n<body>\n\n<div class=\"features-section\">\n  <div class=\"feature-item\">\n    <div class=\"icon-wrapper\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0932/1719/4322/files/Icons_Smoothing.jpg?v=1747329424\" alt=\"Smoothing icon\">\n    </div>\n    <span class=\"feature-text\">Lisse la peau</span>\n  </div>\n  \n  <div class=\"feature-item\">\n    <div class=\"icon-wrapper\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0932/1719/4322/files/Icons_Hydrating.jpg?v=1747329424\" alt=\"Hydrating icon\">\n    </div>\n    <span class=\"feature-text\">Hydrate en profondeur</span>\n  </div>\n  \n  <div class=\"feature-item\">\n    <div class=\"icon-wrapper\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0932/1719/4322/files/Icons_Tightening_-_Toning.jpg?v=1747329425\" alt=\"Tightening icon\">\n    </div>\n    <span class=\"feature-text\">Tonifie intensément</span>\n  </div>\n</div>\n\n</body>\n</html>"
+          }
         },
         "liquid_VLeWpF": {
           "type": "liquid",
@@ -570,8 +570,8 @@
       "block_order": [
         "liquid_TL66Pd",
         "title",
-        "liquid_CR38fP",
         "badges",
+        "liquid_L6fLwY",
         "liquid_VLeWpF",
         "liquid_Wn8UgL",
         "image_DwmHFg",
