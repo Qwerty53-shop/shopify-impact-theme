@@ -9,57 +9,133 @@
  */
 {
   "sections": {
-    "slideshow_QecyBk": {
-      "type": "slideshow",
+    "banner_YxhHLg": {
+      "type": "banner",
       "blocks": {
-        "image_6fGnwM": {
-          "type": "image",
+        "heading_4CPnYa": {
+          "type": "heading",
           "settings": {
-            "image": "shopify://shop_images/Header_image_GE_desktop_2.jpg",
-            "mobile_image": "shopify://shop_images/Header_image_GE_desktop_2.jpg",
-            "content_max_width": 720,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "",
-            "title": "Obtenez le sommeil que vous méritez",
-            "heading_tag": "h3",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "background": "",
-            "background_gradient": ""
+            "heading": "<p>Elles pensaient que c’était trop tard… jusqu’à ce qu’elles découvrent Auréva.</p>",
+            "heading_custom": false,
+            "heading_font": "josefin_sans_n4",
+            "heading_size": 32,
+            "heading_size_mobile": 22,
+            "heading_height": 130,
+            "heading_mt": 0,
+            "heading_color": "#FFFFFF"
+          }
+        },
+        "text_WdNVVA": {
+          "type": "text",
+          "settings": {
+            "text": "<p>La transformation de leur peau a changé leur quotidien, leur regard, leur confiance.</p>",
+            "text_custom": false,
+            "text_font": "josefin_sans_n4",
+            "text_size": 18,
+            "text_size_mobile": 16,
+            "text_height": 150,
+            "text_mt": 16,
+            "text_color": "#FFFFFF"
           }
         }
       },
       "block_order": [
-        "image_6fGnwM"
+        "heading_4CPnYa",
+        "text_WdNVVA"
       ],
+      "name": "SS - Parallax Banner",
       "settings": {
+        "parallax": false,
+        "parallax_mobile": false,
+        "banner_height": "adapt_first",
+        "banner_fixed_height": 650,
+        "banner_fixed_height_mobile": 500,
+        "image": "shopify://shop_images/Add_a_heading_1.png",
+        "image_mobile": "shopify://shop_images/Design_sans_titre_57e8e03d-f897-4304-bde6-d677c8314b6f.svg",
+        "overlay": 0,
+        "content_maxwidth": 65,
+        "content_maxwidth_mobile": 100,
+        "content_horizontal_position": "center",
+        "content_horizontal_position_mobile": "center",
+        "content_vertical_position": "center",
+        "content_vertical_position_mobile": "center",
+        "content_padding_vertical": 32,
+        "content_padding_vertical_mobile": 20,
+        "content_padding_horizontal": 20,
+        "content_padding_horizontal_mobile": 20,
+        "overlay_color": "#000000",
+        "background_color": "#FFFFFF",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
         "full_width": true,
-        "allow_transparent_header": false,
-        "image_size": "auto",
-        "controls_type": "numbers",
-        "transition_type": "fade_with_text",
-        "autoplay": true,
-        "cycle_speed": 6,
-        "background": "#f2f2f2",
-        "background_gradient": ""
+        "content_width": 120,
+        "border_thickness": 0,
+        "lazy": true
       }
     },
-    "custom_liquid_WmBJGp": {
-      "type": "custom-liquid",
+    "logo_list_JqCiXz": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_Brbjew": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Elle.png",
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "logo_BLnqHE": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Comopolitan_Magazine_Logo_svg.png",
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "logo_UaLVyb": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/logo-seo.png",
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "logo_fPa9ep": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/1200px-VOGUE_revista_-_logo.png",
+            "logo_width": 120,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_Brbjew",
+        "logo_BLnqHE",
+        "logo_UaLVyb",
+        "logo_fPa9ep"
+      ],
+      "name": "Logo list",
       "settings": {
         "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<style>\n  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');\n\n  .logo-section {\n    text-align: center;\n    margin-bottom: 25px; /* Espacement entre le titre et les logos */\n  }\n\n  .logo-title {\n    font-size: 32px; /* Taille du titre */\n    font-weight: 600;\n    color: black;\n    font-family: 'Poppins', sans-serif; /* Police modernisée */\n    text-transform: none; /* Garde \"Vu sur\" avec la bonne casse */\n    letter-spacing: 2px;\n    margin-bottom: 20px; /* Espacement entre le titre et les logos */\n  }\n\n  .logo-slider {\n    display: flex;\n    overflow: hidden;\n    position: relative;\n    width: 100%;\n    padding: 20px 0;\n    background: white;\n  }\n\n  .logo-track {\n    display: flex;\n    gap: 30px; /* Espacement entre les logos */\n    animation: scroll 15s linear infinite;\n    white-space: nowrap;\n  }\n\n  @keyframes scroll {\n    from {\n      transform: translateX(0);\n    }\n    to {\n      transform: translateX(-50%);\n    }\n  }\n\n  .logo-item {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    background-color: #24421F; /* Fond vert */\n    padding: 20px;\n    width: 180px; /* Taille du conteneur */\n    height: 100px;\n  }\n\n  .logo-item img {\n    max-height: 60px;\n    max-width: 140px;\n    object-fit: contain;\n  }\n\n  .logo-slider img {\n    max-height: 80px; /* Ajustez la taille des logos selon vos préférences */\n    filter: brightness(0) invert(1); /* Applique un effet de contraste pour que les logos ressortent sur fond foncé */\n  }\n\n  /* Style pour le texte du titre \"Vu sur\" */\n  .logo-title-text {\n    font-size: 28px; /* Augmente la taille du texte */\n    color: black; /* Texte en noir */\n    font-family: 'Poppins', sans-serif;\n    text-align: center;\n    font-weight: 600;\n    margin-bottom: 25px;\nmargin-top:25px;\n  }\n</style>\n\n<div class=\"logo-section\">\n  <!-- Titre remplacé par \"Vu sur\" -->\n  <div class=\"logo-title-text\">\n    Vu sur\n  </div>\n\n  <div class=\"logo-slider\">\n    <div class=\"logo-track\">\n      <!-- Ajoute ici tes 8 logos -->\n      <div class=\"logo-item\"><img src=\"https://puregroundingusa.com/cdn/shop/files/2_300x300.png?v=1726926103\" alt=\"Logo 1\"></div>\n      <div class=\"logo-item\"><img src=\"https://puregroundingusa.com/cdn/shop/files/1_300x300.png?v=1726925964\" alt=\"Logo 2\"></div>\n      <div class=\"logo-item\"><img src=\"https://puregroundingusa.com/cdn/shop/files/nbc_300x300.png?v=1726926103\" alt=\"Logo 3\"></div>\n      <div class=\"logo-item\"><img src=\"https://upload.wikimedia.org/wikipedia/fr/thumb/a/a8/Logo-doctissimo.svg/357px-Logo-doctissimo.svg.png?20210806174559\" alt=\"Logo 4\"></div>\n      <div class=\"logo-item\"><img src=\"https://groundluxe.com/cdn/shop/files/forbeslogoblacktransparent-1-1661520004453_x30.png?v=1670926492\" alt=\"Logo 5\"></div>\n      <div class=\"logo-item\"><img src=\"https://groundluxe.com/cdn/shop/files/2560px-Business_Insider_Logo_svg_x30.png?v=1713353256\" alt=\"Logo 6\"></div>\n      <div class=\"logo-item\"><img src=\"https://groundluxe.com/cdn/shop/files/HuffPost_x30.png?v=1713353661\" alt=\"Logo 7\"></div>\n      <div class=\"logo-item\"><img src=\"https://groundluxe.com/cdn/shop/files/Entrepreneur__magazine__logo_2012_svg_x30.png?v=1713353841\" alt=\"Logo 8\"></div>\n      <div class=\"logo-item\"><img src=\"https://groundluxe.com/cdn/shop/files/vw_mind_main_logo11661520004455removebgpreview-1663527384072_x30.png?v=1670926505\" alt=\"Logo 9\"></div>\n\n      <!-- Duplication pour effet de défilement infini -->\n      <div class=\"logo-item\"><img src=\"https://puregroundingusa.com/cdn/shop/files/2_300x300.png?v=1726926103\" alt=\"Logo 1\"></div>\n      <div class=\"logo-item\"><img src=\"https://puregroundingusa.com/cdn/shop/files/1_300x300.png?v=1726925964\" alt=\"Logo 2\"></div>\n      <div class=\"logo-item\"><img src=\"https://puregroundingusa.com/cdn/shop/files/nbc_300x300.png?v=1726926103\" alt=\"Logo 3\"></div>\n      <div class=\"logo-item\"><img src=\"https://upload.wikimedia.org/wikipedia/fr/thumb/a/a8/Logo-doctissimo.svg/357px-Logo-doctissimo.svg.png?20210806174559\" alt=\"Logo 4\"></div>\n      <div class=\"logo-item\"><img src=\"https://groundluxe.com/cdn/shop/files/forbeslogoblacktransparent-1-1661520004453_x30.png?v=1670926492\" alt=\"Logo 5\"></div>\n      <div class=\"logo-item\"><img src=\"https://groundluxe.com/cdn/shop/files/2560px-Business_Insider_Logo_svg_x30.png?v=1713353256\" alt=\"Logo 6\"></div>\n      <div class=\"logo-item\"><img src=\"https://groundluxe.com/cdn/shop/files/HuffPost_x30.png?v=1713353661\" alt=\"Logo 7\"></div>\n      <div class=\"logo-item\"><img src=\"https://groundluxe.com/cdn/shop/files/Entrepreneur__magazine__logo_2012_svg_x30.png?v=1713353841\" alt=\"Logo 8\"></div>\n      <div class=\"logo-item\"><img src=\"https://groundluxe.com/cdn/shop/files/vw_mind_main_logo11661520004455removebgpreview-1663527384072_x30.png?v=1670926505\" alt=\"Logo 9\"></div>\n    </div>\n  </div>\n</div>",
+        "stack_mobile": true,
+        "title": "Vu sur",
+        "content": "",
+        "text_alignment": "center",
+        "items_per_row": 5,
         "background": "",
         "background_gradient": "",
-        "text_color": ""
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "#ffffff",
+        "logo_item_border": ""
       }
     },
     "custom_html_VbgxKT": {
@@ -71,7 +147,7 @@
         "full_width": true,
         "remove_vertical_spacing": true,
         "remove_horizontal_spacing": true,
-        "html": "<p style=\"text-align: center\">Pourquoi tous les experts du sommeil conseillent Vitalsleep ?</p>",
+        "html": "<!-- Titre de section bénéfices Auréva -->\n<section class=\"aureva-title\">\n  <h2>Pourquoi des milliers de femmes disent qu’Auréva fait mieux que leur crème de dermato ?</h2>\n</section>\n\n<style>\n.aureva-title {\n  padding: 2rem 1rem 0.5rem; /* padding haut & sides, peu en bas */\n  background-color: #ffffff;\n  text-align: center;\n  margin: 0 auto;\n  max-width: 900px;\n}\n\n.aureva-title h2 {\n  font-family: 'Playfair Display', serif;\n  font-size: 1.6rem;\n  font-weight: 700;\n  color: #3a1e13;\n  line-height: 1.4;\n  margin-bottom: 0.5rem;\n}\n\n@media (min-width: 768px) {\n  .aureva-title h2 {\n    font-size: 2.1rem;\n  }\n}\n</style>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -85,8 +161,8 @@
         "banner_height": "adapt_first",
         "banner_fixed_height": 910,
         "banner_fixed_height_mobile": 400,
-        "image": "shopify://shop_images/Votre_texte_de_paragraphe_29.jpg",
-        "image_mobile": "shopify://shop_images/Votre_texte_de_paragraphe_1300_x_1500_px_17.jpg",
+        "image": "shopify://shop_images/crea_desktop.svg",
+        "image_mobile": "shopify://shop_images/crea_mobile.svg",
         "overlay": 0,
         "content_maxwidth": 65,
         "content_maxwidth_mobile": 100,
@@ -114,37 +190,26 @@
         "lazy": true
       }
     },
-    "before_after_image_B6Rzfw": {
-      "type": "before-after-image",
-      "settings": {
-        "full_width": true,
-        "subheading": "Passez de nuits agitées à un sommeil réparateur avec notre technologie de mise à la terre.",
-        "title": "",
-        "content": "",
-        "before_image": "shopify://shop_images/SANS_MISE_A_LA_TERRE.jpg",
-        "after_image": "shopify://shop_images/SANS_MISE_A_LA_TERRE.jpg",
-        "expand_image": false,
-        "text_position": "center",
-        "before_after_text_position": "top",
-        "before_text": "Avant",
-        "after_text": "Après",
-        "drag_initial_position": 50,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "before_text_color": "#000000",
-        "after_text_color": "#000000",
-        "drag_cursor_background": "#ffffff",
-        "drag_cursor_color": "#000000"
-      }
-    },
     "custom_liquid_yQybCR": {
       "type": "custom-liquid",
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "liquid": "<style>\n  /* CSS pour la section de notation des avis */\n  .rating-section {\n    text-align: center;\n    padding: 20px;\n    background-color: #ffff;\n  }\n\n  .rating-section h2 {\n    font-size: 24px;\n    font-weight: bold;\n    margin-bottom: 10px;\n    color: #333;\n  }\n\n  .rating-section .rating-text {\n    font-size: 18px;\n    color: #333;\n  }\n\n  .rating-section .rating-number {\n    font-size: 22px;\n    font-weight: bold;\n    color: #333;\n  }\n\n  .rating-section .stars {\n    margin-top: 10px;\n    display: flex;\n    justify-content: center;\n    gap: 5px;\n  }\n\n  .rating-section .stars svg {\n    width: 32px;\n    height: 32px;\n    fill: #00b67a; /* Couleur verte des étoiles */\n  }\n\n  .rating-section .reviews-count {\n    font-size: 16px;\n    color: #666;\n    margin-top: 10px;\n  }\n\n</style>\n\n<div class=\"rating-section\">\n  <!-- Titre de la section -->\n  <h2>Nos clients en parlent le mieux</h2>\n\n  <!-- Texte de la notation -->\n  <div class=\"rating-text\">\n    <span>Excellent</span>\n    <span class=\"rating-number\">4.8</span>\n    <span>/ 5</span>\n  </div>\n\n  <!-- Étoiles de notation -->\n  <div class=\"stars\">\n    <svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect width=\"32\" height=\"32\" fill=\"#00b67a\"></rect>\n      <path d=\"M9.20283 27L16.001 21.807L22.7972 27L20.2018 18.596L27 13.403H18.5984L16.001 5L13.4037 13.403H5L11.7982 18.596L9.20283 27Z\" fill=\"#ffffff\"></path>\n    </svg>\n    <svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect width=\"32\" height=\"32\" fill=\"#00b67a\"></rect>\n      <path d=\"M9.20283 27L16.001 21.807L22.7972 27L20.2018 18.596L27 13.403H18.5984L16.001 5L13.4037 13.403H5L11.7982 18.596L9.20283 27Z\" fill=\"#ffffff\"></path>\n    </svg>\n    <svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect width=\"32\" height=\"32\" fill=\"#00b67a\"></rect>\n      <path d=\"M9.20283 27L16.001 21.807L22.7972 27L20.2018 18.596L27 13.403H18.5984L16.001 5L13.4037 13.403H5L11.7982 18.596L9.20283 27Z\" fill=\"#ffffff\"></path>\n    </svg>\n    <svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect width=\"32\" height=\"32\" fill=\"#00b67a\"></rect>\n      <path d=\"M9.20283 27L16.001 21.807L22.7972 27L20.2018 18.596L27 13.403H18.5984L16.001 5L13.4037 13.403H5L11.7982 18.596L9.20283 27Z\" fill=\"#ffffff\"></path>\n    </svg>\n    <svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <rect width=\"32\" height=\"32\" fill=\"#00b67a\"></rect>\n      <path d=\"M9.20283 27L16.001 21.807L22.7972 27L20.2018 18.596L27 13.403H18.5984L16.001 5L13.4037 13.403H5L11.7982 18.596L9.20283 27Z\" fill=\"#ffffff\"></path>\n    </svg>\n  </div>\n\n  <!-- Nombre d'avis -->\n  <div class=\"reviews-count\">\n    <p>basé sur +<strong>1 067</strong> avis</p>\n  </div>\n</div>",
+        "liquid": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "custom_liquid_NPdW9r": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div class=\"rating-section\">\n  <!-- Titre de la section -->\n  <h2>Nos clientes en parlent le mieux</h2>\n\n  <!-- Texte de la notation -->\n  <div class=\"rating-text\">\n    <span>Excellent</span>\n    <span class=\"rating-number\">4.8</span>\n    <span>/ 5</span>\n  </div>\n\n  <!-- Étoiles de notation -->\n  <div class=\"stars\">\n    <svg viewBox=\"0 0 32 32\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"32\" height=\"32\" fill=\"#00b67a\"></rect><path d=\"M9.2 27L16 21.8 22.8 27l-2.6-8.4L27 13.4h-8.4L16 5l-2.6 8.4H5l6.8 5.2L9.2 27z\" fill=\"#fff\"></path></svg>\n    <svg viewBox=\"0 0 32 32\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"32\" height=\"32\" fill=\"#00b67a\"></rect><path d=\"M9.2 27L16 21.8 22.8 27l-2.6-8.4L27 13.4h-8.4L16 5l-2.6 8.4H5l6.8 5.2L9.2 27z\" fill=\"#fff\"></path></svg>\n    <svg viewBox=\"0 0 32 32\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"32\" height=\"32\" fill=\"#00b67a\"></rect><path d=\"M9.2 27L16 21.8 22.8 27l-2.6-8.4L27 13.4h-8.4L16 5l-2.6 8.4H5l6.8 5.2L9.2 27z\" fill=\"#fff\"></path></svg>\n    <svg viewBox=\"0 0 32 32\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"32\" height=\"32\" fill=\"#00b67a\"></rect><path d=\"M9.2 27L16 21.8 22.8 27l-2.6-8.4L27 13.4h-8.4L16 5l-2.6 8.4H5l6.8 5.2L9.2 27z\" fill=\"#fff\"></path></svg>\n    <svg viewBox=\"0 0 32 32\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"32\" height=\"32\" fill=\"#00b67a\"></rect><path d=\"M9.2 27L16 21.8 22.8 27l-2.6-8.4L27 13.4h-8.4L16 5l-2.6 8.4H5l6.8 5.2L9.2 27z\" fill=\"#fff\"></path></svg>\n  </div>\n</div>\n\n<style>\n.rating-section {\n  text-align: center;\n  padding: 20px 20px 10px;\n  background-color: #ffffff;\n  margin: 30px auto 10px;\n}\n\n.rating-section h2 {\n  font-size: 24px;\n  font-weight: bold;\n  margin-bottom: 10px;\n  color: #333;\n}\n\n.rating-section .rating-text {\n  font-size: 18px;\n  color: #333;\n}\n\n.rating-section .rating-number {\n  font-size: 22px;\n  font-weight: bold;\n  color: #333;\n}\n\n.rating-section .stars {\n  margin-top: 10px;\n  display: flex;\n  justify-content: center;\n  gap: 5px;\n}\n\n.rating-section .stars svg {\n  width: 22px;\n  height: 22px;\n  fill: #00b67a;\n}\n</style>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -156,11 +221,11 @@
         "item_3crifh": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/m4_1.jpg",
+            "image": "shopify://shop_images/avant.svg",
             "column_size": "3",
-            "title": "Richard V.",
-            "heading_tag": "h4",
-            "content": "<p>Le coucher et le réveil étaient vraiment pénibles pour mon cou et mon dos, et j'étais constamment raide ! Depuis que je dors avec ce drap ,je constate une nette amélioration et un regain d'énergie tout au long de la journée.</p>",
+            "title": "Caroline R.",
+            "heading_tag": "h6",
+            "content": "<p>J’étais sceptique, et pourtant… Ma peau est plus élastique, plus douce, plus belle. Auréva a clairement boosté ma confiance<br/><br/></p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -169,11 +234,11 @@
         "item_RWDwW8": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Screenshot_2024-07-03_004649_d88087ce-36b8-4e37-8adb-78535c95b214.jpg",
+            "image": "shopify://shop_images/avis_2_e072c652-b3e2-4250-8215-69bda217900b.svg",
             "column_size": "3",
             "title": "Julie L.",
-            "heading_tag": "h4",
-            "content": "<p>Je dors tellement mieux depuis que j'utilise ces draps. Le confort est incroyable et je me réveille vraiment reposé.</p>",
+            "heading_tag": "h6",
+            "content": "<p>J’étais sceptique, et pourtant… Ma peau est plus élastique, plus douce, plus belle. Auréva a clairement boosté ma confiance.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -182,11 +247,11 @@
         "item_dVE4WU": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/ggkzaeupnwx01_667cd17f-ff35-42cc-b39d-5cf64e3773ae.jpg",
+            "image": "shopify://shop_images/avis_3_d5b5e1b7-a007-410f-8ad2-e659f7a5a760.svg",
             "column_size": "3",
             "title": "Sophie M.",
-            "heading_tag": "h4",
-            "content": "<p>Mes douleurs au dos ont diminué depuis que j’ai commencé à utiliser cette housse. Je me sens beaucoup plus relaxé chaque matin.</p>",
+            "heading_tag": "h6",
+            "content": "<p>Je ne pensais pas trouver un produit qui réponde à mes attentes pour ma peau mature. Après quelques semaines d'utilisation de l'huile Auréva, je vois une nette amélioration de la texture de ma peau, particulièrement sur mes bras et mes jambes.<br/><br/></p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -195,10 +260,10 @@
         "item_t3ttFt": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/videoframe_804-min_1_b748561d-cccf-4683-8faf-62bd48147d2e.png",
+            "image": "shopify://shop_images/avis_4_39a74a83-64ae-4ee3-9ad0-9e7d0c47753a.svg",
             "column_size": "3",
             "title": "Christina B.",
-            "heading_tag": "h4",
+            "heading_tag": "h6",
             "content": "<p>Ces draps ont changé ma manière de dormir. Je recommande vivement à tous ceux qui ont des problèmes de sommeil.</p>",
             "link_url": "",
             "link_text": "",
@@ -208,10 +273,10 @@
         "item_jackHT": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/sss_5adbc27a-feec-4c2d-9209-dad4130d7b10.jpg",
+            "image": "shopify://shop_images/avant_600_x_600_px_1000_x_1000_px_500_x_500_px.png",
             "column_size": "3",
-            "title": "Michelle R.",
-            "heading_tag": "h4",
+            "title": "Emma L.",
+            "heading_tag": "h6",
             "content": "<p>Ma fille me l'a offert il y a quelques semaines en disant que c'était pour m'aider à dormir. Au début, j'ai trouvé ça bizarre, mais j'ai été bluffée : maintenant, je dors beaucoup mieux. J'aurais aimé l'avoir plus tôt !</p>",
             "link_url": "",
             "link_text": "",
@@ -221,10 +286,10 @@
         "item_T3Ghpk": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/m2_80b4df8d-14a8-4a36-a2f5-4206e0ac602d.jpg",
+            "image": "shopify://shop_images/WhatsApp_Image_2025-05-15_a_15.38.44_233d47f0.jpg",
             "column_size": "3",
-            "title": "Luc T.",
-            "heading_tag": "h4",
+            "title": "Isabelle T.",
+            "heading_tag": "h6",
             "content": "<p>Je souffre de douleurs arthritiques aux genoux et aux jambes depuis deux ans maintenant. Après avoir dormi sur ces draps, je suis étonné de constater à quel point je me sens mieux au réveil.</p>",
             "link_url": "",
             "link_text": "",
@@ -611,12 +676,12 @@
     }
   },
   "order": [
-    "slideshow_QecyBk",
-    "custom_liquid_WmBJGp",
+    "banner_YxhHLg",
+    "logo_list_JqCiXz",
     "custom_html_VbgxKT",
     "banner_ahHpTT",
-    "before_after_image_B6Rzfw",
     "custom_liquid_yQybCR",
+    "custom_liquid_NPdW9r",
     "multi_column_JwggXQ",
     "main",
     "related-products",
