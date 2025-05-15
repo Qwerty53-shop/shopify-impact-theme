@@ -460,6 +460,7 @@
     },
     "related-products": {
       "type": "related-products",
+      "disabled": true,
       "settings": {
         "recommendations_count": 6,
         "products": [],
@@ -595,9 +596,9 @@
     "custom_liquid_NPdW9r",
     "multi_column_JwggXQ",
     "main",
+    "custom_liquid_DGb9GB",
     "custom_liquid_abgRUh",
     "related-products",
-    "custom_liquid_DGb9GB",
     "faq_8bJRUf",
     "1743462426c6107fb7"
   ]
