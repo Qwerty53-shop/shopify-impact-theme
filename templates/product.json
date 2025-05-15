@@ -15,7 +15,7 @@
         "heading_4CPnYa": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Elles pensaient que c’était trop tard… jusqu’à ce qu’elles découvrent Auréva.</p>",
+            "heading": "<p>Chaque goutte réveille ce que l’âge avait endormi.</p>",
             "heading_custom": false,
             "heading_font": "josefin_sans_n4",
             "heading_size": 32,
@@ -24,24 +24,10 @@
             "heading_mt": 0,
             "heading_color": "#ffffff"
           }
-        },
-        "text_WdNVVA": {
-          "type": "text",
-          "settings": {
-            "text": "<p>La transformation de leur peau a changé leur quotidien, leur regard, leur confiance.</p>",
-            "text_custom": false,
-            "text_font": "josefin_sans_n4",
-            "text_size": 18,
-            "text_size_mobile": 16,
-            "text_height": 150,
-            "text_mt": 16,
-            "text_color": "#ffffff"
-          }
         }
       },
       "block_order": [
-        "heading_4CPnYa",
-        "text_WdNVVA"
+        "heading_4CPnYa"
       ],
       "name": "SS - Parallax Banner",
       "settings": {
