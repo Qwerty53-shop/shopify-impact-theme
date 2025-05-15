@@ -139,6 +139,7 @@
     },
     "custom_html_bdTEDF": {
       "type": "custom-html",
+      "disabled": true,
       "custom_css": [
         "p {font-size: 28px; margin-top: 28px; margin-bottom: 28px;}"
       ],
