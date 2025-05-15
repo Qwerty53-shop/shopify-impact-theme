@@ -691,43 +691,43 @@
         "166442457738b23caf-0": {
           "type": "item",
           "settings": {
-            "title": "Comment tester notre drap Vitalsleep™",
-            "content": "<p>Pour vérifier si votre produit Vitalsleep™ fonctionne, vous aurez besoin d'un multimètre ou d'un voltmètre, que vous pouvez acheter dans n'importe quel magasin de bricolage.</p><p>Cet appareil mesurera la tension de votre corps. Si les produits de mise à la terre fonctionnent correctement, votre tension corporelle diminuera lorsque vous placerez une partie de votre corps sur le tapis ou la feuille.</p>"
+            "title": "Est-ce que cette huile fonctionne vraiment pour raffermir la peau ?",
+            "content": "<p>Oui, l'huile de corps raffermissante Auréva est formulée avec des ingrédients actifs tels que le collagène et l'élastine, qui sont essentiels pour maintenir la fermeté et l'élasticité de la peau. Ces composants aident à améliorer la texture de la peau et à réduire l'apparence des zones relâchées.<br/><br/></p>"
           }
         },
         "166442457738b23caf-1": {
           "type": "item",
           "settings": {
-            "title": "Les produits de mise à la terre émettent-ils des champs électromagnétiques (CEM) ou des champs magnétiques ?",
-            "content": "<p>Non, les produits de mise à la terre n'émettent aucune radiation CEM, ni champ magnétique ou électrique. Cela s'explique par le fait qu'ils n'utilisent pas d'électricité active et se connectent uniquement à la terre.</p>"
+            "title": "Combien de temps faut-il pour voir des résultats ?",
+            "content": "<p>Les résultats peuvent varier selon les individus, mais beaucoup d'utilisatrices rapportent une amélioration de la fermeté et de l'hydratation de leur peau après quelques semaines d'utilisation régulière. Pour des résultats optimaux, il est recommandé d'appliquer l'huile quotidiennement et de l'associer à un massage pour stimuler la circulation.<br/><br/></p>"
           }
         },
         "166442457738b23caf-2": {
           "type": "item",
           "settings": {
-            "title": "En combien de temps vais-je ressentir les effets ?",
-            "content": "<p>Les bienfaits se font sentir naturellement :</p><p>✓ Premiers effets (1-3 nuits) :<br/>- Sommeil plus profond<br/>- Réveil plus facile- Sensation de repos</p><p>✓ Effets à moyen terme (2-4 semaines) :<br/>- Meilleure récupération<br/>- Plus d'énergie au quotidien<br/>- Réduction du stress<br/>- Diminution des inflammations<br/>- Renforcement du système immunitaire<br/>- Meilleure circulation sanguine- Régulation du rythme circadien</p><p>Essai sans risque pendant 90 jours</p>"
+            "title": "L'huile est-elle adaptée aux peaux sensibles",
+            "content": "<p>Oui, l'huile Auréva est conçue pour être douce et convient aux peaux sensibles. Elle est formulée sans ingrédients agressifs et contient des huiles naturelles qui nourrissent la peau sans provoquer d'irritations.<br/><br/></p>"
           }
         },
         "item_fLF8X6": {
           "type": "item",
           "settings": {
-            "title": "Comment entretenir mon drap ?",
-            "content": "<p>Un entretien simple pour préserver l'efficacité :<br/><br/>✓ Lavage :<br/>- Lavage en machine à 30°C maximum<br/>- Programme délicat<br/>- Sans adoucissant<br/><br/>✓ À éviter :<br/>- Le sèche-linge<br/>- Le repassage sur les zones conductrices<br/>- Les produits blanchissants<br/><br/>Séchage naturel recommandé</p>"
+            "title": "Peut-on l'utiliser sur tout le corps ?",
+            "content": "<p>Absolument. L'huile est idéale pour une application sur tout le corps, y compris les zones sujettes au relâchement cutané comme les bras, les cuisses, le ventre et le décolleté. Elle pénètre rapidement sans laisser de film gras, rendant la peau douce et lisse.<br/><br/></p>"
           }
         },
         "item_cbkgm9": {
           "type": "item",
           "settings": {
-            "title": "Est-ce sûr pour ma santé ?",
-            "content": "<p>Votre sécurité est notre priorité :<br/><br/>✓ Fonctionnement 100% naturel :<br/>- Aucun courant électrique ne circule<br/>- Simple connexion à la terre<br/>- Comme dormir sur la plage<br/><br/>✓ Qualité certifiée :<br/>- Coton bio hypoallergénique<br/>- Testé dermatologiquement<br/>- Conforme aux normes européennes<br/>- Idéal pour les personnes sensibles aux CEM<br/>- Peut réduire l'impact des appareils électroniques<br/><br/>En cas de doute, consultez votre médecin</p>"
+            "title": "Comment l'appliquer pour de meilleurs résultats ?",
+            "content": "<p>Pour maximiser les bienfaits de l'huile, appliquez-la sur une peau propre et légèrement humide après la douche. Massez doucement en mouvements circulaires jusqu'à absorption complète. Ce rituel favorise la pénétration des actifs et stimule la microcirculation, renforçant ainsi l'effet raffermissant.<br/><br/></p>"
           }
         },
         "item_CBjUWG": {
           "type": "item",
           "settings": {
-            "title": "Puis-je utiliser des appareils électroniques dans mon lit ?",
-            "content": "<p>Oui, vous pouvez utiliser vos appareils, mais voici nos recommandations :<br/><br/>✓ Pour un sommeil optimal :<br/>- Gardez les appareils à 30 cm minimum du drap<br/>- Évitez de poser les appareils directement sur le drap<br/>- Privilégiez le mode avion la nuit<br/><br/>✓ Avantages :<br/>- Le drap peut réduire l'impact des ondes électromagnétiques<br/>- Protection naturelle pendant votre sommeil<br/>- Améliore la qualité du repos<br/><br/>Idéalement, éloignez les appareils du lit pour un sommeil plus réparateur</p>"
+            "title": "L'huile laisse-t-elle une sensation grasse sur la peau ?",
+            "content": "<p>Non, l'huile Auréva est formulée pour une absorption rapide et ne laisse pas de résidu gras. Elle hydrate en profondeur tout en laissant la peau soyeuse et confortable.</p>"
           }
         }
       },
