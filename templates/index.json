@@ -15,19 +15,33 @@
         "heading_8dpniF": {
           "type": "heading",
           "settings": {
-            "heading": "",
+            "heading": "<p>Elles pensaient que c’était trop tard… jusqu’à ce qu’elles découvrent Auréva<br/><br/></p>",
             "heading_custom": false,
             "heading_font": "josefin_sans_n4",
-            "heading_size": 40,
-            "heading_size_mobile": 30,
+            "heading_size": 32,
+            "heading_size_mobile": 22,
             "heading_height": 130,
             "heading_mt": 0,
             "heading_color": "#ffffff"
           }
+        },
+        "text_fBdJey": {
+          "type": "text",
+          "settings": {
+            "text": "<p>La transformation de leur peau a changé leur quotidien, leur regard, leur confiance.<br/><br/></p>",
+            "text_custom": false,
+            "text_font": "josefin_sans_n4",
+            "text_size": 18,
+            "text_size_mobile": 16,
+            "text_height": 150,
+            "text_mt": 16,
+            "text_color": "#ffffff"
+          }
         }
       },
       "block_order": [
-        "heading_8dpniF"
+        "heading_8dpniF",
+        "text_fBdJey"
       ],
       "settings": {
         "parallax": false,
@@ -135,6 +149,19 @@
         "heading_gradient": "",
         "logo_item_background": "#ffffff",
         "logo_item_border": ""
+      }
+    },
+    "custom_liquid_iXWNtP": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<!-- Titre de section bénéfices Auréva -->\n<section class=\"aureva-title\">\n  <h2>Pourquoi des milliers de femmes disent qu’Auréva fait mieux que leur crème de dermato&nbsp;?</h2>\n</section>\n\n<style>\n.aureva-title {\n  padding: 2rem 1rem 0.5rem; /* padding haut & sides, peu en bas */\n  background-color: #ffffff;\n  text-align: center;\n  margin: 0 auto;\n  max-width: 900px;\n}\n\n.aureva-title h2 {\n  font-family: 'Playfair Display', serif;\n  font-size: 1.6rem;\n  font-weight: 700;\n  color: #3a1e13;\n  line-height: 1.4;\n  margin-bottom: 0.5rem;\n}\n\n@media (min-width: 768px) {\n  .aureva-title h2 {\n    font-size: 2.1rem;\n  }\n}\n</style>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "custom_html_bdTEDF": {
@@ -266,9 +293,9 @@
           "settings": {
             "image": "shopify://shop_images/avant.svg",
             "column_size": "3",
-            "title": "Richard V.",
-            "heading_tag": "h4",
-            "content": "<p>Le coucher et le réveil étaient vraiment pénibles pour mon cou et mon dos, et j'étais constamment raide ! Depuis que je dors avec ce drap  ,je constate une nette amélioration et un regain d'énergie tout au long de la journée.</p>",
+            "title": "Caroline R.",
+            "heading_tag": "h6",
+            "content": "<p>J’étais sceptique, et pourtant… Ma peau est plus élastique, plus douce, plus belle. Auréva a clairement boosté ma confiance<br/><br/></p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -280,8 +307,8 @@
             "image": "shopify://shop_images/avis_2_e072c652-b3e2-4250-8215-69bda217900b.svg",
             "column_size": "3",
             "title": "Julie L.",
-            "heading_tag": "h4",
-            "content": "<p>Je dors tellement mieux depuis que j'utilise ces draps. Le confort est incroyable et je me réveille vraiment reposé.</p>",
+            "heading_tag": "h6",
+            "content": "<p>Auréva est la seule huile qui m’a vraiment convaincue : elle raffermit, illumine, et ne laisse aucun film gras. Je l’utilise tous les jours.<br/><br/></p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -293,8 +320,8 @@
             "image": "shopify://shop_images/avis_3_d5b5e1b7-a007-410f-8ad2-e659f7a5a760.svg",
             "column_size": "3",
             "title": "Sophie M.",
-            "heading_tag": "h4",
-            "content": "<p>Mes douleurs au dos ont diminué depuis que j’ai commencé à utiliser cette housse. Je me sens beaucoup plus relaxé chaque matin.</p>",
+            "heading_tag": "h6",
+            "content": "<p>Je ne pensais pas trouver un produit qui réponde à mes attentes pour ma peau mature. Après quelques semaines d'utilisation de l'huile Auréva, je vois une nette amélioration de la texture de ma peau, particulièrement sur mes bras et mes jambes.<br/><br/></p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -305,9 +332,9 @@
           "settings": {
             "image": "shopify://shop_images/avis_4_39a74a83-64ae-4ee3-9ad0-9e7d0c47753a.svg",
             "column_size": "3",
-            "title": "Christina B.",
-            "heading_tag": "h4",
-            "content": "<p>Ces draps ont changé ma manière de dormir. Je recommande vivement à tous ceux qui ont des problèmes de sommeil.</p>",
+            "title": "Sophie G.",
+            "heading_tag": "h6",
+            "content": "<p>Ma peau manquait de fermeté, surtout sur les bras et cuisses. En quelques semaines, l'huile Auréva a tout changé : elle est tonique, douce… et moi, plus confiante que jamais<br/><br/></p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -318,9 +345,9 @@
           "settings": {
             "image": "shopify://shop_images/avant_600_x_600_px_1000_x_1000_px_500_x_500_px.png",
             "column_size": "3",
-            "title": "Michelle R.",
-            "heading_tag": "h4",
-            "content": "<p>Ma fille me l'a offert il y a quelques semaines en disant que c'était pour m'aider à dormir. Au début, j'ai trouvé ça bizarre, mais j'ai été bluffée : maintenant, je dors beaucoup mieux. J'aurais aimé l'avoir plus tôt !</p>",
+            "title": "Emma L.",
+            "heading_tag": "h6",
+            "content": "<p>Après une grosse perte de poids, ma peau était sèche et terne. L’huile Auréva l’a rendue douce, souple, lumineuse. Un vrai soin, devenu indispensable<br/><br/></p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -329,11 +356,11 @@
         "item_n9UibB": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/m2_80b4df8d-14a8-4a36-a2f5-4206e0ac602d.jpg",
+            "image": "shopify://shop_images/WhatsApp_Image_2025-05-15_a_15.38.44_233d47f0.jpg",
             "column_size": "3",
-            "title": "Luc T.",
-            "heading_tag": "h4",
-            "content": "<p>Je souffre de douleurs arthritiques aux genoux et aux jambes depuis deux ans maintenant. Après avoir dormi sur ces draps, je suis étonné de constater à quel point je me sens mieux au réveil.</p>",
+            "title": "Isabelle T.",
+            "heading_tag": "h6",
+            "content": "<p>Depuis la cinquantaine, ma peau me complexait. Avec Auréva, elle est plus ferme, plus lisse. Je me sens enfin bien dans mon corps<br/><br/></p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -658,18 +685,6 @@
         "text_color": ""
       }
     },
-    "custom_liquid_96Rzcg": {
-      "type": "custom-liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<div class=\"content-wrapper\">\n  <div class=\"content-inner\">\n    <div class=\"text-container\">\n      <h2 class=\"content-title\">Pourquoi dormir connecté à la Terre ?</h2>\n      <p class=\"content-text\">\n        Des études scientifiques montrent que marcher pieds nus sur la Terre ou dormir connecté à elle peut favoriser une meilleure qualité de sommeil en réduisant le stress et en équilibrant votre énergie.\n      </p>\n      <p class=\"disclaimer\">\n        *Ces informations se basent sur des <a href=\"https://grounding-sheet.com/pages/etudes-scientifiques\" target=\"_blank\">études scientifiques</a>.\n      </p>\n    </div>\n\n    <div class=\"image-container\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0684/6572/1513/files/BringingYourStoriestoLight1-ezgif.com-png-to-webp-converter.webp?v=1739072060\" alt=\"Thermographie de la Terre\" class=\"main-image\">\n    </div>\n  </div>\n</div>\n\n<style>\n  .content-wrapper {\n    max-width: 1200px;\n    margin: 0 auto;\n    padding: 20px;\n    font-family: 'Lato', sans-serif;\n    background-color: #f7f7f7;\n    border-radius: 8px;\n  }\n\n  .content-inner {\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: space-between;\n    align-items: center;\n    opacity: 0;\n    animation: fadeIn 1s ease-out forwards;\n  }\n\n  .text-container {\n    flex: 1;\n    padding-right: 20px;\n    animation: slideInLeft 1s ease-out forwards;\n  }\n\n  .content-title {\n    font-size: 28px;\n    color: #333;\n    margin-bottom: 10px;\n    text-align: left;\n    opacity: 0;\n    animation: fadeIn 1s ease-out 0.5s forwards;\n  }\n\n  .content-text {\n    font-size: 16px;\n    color: #555;\n    line-height: 1.6;\n    text-align: justify;\n    margin-bottom: 20px;\n    opacity: 0;\n    animation: fadeIn 1s ease-out 1s forwards;\n  }\n\n  .disclaimer {\n    font-size: 12px;\n    color: #777;\n  }\n\n  .text-container a {\n    color: #4CAF50;\n    text-decoration: none;\n  }\n\n  .text-container a:hover {\n    text-decoration: underline;\n  }\n\n  .image-container {\n    flex: 1;\n    padding-left: 20px;\n    opacity: 0;\n    animation: slideInRight 1s ease-out forwards;\n  }\n\n  .main-image {\n    width: 100%;\n    border-radius: 8px;\n  }\n\n  @media (max-width: 768px) {\n    .content-inner {\n      flex-direction: column;\n      align-items: center;\n    }\n\n    .text-container {\n      padding-right: 0;\n      padding-left: 0;\n    }\n\n    .image-container {\n      padding-left: 0;\n    }\n  }\n\n  @keyframes fadeIn {\n    0% { opacity: 0; }\n    100% { opacity: 1; }\n  }\n\n  @keyframes slideInLeft {\n    0% { transform: translateX(-50%); opacity: 0; }\n    100% { transform: translateX(0); opacity: 1; }\n  }\n\n  @keyframes slideInRight {\n    0% { transform: translateX(50%); opacity: 0; }\n    100% { transform: translateX(0); opacity: 1; }\n  }\n</style>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "faq": {
       "type": "faq",
       "blocks": {
@@ -767,6 +782,7 @@
     "banner_76Hbw4",
     "slideshow",
     "logo_list_TgC8yg",
+    "custom_liquid_iXWNtP",
     "custom_html_bdTEDF",
     "slideshow_QYyeay",
     "banner_9y3YTF",
@@ -781,7 +797,6 @@
     "custom_html_Qf4A8z",
     "custom_liquid_AqMGYA",
     "custom_liquid_Dmfnd4",
-    "custom_liquid_96Rzcg",
     "faq",
     "17434367067b748db4"
   ]
