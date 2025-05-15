@@ -15,7 +15,7 @@
         "heading_8dpniF": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Elles pensaient que c’était trop tard… jusqu’à ce qu’elles découvrent Auréva<br/><br/></p>",
+            "heading": "<p>Elles pensaient que c’était trop tard… jusqu’à ce qu’elles découvrent Auréva.</p>",
             "heading_custom": false,
             "heading_font": "josefin_sans_n4",
             "heading_size": 32,
@@ -240,7 +240,7 @@
         "full_width": true,
         "remove_vertical_spacing": true,
         "remove_horizontal_spacing": false,
-        "html": "<p style=\"text-align: center\">Elles en parlent le mieux</p>",
+        "html": "<div class=\"rating-section\">\n  <!-- Titre de la section -->\n  <h2>Nos clientes en parlent le mieux</h2>\n\n  <!-- Texte de la notation -->\n  <div class=\"rating-text\">\n    <span>Excellent</span>\n    <span class=\"rating-number\">4.8</span>\n    <span>/ 5</span>\n  </div>\n\n  <!-- Étoiles de notation -->\n  <div class=\"stars\">\n    <svg viewbox=\"0 0 32 32\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"32\" height=\"32\" fill=\"#00b67a\"></rect><path d=\"M9.2 27L16 21.8 22.8 27l-2.6-8.4L27 13.4h-8.4L16 5l-2.6 8.4H5l6.8 5.2L9.2 27z\" fill=\"#fff\"></path></svg>\n    <svg viewbox=\"0 0 32 32\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"32\" height=\"32\" fill=\"#00b67a\"></rect><path d=\"M9.2 27L16 21.8 22.8 27l-2.6-8.4L27 13.4h-8.4L16 5l-2.6 8.4H5l6.8 5.2L9.2 27z\" fill=\"#fff\"></path></svg>\n    <svg viewbox=\"0 0 32 32\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"32\" height=\"32\" fill=\"#00b67a\"></rect><path d=\"M9.2 27L16 21.8 22.8 27l-2.6-8.4L27 13.4h-8.4L16 5l-2.6 8.4H5l6.8 5.2L9.2 27z\" fill=\"#fff\"></path></svg>\n    <svg viewbox=\"0 0 32 32\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"32\" height=\"32\" fill=\"#00b67a\"></rect><path d=\"M9.2 27L16 21.8 22.8 27l-2.6-8.4L27 13.4h-8.4L16 5l-2.6 8.4H5l6.8 5.2L9.2 27z\" fill=\"#fff\"></path></svg>\n    <svg viewbox=\"0 0 32 32\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"32\" height=\"32\" fill=\"#00b67a\"></rect><path d=\"M9.2 27L16 21.8 22.8 27l-2.6-8.4L27 13.4h-8.4L16 5l-2.6 8.4H5l6.8 5.2L9.2 27z\" fill=\"#fff\"></path></svg>\n  </div>\n</div>\n\n<style>\n.rating-section {\n  text-align: center;\n  padding: 20px 20px 10px;\n  background-color: #ffffff;\n  margin: 30px auto 10px;\n}\n\n.rating-section h2 {\n  font-size: 24px;\n  font-weight: bold;\n  margin-bottom: 10px;\n  color: #333;\n}\n\n.rating-section .rating-text {\n  font-size: 18px;\n  color: #333;\n}\n\n.rating-section .rating-number {\n  font-size: 22px;\n  font-weight: bold;\n  color: #333;\n}\n\n.rating-section .stars {\n  margin-top: 10px;\n  display: flex;\n  justify-content: center;\n  gap: 5px;\n}\n\n.rating-section .stars svg {\n  width: 22px;\n  height: 22px;\n  fill: #00b67a;\n}\n</style>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -319,7 +319,7 @@
           "settings": {
             "image": "shopify://shop_images/avis_3_d5b5e1b7-a007-410f-8ad2-e659f7a5a760.svg",
             "column_size": "3",
-            "title": "Sophie M.",
+            "title": "Caroline M.",
             "heading_tag": "h6",
             "content": "<p>Je ne pensais pas trouver un produit qui réponde à mes attentes pour ma peau mature. Après quelques semaines d'utilisation de l'huile Auréva, je vois une nette amélioration de la texture de ma peau, particulièrement sur mes bras et mes jambes.<br/><br/></p>",
             "link_url": "",
@@ -495,7 +495,7 @@
         "liquid_VLeWpF": {
           "type": "liquid",
           "settings": {
-            "liquid": "<div class=\"price-container\">\n  <span class=\"current-price\"> 49,99€ </span>\n  <span class=\"original-price\">99,99€ </span>\n</div>\n\n<style>\n  .price-container {\n    display: flex;\n    align-items: center;\n    gap: 8px;\n   cabin;\n  }\n  \n  .current-price {\n    font-size: 22px;\n    font-weight: bold;\n    color: #000000;\n  }\n  \n  .original-price {\n    font-size: 17px;\n    color: #777;\n    text-decoration: line-through;\n  }\n</style>"
+            "liquid": "<div class=\"price-container\">\n  <span class=\"current-price\"> 44,90€ </span>\n  <span class=\"original-price\">99,99€ </span>\n</div>\n\n<style>\n  .price-container {\n    display: flex;\n    align-items: center;\n    gap: 8px;\n   cabin;\n  }\n  \n  .current-price {\n    font-size: 22px;\n    font-weight: bold;\n    color: #000000;\n  }\n  \n  .original-price {\n    font-size: 17px;\n    color: #777;\n    text-decoration: line-through;\n  }\n</style>"
           }
         },
         "liquid_Wn8UgL": {
