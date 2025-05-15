@@ -649,18 +649,6 @@
         "heading_gradient": ""
       }
     },
-    "custom_html_Qf4A8z": {
-      "type": "custom-html",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "html": "<h1 style=\"text-align: center; font-size: 36px; margin-bottom: 0px;\">Comment ça marche ?</h1>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "custom_liquid_AqMGYA": {
       "type": "custom-liquid",
       "settings": {
@@ -794,7 +782,6 @@
     "multi_column_GxHNtk",
     "featured-product",
     "tabs_JWmpBg",
-    "custom_html_Qf4A8z",
     "custom_liquid_AqMGYA",
     "custom_liquid_Dmfnd4",
     "faq",
