@@ -231,6 +231,39 @@
         "lazy": true
       }
     },
+    "rich_text_trdwPN": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_kr6t4W": {
+          "type": "heading",
+          "settings": {
+            "text": "Une peau plus lisse, une apparence plus éclatante",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_CJRG74": {
+          "type": "richtext",
+          "settings": {
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_kr6t4W",
+        "richtext_CJRG74"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "custom_liquid_JdVDdr": {
       "type": "custom-liquid",
       "name": "Custom Liquid",
@@ -924,6 +957,7 @@
     "custom_html_bdTEDF",
     "slideshow_QYyeay",
     "banner_9y3YTF",
+    "rich_text_trdwPN",
     "custom_liquid_JdVDdr",
     "custom_html_CVVrHh",
     "custom_liquid_azdXEk",
