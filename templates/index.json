@@ -15,7 +15,7 @@
         "heading_8dpniF": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Elles pensaient que c’était trop tard… jusqu’à ce qu’elles découvrent Auréva.</p>",
+            "heading": "<p>Redeviens jeune comme à tes 20 ans. Une goutte suffit pour faire reculer le temps</p>",
             "heading_custom": false,
             "heading_font": "josefin_sans_n4",
             "heading_size": 32,
@@ -24,24 +24,10 @@
             "heading_mt": 0,
             "heading_color": "#ffffff"
           }
-        },
-        "text_fBdJey": {
-          "type": "text",
-          "settings": {
-            "text": "<p>La transformation de leur peau a changé leur quotidien, leur regard, leur confiance.<br/><br/></p>",
-            "text_custom": false,
-            "text_font": "josefin_sans_n4",
-            "text_size": 18,
-            "text_size_mobile": 16,
-            "text_height": 150,
-            "text_mt": 16,
-            "text_color": "#ffffff"
-          }
         }
       },
       "block_order": [
-        "heading_8dpniF",
-        "text_fBdJey"
+        "heading_8dpniF"
       ],
       "settings": {
         "parallax": false,
@@ -158,7 +144,7 @@
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "liquid": "<!-- Titre de section bénéfices Auréva -->\n<section class=\"aureva-title\">\n  <h2>Pourquoi des milliers de femmes disent qu’Auréva fait mieux que leur crème de dermato&nbsp;?</h2>\n</section>\n\n<style>\n.aureva-title {\n  padding: 2rem 1rem 0.5rem; /* padding haut & sides, peu en bas */\n  background-color: #ffffff;\n  text-align: center;\n  margin: 0 auto;\n  max-width: 900px;\n}\n\n.aureva-title h2 {\n  font-family: 'Playfair Display', serif;\n  font-size: 1.6rem;\n  font-weight: 700;\n  color: #3a1e13;\n  line-height: 1.4;\n  margin-bottom: 0.5rem;\n}\n\n@media (min-width: 768px) {\n  .aureva-title h2 {\n    font-size: 2.1rem;\n  }\n}\n</style>",
+        "liquid": "<!-- Titre de section bénéfices Auréva -->\n<section class=\"aureva-title\">\n  <h2>Pourquoi Pourquoi tout les dermatologues nous recommandent?</h2>\n</section>\n\n<style>\n.aureva-title {\n  padding: 2rem 1rem 0.5rem; /* padding haut & sides, peu en bas */\n  background-color: #ffffff;\n  text-align: center;\n  margin: 0 auto;\n  max-width: 900px;\n}\n\n.aureva-title h2 {\n  font-family: 'Playfair Display', serif;\n  font-size: 1.6rem;\n  font-weight: 700;\n  color: #00000;\n  line-height: 1.4;\n  margin-bottom: 0.5rem;\n}\n\n@media (min-width: 768px) {\n  .aureva-title h2 {\n    font-size: 2.1rem;\n  }\n}\n</style>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -535,10 +521,31 @@
             "liquid": "<div class=\"payment-logos-container\">\n    <!-- Visa -->\n    <img class=\"payment-logo\" src=\"data:image/svg+xml,%3Csvg width='780' height='500' enable-background='new 0 0 780 500' version='1.1' viewBox='0 0 780 500' xml:space='preserve' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M40,0h700c22.092,0,40,17.909,40,40v420c0,22.092-17.908,40-40,40H40c-22.091,0-40-17.908-40-40V40 C0,17.909,17.909,0,40,0z' fill='%230E4595'/%3E%3Cpath d='m293.2 348.73l33.361-195.76h53.36l-33.385 195.76h-53.336zm246.11-191.54c-10.57-3.966-27.137-8.222-47.822-8.222-52.725 0-89.865 26.55-90.18 64.603-0.299 28.13 26.514 43.822 46.752 53.186 20.771 9.595 27.752 15.714 27.654 24.283-0.131 13.121-16.586 19.116-31.922 19.116-21.357 0-32.703-2.967-50.227-10.276l-6.876-3.11-7.489 43.823c12.463 5.464 35.51 10.198 59.438 10.443 56.09 0 92.5-26.246 92.916-66.882 0.199-22.269-14.016-39.216-44.801-53.188-18.65-9.055-30.072-15.099-29.951-24.268 0-8.137 9.668-16.839 30.557-16.839 17.449-0.27 30.09 3.535 39.938 7.5l4.781 2.26 7.232-42.429m137.31-4.223h-41.232c-12.773 0-22.332 3.487-27.941 16.234l-79.244 179.4h56.031s9.16-24.123 11.232-29.418c6.125 0 60.555 0.084 68.338 0.084 1.596 6.853 6.49 29.334 6.49 29.334h49.514l-43.188-195.64zm-65.418 126.41c4.412-11.279 21.26-54.723 21.26-54.723-0.316 0.522 4.379-11.334 7.074-18.684l3.605 16.879s10.219 46.729 12.354 56.528h-44.293zm-363.3-126.41l-52.24 133.5-5.567-27.13c-9.725-31.273-40.025-65.155-73.898-82.118l47.766 171.2 56.456-0.064 84.004-195.39h-56.521' fill='%23fff'/%3E%3Cpath d='m146.92 152.96h-86.041l-0.681 4.073c66.938 16.204 111.23 55.363 129.62 102.41l-18.71-89.96c-3.23-12.395-12.597-16.094-24.186-16.527' fill='%23F2AE14'/%3E%3C/svg%3E\" alt=\"Visa\">\n    <!-- Mastercard -->\n    <img class=\"payment-logo\" src=\"data:image/svg+xml,%3Csvg width='780' height='500' enable-background='new 0 0 780 500' version='1.1' viewBox='0 0 780 500' xml:space='preserve' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M40,0h700c22.092,0,40,17.909,40,40v420c0,22.092-17.908,40-40,40H40c-22.091,0-40-17.908-40-40V40 C0,17.909,17.909,0,40,0z' fill='%2316366F'/%3E%3Cpath d='m449.01 250c0 99.143-80.37 179.5-179.51 179.5s-179.5-80.361-179.5-179.5c0-99.133 80.362-179.5 179.5-179.5 99.137 0 179.51 80.37 179.51 179.5' fill='%23D9222A'/%3E%3Cpath d='m510.49 70.496c-46.38 0-88.643 17.596-120.5 46.466-6.49 5.889-12.548 12.237-18.125 18.996h36.266c4.966 6.037 9.536 12.388 13.685 19.013h-63.635c-3.827 6.121-7.28 12.469-10.341 19.008h84.312c2.893 6.185 5.431 12.53 7.6 19.004h-99.512c-2.091 6.235-3.832 12.581-5.217 19.009h109.94c2.689 12.49 4.044 25.231 4.041 38.008 0 19.934-3.254 39.113-9.254 57.02h-99.512c2.164 6.479 4.7 12.825 7.595 19.01h84.317c-3.064 6.54-6.52 12.889-10.347 19.013h-63.625c4.154 6.629 8.73 12.979 13.685 18.996h36.258c-5.57 6.772-11.63 13.126-18.13 19.012 31.86 28.867 74.118 46.454 120.5 46.454 99.138-1e-3 179.51-80.362 179.51-179.5 0-99.13-80.37-179.5-179.51-179.5' fill='%23EE9F2D'/%3E%3C/svg%3E\" alt=\"Mastercard\">\n    <!-- PayPal -->\n    <img class=\"payment-logo\" src=\"https://www.paypalobjects.com/webstatic/mktg/logo/pp_cc_mark_111x69.jpg\" alt=\"PayPal\">\n    <!-- Apple Pay -->\n    <img class=\"payment-logo\" src=\"https://icons.veryicon.com/png/o/business/third-party-sharing-payment/apple-pay.png\">\n    <!-- Google Pay -->\n    <img class=\"payment-logo\" src=\"https://cdn.shopify.com/s/files/1/0932/1719/4322/files/Google_Pay_Logo_svg.png?v=1743348768\" alt=\"Google Pay\">\n   \n   \n\n<style>\n    .payment-logos-container {\n        display: flex;\n        justify-content: center;\n        gap: 10px;\n        margin-top: 20px;\n        flex-wrap: wrap;\n    }\n\n    .payment-logo {\n        width: 35px; /* Réduit la taille des logos */\n        height: auto;\n        object-fit: contain;\n    }\n</style>"
           }
         },
+        "collapsible_text_6iwDje": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Ingrédients",
+            "content": "<p><strong>Une huile corporelle luxueuse qui vous fera sentir comme une reine. Composée de 7 huiles naturelles pressées à froid et d'un parfum envoûtant, elle rend votre peau rebondie, éclatante et ferme, tout en la nourrissant intensément.</strong></p><p><strong>Les meilleurs ingrédients. Purs, non raffinés et issus de sources éthiques.</strong></p><ul><li><strong>Huile d'amande douce</strong> - lisse et hydrate en profondeur</li><li><strong>Huile d'onagre</strong> - raffermit et augmente l'élasticité</li><li><strong>Rose musquée</strong> - régénère et repulpe la peau</li><li><strong>Vitamine E</strong> - protège la peau des rayons du soleil</li><li><strong>Géranium</strong> - raffermit et revitalise</li><li><strong>Lavande</strong> - calme l'inflammation tout en favorisant la guérison</li><li><strong>Patchouli</strong> - stimule la production naturelle de collagène et lisse la peau</li></ul>"
+          }
+        },
+        "collapsible_text_x9eWmk": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Comment l'utiliser",
+            "content": "<p>Utilisez l'huile corporelle une fois par jour. Appliquez-la sur une peau propre et sèche. Massez délicatement l'huile sur votre peau et continuez jusqu'à absorption complète.</p>"
+          }
+        },
+        "collapsible_text_wiczCU": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Livraison à domicile",
+            "content": "<p>La livraison gratuite à domicile est gratuite. Selon le volume de commandes à traiter, le délai de livraison est estimé entre 8 et 12 jours ouvrés.</p>"
+          }
+        },
         "liquid_mQDYcJ": {
           "type": "liquid",
           "settings": {
-            "liquid": "<style>\n    body {\n      margin: 0;\n      padding: 0;\n      font-family: \"DM Sans\", sans-serif;\n      background-color: #f9f9f9;\n    }\n\n    .results-section {\n      max-width: 1280px;\n      margin: 40px auto;\n      padding: 20px;\n    }\n\n    .results-card {\n      background-color: #ffffff;\n      border-radius: 10px;\n      padding: 20px 25px;\n      box-shadow: 0 5px 15px rgba(255, 255, 255, 0.8), 0 0 15px rgba(0, 0, 0, 0.05);\n      position: relative;\n      overflow: hidden;\n      max-width: 430px;\n    }\n\n    .badge {\n      position: absolute;\n      top: 15px;\n      left: 15px;\n      display: flex;\n      align-items: center;\n    }\n\n    .badge img {\n      width: 50px;\n      height: 50px;\n    }\n\n    .headline {\n      font-size: 1.25rem;\n      font-weight: 700;\n      margin: 0 0 10px 0;\n      color: #000;\n      padding-left: 60px;\n    }\n\n    .description {\n      font-size: 0.9rem;\n      color: #555;\n      margin-bottom: 15px;\n      line-height: 1.5;\n    }\n\n    .highlight {\n      font-weight: <!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Section de résultats de produit</title>\n  <style>\n    body {\n      margin: 0;\n      padding: 0;\n      font-family: \"DM Sans\", sans-serif;\n      background-color: #f9f9f9;\n    }\n\n    .results-section {\n      max-width: 1280px;\n      margin: 40px auto;\n      padding: 20px;\n    }\n\n    .results-card {\n      background-color: #ffffff;\n      border-radius: 10px;\n      padding: 20px 25px;\n      box-shadow: 0 5px 15px rgba(255, 255, 255, 0.8), 0 0 15px rgba(0, 0, 0, 0.05);\n      position: relative;\n      overflow: hidden;\n      max-width: 430px;\n    }\n\n    .badge {\n      display: flex;\n      align-items: center;\n      margin-bottom: 15px;\n    }\n\n    .badge img {\n      width: 40px;\n      height: 40px;\n      margin-right: 10px;\n    }\n\n    .headline {\n      font-size: 1.25rem;\n      font-weight: 700;\n      margin: 0 0 10px 0;\n      color: #000;\n    }\n\n    .description {\n      font-size: 0.9rem;\n      color: #555;\n      margin-bottom: 15px;\n      line-height: 1.5;\n    }\n\n    .highlight {\n      font-weight: 700;\n      color: #333;\n    }\n\n    .statistic {\n      font-size: 0.9rem;\n      color: #555;\n      margin-bottom: 5px;\n      line-height: 1.5;\n    }\n\n    .study-note {\n      font-size: 0.75rem;\n      color: #888;\n      font-style: italic;\n    }\n  </style>\n</head>\n<body>\n\n<div class=\"results-section\">\n  <div class=\"results-card\">\n    <h2 class=\"headline\">#1  Huile Raffermissante en Europe!</h2>\n    <p class=\"description\">\"Une peau plus ferme en 3 minutes ! L'huile corporelle d'Aureva lisse et raffermit immédiatement le contour des bras, atténuant relâchement et rides.\"</p>\n    <p class=\"statistic\"><span class=\"highlight\">100% des utilisatrices</span> ont constaté un raffermissement visible en seulement <span class=\"highlight\">3 minutes</span> <span class=\"study-note\">(étude clinique réalisée auprès de 25 femmes âgées de 35 à 65 ans)</span></p>\n    \n    <div class=\"badge\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0932/1719/4322/files/winner.webp?v=1747350380\" alt=\"Badge numéro 1\" width=\"40\" height=\"40\">\n    </div>\n  </div>\n</div>\n\n</body>\n</html>"
+            "liquid": "<style>\n    body {\n      margin: 0;\n      padding: 0;\n      font-family: \"DM Sans\", sans-serif;\n      background-color: #f9f9f9;\n    }\n\n    .results-section {\n      max-width: 1280px;\n      margin: 40px auto;\n      padding: 20px;\n    }\n\n    .results-card {\n      background-color: #ffffff;\n      border-radius: 10px;\n      padding: 20px 25px;\n      box-shadow: 0 5px 15px rgba(255, 255, 255, 0.8), 0 0 15px rgba(0, 0, 0, 0.05);\n      position: relative;\n      overflow: hidden;\n      max-width: 430px;\n    }\n\n    .badge {\n      position: absolute;\n      top: 15px;\n      left: 15px;\n      display: flex;\n      align-items: center;\n    }\n\n    .badge img {\n      width: 50px;\n      height: 50px;\n    }\n\n    .headline {\n      font-size: 1.25rem;\n      font-weight: 700;\n      margin: 0 0 10px 0;\n      color: #000;\n      padding-left: 60px;\n    }\n\n    .description {\n      font-size: 0.9rem;\n      color: #555;\n      margin-bottom: 15px;\n      line-height: 1.5;\n    }\n\n    .highlight {\n      font-weight: <!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Section de résultats de produit</title>\n  <style>\n    body {\n      margin: 0;\n      padding: 0;\n      font-family: \"DM Sans\", sans-serif;\n      background-color: #f9f9f9;\n    }\n\n    .results-section {\n      max-width: 1280px;\n      margin: 40px auto;\n      padding: 20px;\n    }\n\n    .results-card {\n      background-color: #ffffff;\n      border-radius: 10px;\n      padding: 20px 25px;\n      box-shadow: 0 5px 15px rgba(255, 255, 255, 0.8), 0 0 15px rgba(0, 0, 0, 0.05);\n      position: relative;\n      overflow: hidden;\n      max-width: 430px;\n    }\n\n    .badge {\n      display: flex;\n      align-items: center;\n      margin-bottom: 15px;\n    }\n\n    .badge img {\n      width: 30px;\n      height: 30px;\n      margin-right: 10px;\n    }\n\n    .headline {\n      font-size: 1.25rem;\n      font-weight: 700;\n      margin: 0 0 10px 0;\n      color: #000;\n    }\n\n    .description {\n      font-size: 0.9rem;\n      color: #555;\n      margin-bottom: 15px;\n      line-height: 1.5;\n    }\n\n    .highlight {\n      font-weight: 700;\n      color: #333;\n    }\n\n    .statistic {\n      font-size: 0.9rem;\n      color: #555;\n      margin-bottom: 5px;\n      line-height: 1.5;\n    }\n\n    .study-note {\n      font-size: 0.75rem;\n      color: #888;\n      font-style: italic;\n    }\n  </style>\n</head>\n<body>\n\n<div class=\"results-section\">\n  <div class=\"results-card\">\n    <h2 class=\"headline\">#1  Huile Raffermissante en Europe!</h2>\n    <p class=\"description\"></p>\n    <p class=\"statistic\"><span class=\"highlight\"></span></p>\n    \n    <div class=\"badge\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0932/1719/4322/files/winner.webp?v=1747350380\" alt=\"Badge numéro 1\" width=\"40\" height=\"40\">\n    </div>\n  </div>\n</div>\n\n</body>\n</html>"
           }
         },
         "rating": {
@@ -577,6 +584,9 @@
         "kaching_bundles_app_block_hikxdA",
         "buy-buttons",
         "liquid_iGMA7G",
+        "collapsible_text_6iwDje",
+        "collapsible_text_x9eWmk",
+        "collapsible_text_wiczCU",
         "liquid_mQDYcJ",
         "rating",
         "description",
