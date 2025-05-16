@@ -137,14 +137,28 @@
         "logo_item_border": ""
       }
     },
-    "custom_liquid_iXWNtP": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
+    "rich_text_NYyfLb": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_4E3ghr": {
+          "type": "heading",
+          "settings": {
+            "text": "Pourquoi les dermatologues en parlent le mieux",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_4E3ghr"
+      ],
+      "custom_css": [],
+      "name": "Rich text",
       "settings": {
         "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<!-- Titre de section bénéfices Auréva -->\n<section class=\"aureva-title\">\n  <h2>Pourquoi Pourquoi tout les dermatologues nous recommandent?</h2>\n</section>\n\n<style>\n.aureva-title {\n  padding: 2rem 1rem 0.5rem; /* padding haut & sides, peu en bas */\n  background-color: #ffffff;\n  text-align: center;\n  margin: 0 auto;\n  max-width: 900px;\n}\n\n.aureva-title h2 {\n  font-family: 'Playfair Display', serif;\n  font-size: 1.6rem;\n  font-weight: 700;\n  color: #00000;\n  line-height: 1.4;\n  margin-bottom: 0.5rem;\n}\n\n@media (min-width: 768px) {\n  .aureva-title h2 {\n    font-size: 2.1rem;\n  }\n}\n</style>",
+        "content_width": "small",
+        "text_position": "center",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -207,7 +221,7 @@
         "border_color": "#000000",
         "margin_top": 0,
         "margin_bottom": 0,
-        "padding_top": 36,
+        "padding_top": 0,
         "padding_bottom": 36,
         "padding_horizontal": 5,
         "padding_horizontal_mobile": 1.5,
@@ -812,7 +826,7 @@
     "banner_76Hbw4",
     "slideshow",
     "logo_list_TgC8yg",
-    "custom_liquid_iXWNtP",
+    "rich_text_NYyfLb",
     "custom_html_bdTEDF",
     "slideshow_QYyeay",
     "banner_9y3YTF",
