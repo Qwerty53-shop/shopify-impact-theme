@@ -757,7 +757,7 @@
       "type": "banner",
       "settings": {
         "parallax": false,
-        "parallax_mobile": true,
+        "parallax_mobile": false,
         "banner_height": "fixed_height",
         "banner_fixed_height": 770,
         "banner_fixed_height_mobile": 660,
