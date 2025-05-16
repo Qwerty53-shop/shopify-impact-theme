@@ -18,7 +18,7 @@
           "type": "item",
           "settings": {
             "icon": "picto-box",
-            "custom_icon": "shopify://shop_images/boite-de-livraison.png",
+            "custom_icon": "shopify://shop_images/paquet.png",
             "mobile_icon_width": 24,
             "icon_width": 60,
             "icon_background_type": "none",
@@ -32,7 +32,7 @@
           "type": "item",
           "settings": {
             "icon": "picto-customer-support",
-            "custom_icon": "shopify://shop_images/contour-du-bouton-circulaire-fleche-droite.png",
+            "custom_icon": "shopify://shop_images/remboursement.png",
             "mobile_icon_width": 24,
             "icon_width": 60,
             "icon_background_type": "none",
@@ -46,7 +46,7 @@
           "type": "item",
           "settings": {
             "icon": "picto-coupon",
-            "custom_icon": "shopify://shop_images/casque-avec-microphone_1.png",
+            "custom_icon": "shopify://shop_images/casque-avec-microphone.png",
             "mobile_icon_width": 24,
             "icon_width": 60,
             "icon_background_type": "none",
@@ -60,7 +60,7 @@
           "type": "item",
           "settings": {
             "icon": "picto-lock",
-            "custom_icon": "shopify://shop_images/cadenas_1.png",
+            "custom_icon": "shopify://shop_images/cadenas.png",
             "mobile_icon_width": 24,
             "icon_width": 60,
             "icon_background_type": "none",
