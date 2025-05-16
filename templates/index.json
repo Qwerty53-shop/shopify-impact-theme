@@ -15,9 +15,9 @@
         "heading_8dpniF": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Redeviens jeune comme à tes 20 ans. Une goutte suffit pour faire reculer le temps</p>",
-            "heading_custom": false,
-            "heading_font": "josefin_sans_n4",
+            "heading": "<p><strong>Peau flasque et relachée ? Faites la disparaitre définitivement !</strong></p>",
+            "heading_custom": true,
+            "heading_font": "cabin_n4",
             "heading_size": 32,
             "heading_size_mobile": 22,
             "heading_height": 130,
