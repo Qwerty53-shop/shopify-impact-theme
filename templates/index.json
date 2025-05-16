@@ -202,8 +202,8 @@
         "banner_height": "fixed_height",
         "banner_fixed_height": 770,
         "banner_fixed_height_mobile": 210,
-        "image": "shopify://shop_images/crea_desktop.svg",
-        "image_mobile": "shopify://shop_images/crea_mobile.svg",
+        "image": "shopify://shop_images/desk_2.svg",
+        "image_mobile": "shopify://shop_images/mobile_2.svg",
         "overlay": 0,
         "content_maxwidth": 65,
         "content_maxwidth_mobile": 100,
@@ -912,7 +912,7 @@
             "heading_size_mobile": 30,
             "heading_height": 130,
             "heading_mt": 0,
-            "heading_color": "#FFFFFF"
+            "heading_color": "#ffffff"
           }
         },
         "text_MkWJxq": {
@@ -925,7 +925,7 @@
             "text_size_mobile": 16,
             "text_height": 150,
             "text_mt": 16,
-            "text_color": "#FFFFFF"
+            "text_color": "#ffffff"
           }
         },
         "button_8UpeBD": {
@@ -949,8 +949,8 @@
             "button_ellipse": false,
             "button_shadow": false,
             "button_style": "outline",
-            "button_color": "#FFFFFF",
-            "button_hover_color": "#FFFFFF",
+            "button_color": "#ffffff",
+            "button_hover_color": "#ffffff",
             "button_bg_color": "#000000",
             "button_bg_hover_color": "#000000",
             "button_border_color": "#000000",
@@ -983,7 +983,7 @@
         "content_padding_horizontal": 20,
         "content_padding_horizontal_mobile": 20,
         "overlay_color": "#000000",
-        "background_color": "#FFFFFF",
+        "background_color": "#ffffff",
         "background_gradient": "",
         "border_color": "#000000",
         "margin_top": 0,
