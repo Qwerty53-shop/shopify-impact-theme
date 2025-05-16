@@ -545,21 +545,28 @@
           "type": "collapsible_text",
           "settings": {
             "title": "Ingrédients",
-            "content": "<p><strong>Une huile corporelle luxueuse qui vous fera sentir comme une reine. Composée de 7 huiles naturelles pressées à froid et d'un parfum envoûtant, elle rend votre peau rebondie, éclatante et ferme, tout en la nourrissant intensément.</strong></p><p><strong>Les meilleurs ingrédients. Purs, non raffinés et issus de sources éthiques.</strong></p><ul><li><strong>Huile d'amande douce</strong> - lisse et hydrate en profondeur</li><li><strong>Huile d'onagre</strong> - raffermit et augmente l'élasticité</li><li><strong>Rose musquée</strong> - régénère et repulpe la peau</li><li><strong>Vitamine E</strong> - protège la peau des rayons du soleil</li><li><strong>Géranium</strong> - raffermit et revitalise</li><li><strong>Lavande</strong> - calme l'inflammation tout en favorisant la guérison</li><li><strong>Patchouli</strong> - stimule la production naturelle de collagène et lisse la peau</li></ul>"
+            "content": "<p>Une huile corporelle luxueuse qui <strong>vous fera sentir comme une reine.</strong> Composée de<strong> 7 huiles naturelles pressées à froid</strong> et d'un parfum envoûtant, elle rend votre peau <strong>rebondie, éclatante et ferme</strong>, tout en la nourrissant intensément.</p><p>Les meilleurs ingrédients purs, non raffinés et issus de sources éthiques<strong>.</strong></p><ul><li><strong>Huile d'amande douce</strong> - lisse et hydrate en profondeur</li><li><strong>Huile d'onagre</strong> - raffermit et augmente l'élasticité</li><li><strong>Rose musquée</strong> - régénère et repulpe la peau</li><li><strong>Vitamine E</strong> - protège la peau des rayons du soleil</li><li><strong>Géranium</strong> - raffermit et revitalise</li><li><strong>Lavande</strong> - calme l'inflammation tout en favorisant la guérison</li><li><strong>Patchouli</strong> - stimule la production naturelle de collagène et lisse la peau</li></ul>"
           }
         },
         "collapsible_text_x9eWmk": {
           "type": "collapsible_text",
           "settings": {
             "title": "Comment l'utiliser",
-            "content": "<p>Utilisez l'huile corporelle une fois par jour. Appliquez-la sur une peau propre et sèche. Massez délicatement l'huile sur votre peau et continuez jusqu'à absorption complète.</p>"
+            "content": "<p>Utilisez l'huile corporelle <strong>une fois par jour</strong>. Appliquez-la sur une <strong>peau propre et sèche</strong>. Massez délicatement l'huile sur votre peau et continuez<strong> jusqu'à absorption complète</strong>.</p>"
           }
         },
         "collapsible_text_wiczCU": {
           "type": "collapsible_text",
           "settings": {
             "title": "Livraison à domicile",
-            "content": "<p>La livraison gratuite à domicile est gratuite. Selon le volume de commandes à traiter, le délai de livraison est estimé entre 8 et 12 jours ouvrés.</p>"
+            "content": "<p>La <strong>livraison gratuite</strong> à domicile est <strong>gratuite</strong>. Selon le volume de commandes à traiter, le délai de livraison est <strong>estimé entre 8 et 12 jours ouvrés.</strong></p>"
+          }
+        },
+        "collapsible_text_LHW4Td": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "30 jours Satistait ou Remboursé",
+            "content": "<p>Essayer l'huile Aureva sans risque <strong>pendant 30 jours</strong>. Si vous n'êtes pas satisfait vous avez la possibilité de demander <strong>un remboursement intégral</strong>.</p>"
           }
         },
         "rating": {
@@ -602,6 +609,7 @@
         "collapsible_text_6iwDje",
         "collapsible_text_x9eWmk",
         "collapsible_text_wiczCU",
+        "collapsible_text_LHW4Td",
         "rating",
         "description",
         "variant-picker"
