@@ -21,7 +21,6 @@
         },
         "checkout_button": {
           "type": "checkout_button",
-          "disabled": true,
           "settings": {}
         }
       },
@@ -29,7 +28,6 @@
         "totals",
         "checkout_button"
       ],
-      "disabled": true,
       "settings": {
         "show_shipping_estimator": false,
         "show_payment_icons": true
