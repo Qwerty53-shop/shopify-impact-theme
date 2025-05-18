@@ -33,7 +33,7 @@
         "parallax": false,
         "parallax_mobile": false,
         "banner_height": "fixed_height",
-        "banner_fixed_height": 650,
+        "banner_fixed_height": 750,
         "banner_fixed_height_mobile": 500,
         "image": "shopify://shop_images/Add_a_heading_1.png",
         "image_mobile": "shopify://shop_images/Design_sans_titre_57e8e03d-f897-4304-bde6-d677c8314b6f.svg",
