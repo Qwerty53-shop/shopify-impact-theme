@@ -21,6 +21,7 @@
         },
         "checkout_button": {
           "type": "checkout_button",
+          "disabled": true,
           "settings": {}
         }
       },
