@@ -319,9 +319,11 @@
             "heading_tag": "h3"
           }
         },
-        "badges": {
-          "type": "badges",
-          "settings": {}
+        "liquid_j4TdwP": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<style> \n  body {\n    margin: 0;\n    padding: 0;\n    font-family: \"DM Sans\", sans-serif;\n    background-color: #ffffff;\n  }\n\n  .results-section {\n    max-width: 1280px;\n    margin: 20px auto; /* Réduction du margin haut/bas */\n    padding: 10px 20px;\n  }\n\n  .results-card {\n    background-color: #ffffff;\n    border-radius: 10px;\n    padding: 10px 20px; /* Réduction du padding haut/bas */\n    box-shadow: none;\n    position: relative;\n    overflow: hidden;\n    max-width: 430px;\n  }\n\n  .badge {\n    position: absolute;\n    top: 10px;\n    left: 10px;\n    display: flex;\n    align-items: center;\n    background-color: #fff; /* Fond blanc */\n    border-radius: 50%;\n    padding: 4px;\n  }\n\n  .badge img {\n    width: 24px;\n    height: 24px;\n  }\n\n  .headline {\n    font-size: 1rem;\n    font-weight: 600;\n    margin: 0 0 8px 0;\n    color: #000;\n    padding-left: 40px;\n  }\n\n  .description {\n    font-size: 0.8rem;\n    color: #555;\n    margin-bottom: 10px;\n    line-height: 1.4;\n  }\n\n  .highlight {\n    font-weight: 600;\n    color: #333;\n  }\n\n  .statistic {\n    font-size: 0.8rem;\n    color: #555;\n    margin-bottom: 4px;\n    line-height: 1.4;\n  }\n\n  .study-note {\n    font-size: 0.7rem;\n    color: #888;\n    font-style: italic;\n  }\n</style>\n\n<div class=\"results-section\">\n  <div class=\"results-card\">\n    <h2 class=\"headline\">#1 Huile Raffermissante en France !</h2>\n    <p class=\"description\"></p>\n    <p class=\"statistic\"><span class=\"highlight\"></p>\n    \n    <div class=\"badge\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0932/1719/4322/files/winner.webp?v=1747350380\" alt=\"Badge numéro 1\">\n    </div>\n  </div>\n</div>"
+          }
         },
         "liquid_X3YiWr": {
           "type": "liquid",
@@ -400,7 +402,7 @@
       "block_order": [
         "liquid_QwQhTi",
         "title",
-        "badges",
+        "liquid_j4TdwP",
         "liquid_X3YiWr",
         "image_dfdXA9",
         "rating",
