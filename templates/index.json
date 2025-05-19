@@ -788,18 +788,6 @@
         "text_color": ""
       }
     },
-    "custom_liquid_KtUerj": {
-      "type": "custom-liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<div class=\"content-wrapper\">\n  <div class=\"content-inner\">\n    <div class=\"image-container\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0932/1719/4322/files/agee_1.png?v=1747353273\" alt=\"Mise à la Terre\" class=\"main-image\">\n    </div>\n\n    <div class=\"text-container\">\n      <h2 class=\"content-title\">Aime ton corps, rayonne de confiance</h2>\n      <p>\n        Notre Huile Corporelle est ton alliée secrète pour une peau lisse, tonifiée et éclatante, comme dans tes rêves.\nEnrichie en puissants ingrédients naturels comme le patchouli, l’huile de rose musquée et l'huile d'onagre, cette huile soyeuse nourrit , raffermit et régénère en profondeur pour te permettre de retrouver ta version la plus confiante et rayonnante à tout âge.\n        <br><br>\n       \n        <span class=\"disclaimer\"> \n      </p>\n    </div>\n  </div>\n</div>\n\n<style>\n  .content-wrapper {\n    max-width: 1200px;\n    margin: 0 auto;\n    padding: 20px;\n    font-family: 'cabin', sans-serif;\n    background-color: #FFFFF;\n    border-radius: 10px;\n  }\n\n  .content-inner {\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: space-between;\n    opacity: 0;\n    animation: fadeInUp 1.2s ease-out forwards;\n  }\n\n  .image-container {\n    flex: 1;\n    padding-right: 20px;\n    opacity: 0;\n    animation: slideInLeft 1s ease-out forwards;\n  }\n\n  .main-image {\n    width: 100%;\n    border-radius: 10px;\n    transform: scale(0.98);\n    transition: transform 0.3s ease-in-out;\n  }\n\n  .main-image:hover {\n    transform: scale(1);\n  }\n\n  .text-container {\n    flex: 1;\n    padding-left: 20px;\n    opacity: 0;\n    animation: slideInRight 1s ease-out forwards;\n  }\n\n  .content-title {\n    font-size: 28px;\n    color: #333;\n    margin-bottom: 10px;\n    text-align: left;\n    animation: fadeIn 1s ease-out 0.5s forwards;\n  }\n\n  .text-container p {\n    font-size: 16px;\n    color: #555;\n    line-height: 1.6;\n    text-align: justify;\n    opacity: 0;\n    animation: fadeIn 1s ease-out 1s forwards;\n  }\n\n  .disclaimer {\n    font-size: 12px;\n    color: #777;\n    opacity: 0;\n    animation: fadeIn 1s ease-out 1.5s forwards;\n  }\n\n  .text-container a {\n    color: #000000;\n    text-decoration: none;\n    transition: color 0.3s ease;\n  }\n\n  .text-container a:hover {\n    color: #388E3C;\n    text-decoration: underline;\n  }\n\n  @media (max-width: 768px) {\n    .content-inner {\n      flex-direction: column;\n      align-items: center;\n    }\n\n    .image-container {\n      padding-right: 0;\n      padding-left: 0;\n    }\n\n    .text-container {\n      padding-left: 0;\n    }\n  }\n\n  /* Animation Definitions */\n  @keyframes fadeIn {\n    0% { opacity: 0; }\n    100% { opacity: 1; }\n  }\n\n  @keyframes fadeInUp {\n    0% { opacity: 0; transform: translateY(30px); }\n    100% { opacity: 1; transform: translateY(0); }\n  }\n\n  @keyframes slideInLeft {\n    0% { transform: translateX(-50%); opacity: 0; }\n    100% { transform: translateX(0); opacity: 1; }\n  }\n\n  @keyframes slideInRight {\n    0% { transform: translateX(50%); opacity: 0; }\n    100% { transform: translateX(0); opacity: 1; }\n  }\n</style>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "1747389650b986ee5b": {
       "type": "apps",
       "settings": {
@@ -984,7 +972,6 @@
     "custom_liquid_AqMGYA",
     "custom_liquid_4DHJAR",
     "custom_liquid_Dmfnd4",
-    "custom_liquid_KtUerj",
     "1747389650b986ee5b",
     "banner_mYnQCm",
     "faq",
