@@ -323,12 +323,6 @@
           "type": "badges",
           "settings": {}
         },
-        "liquid_Y4DREz": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<div class=\"price-container\">\n  <span class=\"current-price\"> 44,90€ </span>\n  <span class=\"original-price\">99,99€ </span>\n</div>\n\n<style>\n  .price-container {\n    display: flex;\n    align-items: center;\n    gap: 8px;\n   cabin;\n  }\n  \n  .current-price {\n    font-size: 22px;\n    font-weight: bold;\n    color: #000000;\n  }\n  \n  .original-price {\n    font-size: 17px;\n    color: #777;\n    text-decoration: line-through;\n  }\n</style>"
-          }
-        },
         "liquid_X3YiWr": {
           "type": "liquid",
           "settings": {
@@ -407,7 +401,6 @@
         "liquid_QwQhTi",
         "title",
         "badges",
-        "liquid_Y4DREz",
         "liquid_X3YiWr",
         "image_dfdXA9",
         "rating",
