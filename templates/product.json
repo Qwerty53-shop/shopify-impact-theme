@@ -500,6 +500,57 @@
         "text_color": ""
       }
     },
+    "custom_liquid_fnFghG": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div class=\"content-wrapper\">\n  <div class=\"content-inner\">\n    <div class=\"image-container\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0932/1719/4322/files/agee_1.png?v=1747353273\" alt=\"Mise à la Terre\" class=\"main-image\">\n    </div>\n\n    <div class=\"text-container\">\n      <h2 class=\"content-title\">Aime ton corps, rayonne de confiance</h2>\n      <p>\n        Notre Huile Corporelle est ton alliée secrète pour une peau lisse, tonifiée et éclatante, comme dans tes rêves.\nEnrichie en puissants ingrédients naturels comme le patchouli, l’huile de rose musquée et l'huile d'onagre, cette huile soyeuse nourrit , raffermit et régénère en profondeur pour te permettre de retrouver ta version la plus confiante et rayonnante à tout âge.\n        <br><br>\n       \n        <span class=\"disclaimer\"> \n      </p>\n    </div>\n  </div>\n</div>\n\n<style>\n  .content-wrapper {\n    max-width: 1200px;\n    margin: 0 auto;\n    padding: 20px;\n    font-family: 'cabin', sans-serif;\n    background-color: #FFFFF;\n    border-radius: 10px;\n  }\n\n  .content-inner {\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: space-between;\n    opacity: 0;\n    animation: fadeInUp 1.2s ease-out forwards;\n  }\n\n  .image-container {\n    flex: 1;\n    padding-right: 20px;\n    opacity: 0;\n    animation: slideInLeft 1s ease-out forwards;\n  }\n\n  .main-image {\n    width: 100%;\n    border-radius: 10px;\n    transform: scale(0.98);\n    transition: transform 0.3s ease-in-out;\n  }\n\n  .main-image:hover {\n    transform: scale(1);\n  }\n\n  .text-container {\n    flex: 1;\n    padding-left: 20px;\n    opacity: 0;\n    animation: slideInRight 1s ease-out forwards;\n  }\n\n  .content-title {\n    font-size: 28px;\n    color: #333;\n    margin-bottom: 10px;\n    text-align: left;\n    animation: fadeIn 1s ease-out 0.5s forwards;\n  }\n\n  .text-container p {\n    font-size: 16px;\n    color: #555;\n    line-height: 1.6;\n    text-align: justify;\n    opacity: 0;\n    animation: fadeIn 1s ease-out 1s forwards;\n  }\n\n  .disclaimer {\n    font-size: 12px;\n    color: #777;\n    opacity: 0;\n    animation: fadeIn 1s ease-out 1.5s forwards;\n  }\n\n  .text-container a {\n    color: #000000;\n    text-decoration: none;\n    transition: color 0.3s ease;\n  }\n\n  .text-container a:hover {\n    color: #388E3C;\n    text-decoration: underline;\n  }\n\n  @media (max-width: 768px) {\n    .content-inner {\n      flex-direction: column;\n      align-items: center;\n    }\n\n    .image-container {\n      padding-right: 0;\n      padding-left: 0;\n    }\n\n    .text-container {\n      padding-left: 0;\n    }\n  }\n\n  /* Animation Definitions */\n  @keyframes fadeIn {\n    0% { opacity: 0; }\n    100% { opacity: 1; }\n  }\n\n  @keyframes fadeInUp {\n    0% { opacity: 0; transform: translateY(30px); }\n    100% { opacity: 1; transform: translateY(0); }\n  }\n\n  @keyframes slideInLeft {\n    0% { transform: translateX(-50%); opacity: 0; }\n    100% { transform: translateX(0); opacity: 1; }\n  }\n\n  @keyframes slideInRight {\n    0% { transform: translateX(50%); opacity: 0; }\n    100% { transform: translateX(0); opacity: 1; }\n  }\n</style>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "banner_DKyA47": {
+      "type": "banner",
+      "name": "SS - Parallax Banner",
+      "settings": {
+        "parallax": false,
+        "parallax_mobile": false,
+        "banner_height": "fixed_height",
+        "banner_fixed_height": 640,
+        "banner_fixed_height_mobile": 630,
+        "image": "shopify://shop_images/desk_2_47160cb2-1163-4efc-8665-50ace6592bac.svg",
+        "image_mobile": "shopify://shop_images/mobile_4a14d5ae-3523-4fcd-8156-78ff27ee6db8.svg",
+        "overlay": 0.2,
+        "content_maxwidth": 65,
+        "content_maxwidth_mobile": 100,
+        "content_horizontal_position": "center",
+        "content_horizontal_position_mobile": "center",
+        "content_vertical_position": "center",
+        "content_vertical_position_mobile": "center",
+        "content_padding_vertical": 32,
+        "content_padding_vertical_mobile": 20,
+        "content_padding_horizontal": 20,
+        "content_padding_horizontal_mobile": 20,
+        "overlay_color": "#000000",
+        "background_color": "#FFFFFF",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": true,
+        "content_width": 120,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
     "related-products": {
       "type": "related-products",
       "disabled": true,
@@ -627,6 +678,8 @@
     "main",
     "custom_liquid_DGb9GB",
     "custom_liquid_abgRUh",
+    "custom_liquid_fnFghG",
+    "banner_DKyA47",
     "related-products",
     "faq_8bJRUf",
     "1743462426c6107fb7"
