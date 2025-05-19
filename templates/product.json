@@ -33,8 +33,8 @@
       "settings": {
         "parallax": false,
         "parallax_mobile": false,
-        "banner_height": "adapt_first",
-        "banner_fixed_height": 650,
+        "banner_height": "fixed_height",
+        "banner_fixed_height": 750,
         "banner_fixed_height_mobile": 500,
         "image": "shopify://shop_images/Add_a_heading_1.png",
         "image_mobile": "shopify://shop_images/Design_sans_titre_57e8e03d-f897-4304-bde6-d677c8314b6f.svg",
@@ -133,7 +133,7 @@
         "full_width": true,
         "remove_vertical_spacing": true,
         "remove_horizontal_spacing": true,
-        "html": "<!-- Titre de section bénéfices Auréva -->\n<section class=\"aureva-title\">\n  <h2>Pourquoi des milliers de femmes disent qu’Auréva fait mieux que leur crème de dermato ?</h2>\n</section>\n\n<style>\n.aureva-title {\n  padding: 2rem 1rem 0.5rem; /* padding haut & sides, peu en bas */\n  background-color: #ffffff;\n  text-align: center;\n  margin: 0 auto;\n  max-width: 900px;\n}\n\n.aureva-title h2 {\n  font-family: 'Playfair Display', serif;\n  font-size: 1.6rem;\n  font-weight: 700;\n  color: #3a1e13;\n  line-height: 1.4;\n  margin-bottom: 0.5rem;\n}\n\n@media (min-width: 768px) {\n  .aureva-title h2 {\n    font-size: 2.1rem;\n  }\n}\n</style>",
+        "html": "<!-- Titre de section bénéfices Auréva -->\n<section class=\"aureva-title\">\n  <h2>Pourquoi les dermatologues nous recommandent tous ?</h2>\n</section>\n\n<style>\n.aureva-title {\n  padding: 2rem 1rem 0.5rem; /* padding haut & sides, peu en bas */\n  background-color: #ffffff;\n  text-align: center;\n  margin: 0 auto;\n  max-width: 900px;\n}\n\n.aureva-title h2 {\n  font-family: 'Playfair Display', serif;\n  font-size: 1.6rem;\n  font-weight: 700;\n  color: #00000;\n  line-height: 1.4;\n  margin-bottom: 0.5rem;\n}\n\n@media (min-width: 768px) {\n  .aureva-title h2 {\n    font-size: 2.1rem;\n  }\n}\n</style>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -144,11 +144,11 @@
       "settings": {
         "parallax": false,
         "parallax_mobile": false,
-        "banner_height": "adapt_first",
-        "banner_fixed_height": 910,
-        "banner_fixed_height_mobile": 400,
-        "image": "shopify://shop_images/crea_desktop.svg",
-        "image_mobile": "shopify://shop_images/crea_mobile.svg",
+        "banner_height": "fixed_height",
+        "banner_fixed_height": 790,
+        "banner_fixed_height_mobile": 210,
+        "image": "shopify://shop_images/svg_mobile.svg",
+        "image_mobile": "shopify://shop_images/desktop_81c81e52-a087-486a-9e74-92ef0c6ee997.svg",
         "overlay": 0,
         "content_maxwidth": 65,
         "content_maxwidth_mobile": 100,
@@ -494,7 +494,7 @@
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "liquid": "<div class=\"content-wrapper\">\n  <div class=\"content-inner\">\n    <div class=\"image-container\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0932/1719/4322/files/dr-sophie.jpg?v=1747267357\" alt=\"Mise à la Terre\" class=\"main-image\">\n    </div>\n\n    <div class=\"text-container\">\n      <h2 class=\"content-title\">Dr. Lise Denton à propos de l'huile Aureva</h2>\n      <p>\n        \"Avec l’âge, la menopause entraine une perte de  30 % du collagene que les cremes ne peuvent pas atteindre car elles restent simplement en surface de la  peau. Notre huile Aureva offre une action ciblée pour détendre, lisser et régénérer cette zone fragile. Sa formule avancée contribue à pénetrer en profondeur la peau là où le vieillissement cutané commence réellement afin \n   pour une peau visiblement plus jeune et éclatante.\"\n        <br><br>\n       \n        <span class=\"disclaimer\"> \n      </p>\n    </div>\n  </div>\n</div>\n\n<style>\n  .content-wrapper {\n    max-width: 1200px;\n    margin: 0 auto;\n    padding: 20px;\n    font-family: 'cabin', sans-serif;\n    background-color: #FDF7E5;\n    border-radius: 10px;\n  }\n\n  .content-inner {\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: space-between;\n    opacity: 0;\n    animation: fadeInUp 1.2s ease-out forwards;\n  }\n\n  .image-container {\n    flex: 1;\n    padding-right: 20px;\n    opacity: 0;\n    animation: slideInLeft 1s ease-out forwards;\n  }\n\n  .main-image {\n    width: 100%;\n    border-radius: 10px;\n    transform: scale(0.98);\n    transition: transform 0.3s ease-in-out;\n  }\n\n  .main-image:hover {\n    transform: scale(1);\n  }\n\n  .text-container {\n    flex: 1;\n    padding-left: 20px;\n    opacity: 0;\n    animation: slideInRight 1s ease-out forwards;\n  }\n\n  .content-title {\n    font-size: 28px;\n    color: #333;\n    margin-bottom: 10px;\n    text-align: left;\n    animation: fadeIn 1s ease-out 0.5s forwards;\n  }\n\n  .text-container p {\n    font-size: 16px;\n    color: #555;\n    line-height: 1.6;\n    text-align: justify;\n    opacity: 0;\n    animation: fadeIn 1s ease-out 1s forwards;\n  }\n\n  .disclaimer {\n    font-size: 12px;\n    color: #777;\n    opacity: 0;\n    animation: fadeIn 1s ease-out 1.5s forwards;\n  }\n\n  .text-container a {\n    color: #000000;\n    text-decoration: none;\n    transition: color 0.3s ease;\n  }\n\n  .text-container a:hover {\n    color: #388E3C;\n    text-decoration: underline;\n  }\n\n  @media (max-width: 768px) {\n    .content-inner {\n      flex-direction: column;\n      align-items: center;\n    }\n\n    .image-container {\n      padding-right: 0;\n      padding-left: 0;\n    }\n\n    .text-container {\n      padding-left: 0;\n    }\n  }\n\n  /* Animation Definitions */\n  @keyframes fadeIn {\n    0% { opacity: 0; }\n    100% { opacity: 1; }\n  }\n\n  @keyframes fadeInUp {\n    0% { opacity: 0; transform: translateY(30px); }\n    100% { opacity: 1; transform: translateY(0); }\n  }\n\n  @keyframes slideInLeft {\n    0% { transform: translateX(-50%); opacity: 0; }\n    100% { transform: translateX(0); opacity: 1; }\n  }\n\n  @keyframes slideInRight {\n    0% { transform: translateX(50%); opacity: 0; }\n    100% { transform: translateX(0); opacity: 1; }\n  }\n</style>",
+        "liquid": "<div class=\"content-wrapper\">\n  <div class=\"content-inner\">\n    <div class=\"image-container\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0932/1719/4322/files/dr-sophie.jpg?v=1747267357\" alt=\"Mise à la Terre\" class=\"main-image\">\n    </div>\n\n    <div class=\"text-container\">\n      <h2 class=\"content-title\">Dr. Lise Denton à propos de l'huile Aureva</h2>\n      <p>\n        \"Avec l’âge, la menopause entraine une perte de  30 % du collagene que les cremes ne peuvent pas atteindre car elles restent simplement en surface de la  peau. Notre huile Aureva offre une action ciblée pour détendre, lisser et régénérer cette zone fragile. Sa formule avancée contribue à pénetrer en profondeur la peau là où le vieillissement cutané commence réellement afin \n   pour une peau visiblement plus jeune et éclatante.\"\n        <br><br>\n       \n        <span class=\"disclaimer\"> \n      </p>\n    </div>\n  </div>\n</div>\n\n<style>\n  .content-wrapper {\n    max-width: 1200px;\n    margin: 0 auto;\n    padding: 20px;\n    font-family: 'cabin', sans-serif;\n    background-color: #fffff;\n    border-radius: 10px;\n  }\n\n  .content-inner {\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: space-between;\n    opacity: 0;\n    animation: fadeInUp 1.2s ease-out forwards;\n  }\n\n  .image-container {\n    flex: 1;\n    padding-right: 20px;\n    opacity: 0;\n    animation: slideInLeft 1s ease-out forwards;\n  }\n\n  .main-image {\n    width: 100%;\n    border-radius: 10px;\n    transform: scale(0.98);\n    transition: transform 0.3s ease-in-out;\n  }\n\n  .main-image:hover {\n    transform: scale(1);\n  }\n\n  .text-container {\n    flex: 1;\n    padding-left: 20px;\n    opacity: 0;\n    animation: slideInRight 1s ease-out forwards;\n  }\n\n  .content-title {\n    font-size: 28px;\n    color: #333;\n    margin-bottom: 10px;\n    text-align: left;\n    animation: fadeIn 1s ease-out 0.5s forwards;\n  }\n\n  .text-container p {\n    font-size: 16px;\n    color: #555;\n    line-height: 1.6;\n    text-align: justify;\n    opacity: 0;\n    animation: fadeIn 1s ease-out 1s forwards;\n  }\n\n  .disclaimer {\n    font-size: 12px;\n    color: #777;\n    opacity: 0;\n    animation: fadeIn 1s ease-out 1.5s forwards;\n  }\n\n  .text-container a {\n    color: #000000;\n    text-decoration: none;\n    transition: color 0.3s ease;\n  }\n\n  .text-container a:hover {\n    color: #388E3C;\n    text-decoration: underline;\n  }\n\n  @media (max-width: 768px) {\n    .content-inner {\n      flex-direction: column;\n      align-items: center;\n    }\n\n    .image-container {\n      padding-right: 0;\n      padding-left: 0;\n    }\n\n    .text-container {\n      padding-left: 0;\n    }\n  }\n\n  /* Animation Definitions */\n  @keyframes fadeIn {\n    0% { opacity: 0; }\n    100% { opacity: 1; }\n  }\n\n  @keyframes fadeInUp {\n    0% { opacity: 0; transform: translateY(30px); }\n    100% { opacity: 1; transform: translateY(0); }\n  }\n\n  @keyframes slideInLeft {\n    0% { transform: translateX(-50%); opacity: 0; }\n    100% { transform: translateX(0); opacity: 1; }\n  }\n\n  @keyframes slideInRight {\n    0% { transform: translateX(50%); opacity: 0; }\n    100% { transform: translateX(0); opacity: 1; }\n  }\n</style>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -524,7 +524,7 @@
         "banner_fixed_height_mobile": 630,
         "image": "shopify://shop_images/desk_2_47160cb2-1163-4efc-8665-50ace6592bac.svg",
         "image_mobile": "shopify://shop_images/mobile_4a14d5ae-3523-4fcd-8156-78ff27ee6db8.svg",
-        "overlay": 0.2,
+        "overlay": 0,
         "content_maxwidth": 65,
         "content_maxwidth_mobile": 100,
         "content_horizontal_position": "center",
@@ -536,7 +536,7 @@
         "content_padding_horizontal": 20,
         "content_padding_horizontal_mobile": 20,
         "overlay_color": "#000000",
-        "background_color": "#FFFFFF",
+        "background_color": "#ffffff",
         "background_gradient": "",
         "border_color": "#000000",
         "margin_top": 0,
@@ -574,49 +574,81 @@
         "product_card_text_color": ""
       }
     },
+    "1747651325ff8cc879": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_dynamic_section_mFfGeA": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "aggregated": true,
+            "limit": 20,
+            "hide_thumbnails": false,
+            "maxwidth": 1080,
+            "is_sample": true
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_dynamic_section_mFfGeA"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
+    },
     "faq_8bJRUf": {
       "type": "faq",
       "blocks": {
         "item_L6beTi": {
           "type": "item",
           "settings": {
-            "title": "Comment tester notre drap Vitalsleep™",
-            "content": "<p>Pour vérifier si votre produit Vitalsleep™ fonctionne, vous aurez besoin d'un multimètre ou d'un voltmètre, que vous pouvez acheter dans n'importe quel magasin de bricolage.</p><p>Cet appareil mesurera la tension de votre corps. Si les produits de mise à la terre fonctionnent correctement, votre tension corporelle diminuera lorsque vous placerez une partie de votre corps sur le tapis ou la feuille.</p>"
+            "title": "Est-ce que cette huile fonctionne vraiment pour raffermir la peau ?",
+            "content": "<p>Oui, l'huile de corps raffermissante Auréva est formulée avec des ingrédients actifs tels que le collagène et l'élastine, qui sont essentiels pour maintenir la fermeté et l'élasticité de la peau. Ces composants aident à améliorer la texture de la peau et à réduire l'apparence des zones relâchées.</p>"
           }
         },
         "item_y9LXRa": {
           "type": "item",
           "settings": {
-            "title": "Les produits de mise à la terre émettent-ils des champs électromagnétiques (CEM) ou des champs magnétiques ?",
-            "content": "<p>Non, les produits de mise à la terre n'émettent aucune radiation CEM, ni champ magnétique ou électrique. Cela s'explique par le fait qu'ils n'utilisent pas d'électricité active et se connectent uniquement à la terre.</p>"
+            "title": "Combien de temps faut-il pour voir des résultats ?",
+            "content": "<p>Les résultats peuvent varier selon les individus, mais beaucoup d'utilisatrices rapportent une amélioration de la fermeté et de l'hydratation de leur peau après quelques semaines d'utilisation régulière. Pour des résultats optimaux, il est recommandé d'appliquer l'huile quotidiennement et de l'associer à un massage pour stimuler la circulation.</p>"
           }
         },
         "item_A6BweJ": {
           "type": "item",
           "settings": {
-            "title": "En combien de temps vais-je ressentir les effets ?",
-            "content": "<p>Les bienfaits se font sentir naturellement :</p><p>✓ Premiers effets (1-3 nuits) :<br/>- Sommeil plus profond<br/>- Réveil plus facile- Sensation de repos</p><p>✓ Effets à moyen terme (2-4 semaines) :<br/>- Meilleure récupération<br/>- Plus d'énergie au quotidien<br/>- Réduction du stress<br/>- Diminution des inflammations<br/>- Renforcement du système immunitaire<br/>- Meilleure circulation sanguine- Régulation du rythme circadien</p><p>Essai sans risque pendant 90 jours</p>"
+            "title": "L'huile est-elle adaptée aux peaux sensibles ?",
+            "content": "<p>Oui, l'huile Auréva est conçue pour être douce et convient aux peaux sensibles. Elle est formulée sans ingrédients agressifs et contient des huiles naturelles qui nourrissent la peau sans provoquer d'irritations.</p>"
           }
         },
         "item_fzhqxj": {
           "type": "item",
           "settings": {
-            "title": "Comment entretenir mon drap ?",
-            "content": "<p>Un entretien simple pour préserver l'efficacité :<br/><br/>✓ Lavage :<br/>- Lavage en machine à 30°C maximum<br/>- Programme délicat<br/>- Sans adoucissant<br/><br/>✓ À éviter :<br/>- Le sèche-linge<br/>- Le repassage sur les zones conductrices<br/>- Les produits blanchissants<br/><br/>Séchage naturel recommandé</p>"
+            "title": "Peut-on l'utiliser sur tout le corps ?",
+            "content": "<p>Absolument. L'huile est idéale pour une application sur tout le corps, y compris les zones sujettes au relâchement cutané comme les bras, les cuisses, le ventre et le décolleté. Elle pénètre rapidement sans laisser de film gras, rendant la peau douce et lisse.</p>"
           }
         },
         "item_aiBTkM": {
           "type": "item",
           "settings": {
-            "title": "Est-ce sûr pour ma santé ?",
-            "content": "<p>Votre sécurité est notre priorité :<br/><br/>✓ Fonctionnement 100% naturel :<br/>- Aucun courant électrique ne circule<br/>- Simple connexion à la terre<br/>- Comme dormir sur la plage<br/><br/>✓ Qualité certifiée :<br/>- Coton bio hypoallergénique<br/>- Testé dermatologiquement<br/>- Conforme aux normes européennes<br/>- Idéal pour les personnes sensibles aux CEM<br/>- Peut réduire l'impact des appareils électroniques<br/><br/>En cas de doute, consultez votre médecin</p>"
+            "title": "Comment l'appliquer pour de meilleurs résultats ?",
+            "content": "<p>Pour maximiser les bienfaits de l'huile, appliquez-la sur une peau propre et légèrement humide après la douche. Massez doucement en mouvements circulaires jusqu'à absorption complète. Ce rituel favorise la pénétration des actifs et stimule la microcirculation, renforçant ainsi l'effet raffermissant.</p>"
           }
         },
         "item_8UTUtc": {
           "type": "item",
           "settings": {
-            "title": "Puis-je utiliser des appareils électroniques dans mon lit ?",
-            "content": "<p>Oui, vous pouvez utiliser vos appareils, mais voici nos recommandations :<br/><br/>✓ Pour un sommeil optimal :<br/>- Gardez les appareils à 30 cm minimum du drap<br/>- Évitez de poser les appareils directement sur le drap<br/>- Privilégiez le mode avion la nuit<br/><br/>✓ Avantages :<br/>- Le drap peut réduire l'impact des ondes électromagnétiques<br/>- Protection naturelle pendant votre sommeil<br/>- Améliore la qualité du repos<br/><br/>Idéalement, éloignez les appareils du lit pour un sommeil plus réparateur</p>"
+            "title": "L'huile laisse-t-elle une sensation grasse sur la peau ?",
+            "content": "<p>Non, l'huile Auréva est formulée pour une absorption rapide et ne laisse pas de résidu gras. Elle hydrate en profondeur tout en laissant la peau soyeuse et confortable.<br/><br/></p>"
           }
         }
       },
@@ -681,6 +713,7 @@
     "custom_liquid_fnFghG",
     "banner_DKyA47",
     "related-products",
+    "1747651325ff8cc879",
     "faq_8bJRUf",
     "1743462426c6107fb7"
   ]
