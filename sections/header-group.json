@@ -66,7 +66,7 @@
         "hide_on_scroll": true,
         "logo": "shopify://shop_images/v.jpg",
         "logo_max_width": 220,
-        "logo_mobile_max_width": 100,
+        "logo_mobile_max_width": 160,
         "menu": "main-menu",
         "sidebar_menu": "",
         "secondary_menu": "",
