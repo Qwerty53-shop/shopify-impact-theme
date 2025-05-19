@@ -188,6 +188,45 @@
         "text_color": ""
       }
     },
+    "rich_text_9iaWXh": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Ag4dEJ": {
+          "type": "heading",
+          "settings": {
+            "text": "Une peau plus lisse, une apparence plus éclatante",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_Ag4dEJ"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "custom_liquid_8QdCUD": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<p style=\"text-align: center\">Write or copy/paste Liquid code</p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "custom_liquid_NPdW9r": {
       "type": "custom-liquid",
       "name": "Custom Liquid",
@@ -705,6 +744,8 @@
     "custom_html_VbgxKT",
     "banner_ahHpTT",
     "custom_liquid_yQybCR",
+    "rich_text_9iaWXh",
+    "custom_liquid_8QdCUD",
     "custom_liquid_NPdW9r",
     "multi_column_JwggXQ",
     "main",
