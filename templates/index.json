@@ -137,38 +137,10 @@
         "logo_item_border": ""
       }
     },
-    "rich_text_NYyfLb": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_4E3ghr": {
-          "type": "heading",
-          "settings": {
-            "text": "Pourquoi les dermatologues nous recommandent tous ?",
-            "heading_tag": "h3",
-            "text_color": "",
-            "gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_4E3ghr"
-      ],
-      "custom_css": [],
-      "name": "Rich text",
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "custom_html_bdTEDF": {
       "type": "custom-html",
-      "disabled": true,
       "custom_css": [
-        "p {font-size: 28px; margin-top: 28px; margin-bottom: 28px;}"
+        "p {font-size: 20px; margin-top: px; margin-bottom: px;}"
       ],
       "settings": {
         "full_width": true,
@@ -233,12 +205,15 @@
     },
     "custom_liquid_JdVDdr": {
       "type": "custom-liquid",
+      "custom_css": [
+        "p {font-size: px; margin-top: px; margin-bottom: px;}"
+      ],
       "name": "Custom Liquid",
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "liquid": "<section class=\"custom-section no-gap\">\n  <div class=\"container text-center\">\n    <h4 class=\"section-title\"></h4>\n    <p></p>\n  </div>\n  <div class=\"video-container\">\n    <img class=\"centered-video\" src=\"https://cdn.shopify.com/s/files/1/0932/1719/4322/files/video_huile.webp?v=1747423495\" alt=\"Animation huile\">\n  </div>\n</section>\n\n<style>\n  /* Section sans espacement externe */\n  .custom-section {\n    padding-top: 0px;\n    padding-bottom: 0px;\n    background-color: #ffffff;\n    width: 100%;\n    margin: 0 !important; /* Aucune marge extérieure */\n  }\n\n  .no-gap {\n    margin: 0 !important;\n    padding-top: 0 !important;\n    padding-bottom: 0 !important;\n  }\n\n  .section-title {\n    font-size: 14px;\n    margin-bottom: 5px;\n    color: #000000;\n    text-align: center;\n  }\n\n  .custom-section p {\n    font-size: 0px;\n    color: #333333;\n    margin-bottom: 0px;\n    text-align: center;\n    line-height: 1.5;\n  }\n\n  .video-container {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    width: 100%;\n    margin: 0 auto;\n  }\n\n  .centered-video {\n    width: 100%;\n    max-width: 500px;\n    height: auto;\n    display: block;\n    border-radius: 12px;\n    overflow: hidden;\n  }\n\n  @media (max-width: 768px) {\n    .section-title {\n      font-size: 12px;\n      margin-bottom: 5px;\n    }\n    .custom-section {\n      padding-top: 5px;\n      padding-bottom: 5px;\n    }\n    .container {\n      width: 90%;\n    }\n    .custom-section p {\n      font-size: 10px;\n      margin-bottom: 8px;\n    }\n  }\n\n  @media (max-width: 600px) {\n    .section-title {\n      font-size: 11px;\n      margin-bottom: 4px;\n      font-weight: normal;\n    }\n    .custom-section {\n      padding-top: 0;\n      padding-bottom: 0;\n    }\n    .container {\n      width: 95%;\n      padding: 0 5px;\n    }\n    .custom-section p {\n      font-size: 9px;\n      margin-bottom: 0px;\n    }\n  }\n</style>",
+        "liquid": "<section class=\"custom-section no-gap\">\n  <div class=\"container text-center\">\n    <h4 class=\"section-title\"></h4>\n    <p></p>\n  </div>\n  <div class=\"video-container\">\n    <img class=\"centered-video\" src=\"https://cdn.shopify.com/s/files/1/0932/1719/4322/files/video_huile.webp?v=1747423495\" alt=\"Animation huile\">\n  </div>\n</section>\n\n<style>\n  /* Section sans espacement externe */\n  .custom-section {\n    padding-top: 0px;\n    padding-bottom: 0px;\n    background-color: #ffffff;\n    width: 100%;\n    margin: 0 !important; /* Aucune marge extérieure */\n  }\n\n  .no-gap {\n    margin: 0 !important;\n    padding-top: 0 !important;\n    padding-bottom: 0 !important;\n  }\n\n  .section-title {\n    font-size: 14px;\n    margin-bottom: px;\n    color: #000000;\n    text-align: center;\n  }\n\n  .custom-section p {\n    font-size: 0px;\n    color: #333333;\n    margin-bottom: 0px;\n    text-align: center;\n    line-height: 1.5;\n  }\n\n  .video-container {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    width: 100%;\n    margin: 0 auto;\n  }\n\n  .centered-video {\n    width: 100%;\n    max-width: 500px;\n    height: auto;\n    display: block;\n    border-radius: 12px;\n    overflow: hidden;\n  }\n\n  @media (max-width: 768px) {\n    .section-title {\n      font-size: 12px;\n      margin-bottom: px;\n    }\n    .custom-section {\n      padding-top: px;\n      padding-bottom: px;\n    }\n    .container {\n      width: 90%;\n    }\n    .custom-section p {\n      font-size: 10px;\n      margin-bottom: px;\n    }\n  }\n\n  @media (max-width: 600px) {\n    .section-title {\n      font-size: 11px;\n      margin-bottom: 4px;\n      font-weight: normal;\n    }\n    .custom-section {\n      padding-top: 0;\n      padding-bottom: 0;\n    }\n    .container {\n      width: 95%;\n      padding: 0 5px;\n    }\n    .custom-section p {\n      font-size: 9px;\n      margin-bottom: 0px;\n    }\n  }\n</style>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -388,7 +363,9 @@
         "item_JxpgCA",
         "item_n9UibB"
       ],
-      "custom_css": [],
+      "custom_css": [
+        "p {font-size: 28px; margin-top: px; margin-bottom: px;}"
+      ],
       "settings": {
         "full_width": false,
         "stack_on_mobile": false,
@@ -924,7 +901,6 @@
     "banner_76Hbw4",
     "slideshow",
     "logo_list_TgC8yg",
-    "rich_text_NYyfLb",
     "custom_html_bdTEDF",
     "slideshow_QYyeay",
     "banner_9y3YTF",
