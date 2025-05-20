@@ -363,13 +363,11 @@
         "item_JxpgCA",
         "item_n9UibB"
       ],
-      "custom_css": [
-        "p {font-size: 28px; margin-top: px; margin-bottom: px;}"
-      ],
+      "custom_css": [],
       "settings": {
         "full_width": false,
         "stack_on_mobile": false,
-        "gap": "small",
+        "gap": "medium",
         "text_alignment": "center",
         "subheading": "",
         "title": "",
