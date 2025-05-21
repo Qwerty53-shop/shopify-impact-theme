@@ -279,19 +279,6 @@
     "multi_column_BmATjd": {
       "type": "multi-column",
       "blocks": {
-        "item_Ba4Wzi": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/avant.svg",
-            "column_size": "3",
-            "title": "Caroline R.",
-            "heading_tag": "h6",
-            "content": "<p>\"Depuis la cinquantaine, ma peau me complexait. Avec cette huile, elle est plus ferme, plus lisse. Je me sens enfin bien dans mon corps\"</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
         "item_HAWqXa": {
           "type": "item",
           "settings": {
@@ -300,6 +287,19 @@
             "title": "Julie L.",
             "heading_tag": "h6",
             "content": "<p>\"Aureva est la seule huile qui m’a vraiment convaincue : elle raffermit et illumine ma peau. Je l’utilise maintenant tous les jours!\"</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_Ba4Wzi": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/avant.svg",
+            "column_size": "3",
+            "title": "Caroline R.",
+            "heading_tag": "h6",
+            "content": "<p>\"Depuis la cinquantaine, ma peau me complexait. Avec cette huile, elle est plus ferme, plus lisse. Je me sens enfin bien dans mon corps\"</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -359,8 +359,8 @@
         }
       },
       "block_order": [
-        "item_Ba4Wzi",
         "item_HAWqXa",
+        "item_Ba4Wzi",
         "item_BzzNDq",
         "item_jyHri3",
         "item_JxpgCA",
