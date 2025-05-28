@@ -292,19 +292,6 @@
             "link_style": "link"
           }
         },
-        "item_Ba4Wzi": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/avant.svg",
-            "column_size": "3",
-            "title": "Caroline R.",
-            "heading_tag": "h6",
-            "content": "<p>\"Depuis la cinquantaine, ma peau me complexait. Avec cette huile, elle est plus ferme, plus lisse. Je me sens enfin bien dans mon corps\"</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
         "item_BzzNDq": {
           "type": "item",
           "settings": {
@@ -356,15 +343,28 @@
             "link_text": "",
             "link_style": "link"
           }
+        },
+        "item_Ba4Wzi": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/avant.svg",
+            "column_size": "3",
+            "title": "Caroline R.",
+            "heading_tag": "h6",
+            "content": "<p>\"Depuis la cinquantaine, ma peau me complexait. Avec cette huile, elle est plus ferme, plus lisse. Je me sens enfin bien dans mon corps\"</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
         }
       },
       "block_order": [
         "item_HAWqXa",
-        "item_Ba4Wzi",
         "item_BzzNDq",
         "item_jyHri3",
         "item_JxpgCA",
-        "item_n9UibB"
+        "item_n9UibB",
+        "item_Ba4Wzi"
       ],
       "custom_css": [],
       "settings": {
