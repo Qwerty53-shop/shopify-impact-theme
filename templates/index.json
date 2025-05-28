@@ -208,6 +208,7 @@
     },
     "custom_liquid_JdVDdr": {
       "type": "custom-liquid",
+      "disabled": true,
       "custom_css": [
         "p {font-size: px; margin-top: px; margin-bottom: px;}"
       ],
