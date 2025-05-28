@@ -279,6 +279,19 @@
     "multi_column_BmATjd": {
       "type": "multi-column",
       "blocks": {
+        "item_Ba4Wzi": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/avant.svg",
+            "column_size": "3",
+            "title": "Caroline R.",
+            "heading_tag": "h6",
+            "content": "<p>\"Je n’osais plus mettre de robes… La peau de mes jambes me complexait trop. En quelques jours, cette huile a tout changé. Je me sens enfin libre de les montrer\"<br/><br/></p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
         "item_HAWqXa": {
           "type": "item",
           "settings": {
@@ -312,7 +325,7 @@
             "column_size": "3",
             "title": "Sophie G.",
             "heading_tag": "h6",
-            "content": "<p>\"Au début, je pensais qu’elle ne pénétrait pas bien et allait laisser un effet collant… Mais cette sensation a disparu en quelques secondes, et ma peau s’est sentie incroyablement hydratée\"<br/><br/></p>",
+            "content": "<p>\"Au début, je pensais qu’elle ne pénétrait pas bien et allait laisser un effet collant… Mais cette sensation a disparu en peu de temps, et ma peau s’est sentie incroyablement hydratée\"<br/><br/></p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -343,28 +356,15 @@
             "link_text": "",
             "link_style": "link"
           }
-        },
-        "item_Ba4Wzi": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/avant.svg",
-            "column_size": "3",
-            "title": "Caroline R.",
-            "heading_tag": "h6",
-            "content": "<p>\"Je n’osais plus mettre de robes… La peau de mes jambes me complexait trop. En quelques jours, cette huile a tout changé. Je me sens enfin libre de les montrer\"<br/><br/></p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
         }
       },
       "block_order": [
+        "item_Ba4Wzi",
         "item_HAWqXa",
         "item_BzzNDq",
         "item_jyHri3",
         "item_JxpgCA",
-        "item_n9UibB",
-        "item_Ba4Wzi"
+        "item_n9UibB"
       ],
       "custom_css": [],
       "settings": {
