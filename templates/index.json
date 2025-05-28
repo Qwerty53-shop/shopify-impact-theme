@@ -211,7 +211,6 @@
       "custom_css": [
         "p {font-size: px; margin-top: px; margin-bottom: px;}"
       ],
-      "name": "Custom Liquid",
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
@@ -497,6 +496,12 @@
             "liquid": "<style>\n  .blink {\n    animation: blink-animation 1.5s steps(5, start) infinite;\n    color: red;\n    display: inline-block; /* Display as inline-block */\n    vertical-align: middle; /* Align vertically to middle */\n    font-size: 10px; /* Set font size */\n  }\n\n  @keyframes blink-animation {\n    to {\n      visibility: hidden;\n    }\n  }\n\n  .red-div {\n    background-color: #ffcccc;\n    padding: 2px 10px; /* 6px vertical, 10px horizontal */\n    border-radius: 8px; /* Rounded corners */\n    display: inline-block; /* Display as inline-block */\n    text-align: center; /* Center align the content */\n    margin: 0 auto; /* Horizontally center the red-div */\n  }\n\n  .text {\n    display: inline-block; /* Display as inline-block */\n    vertical-align: middle; /* Align vertically to middle */\n    margin-left: 10px; /* Add some space between the dot and the text */\n    color: #AD0000; /* Text color */\n    font-weight: 500; /* Medium font weight */\n    font-size: 12px; /* Set font size */\n    text-align: justify; /* Justify the text to the center */\n  }\n</style>\n\n<div class=\"red-div\">\n  <div class=\"blink\">&#9679;</div>\n  <div class=\"text\">En stock  : 3 restants</div>\n</div>"
           }
         },
+        "liquid_c8dKBm": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Section Bénéfices Produit</title>\n    <style>\n        .product-benefits {\n            background-color: #ffffff;\n            border-radius: 0.4em;\n            padding: 1.2em;\n            margin: 1.5rem 0;\n            max-width: 100%;\n        }\n        .benefits-list {\n            display: flex;\n            flex-direction: column;\n            gap: 0.8em;\n            margin: 0;\n            padding: 0;\n            list-style: none;\n        }\n        .benefit-item {\n            display: flex;\n            align-items: center;\n            gap: 1em;\n            font-size: 1.2rem;\n            color: #121212;\n            margin: 0;\n        }\n        .benefit-icon {\n            width: 24px;\n            height: 24px;\n            flex-shrink: 0;\n            filter: brightness(0) saturate(100%);\n        }\n        .benefit-text {\n            font-weight: 400;\n            line-height: 1.4;\n            margin: 0;\n        }\n        /* Responsive design */\n        @media (max-width: 768px) {\n            .product-benefits {\n                padding: 1em;\n                margin: 1rem 0;\n            }\n            \n            .benefit-item {\n                font-size: 1.1rem;\n                gap: 0.8em;\n            }\n            \n            .benefit-icon {\n                width: 20px;\n                height: 20px;\n            }\n        }\n        @media (min-width: 769px) {\n            .benefits-list {\n                gap: 1em;\n            }\n        }\n    </style>\n</head>\n<body>\n    <div class=\"product-benefits\">\n        <div class=\"benefits-list\">\n            <div class=\"benefit-item\">\n                <img src=\"https://cdn.shopify.com/s/files/1/0932/1719/4322/files/cellulite_8760ae36-64fa-4eac-ad92-5ad432207252.svg?v=1748428412\" \n                     alt=\"\" class=\"benefit-icon\" loading=\"lazy\">\n                <span class=\"benefit-text\">Osez enfin révéler votre peau sans vous cacher</span>\n            </div>\n            \n            <div class=\"benefit-item\">\n                <img src=\"https://cdn.shopify.com/s/files/1/0932/1719/4322/files/0ebb1b6ad07f77d067618a9221f0d5b3_2a6ce5ab-eb5a-4df7-bcf3-a1d9a9bf46ba.svg?v=1748428412\" \n                     alt=\"\" class=\"benefit-icon\" loading=\"lazy\">\n                <span class=\"benefit-text\">Retrouvez la douceur soyeuse de vos 20 ans</span>\n            </div>\n            \n            <div class=\"benefit-item\">\n                <img src=\"https://cdn.shopify.com/s/files/1/0932/1719/4322/files/227951ce47fd75f64fe7f94d27b83c26.svg?v=1748428411\" \n                     alt=\"\" class=\"benefit-icon\" loading=\"lazy\">\n                <span class=\"benefit-text\">Vivez cette renaissance que vous méritez</span>\n            </div>\n        </div>\n    </div>\n</body>\n</html>"
+          }
+        },
         "kaching_bundles_app_block_hikxdA": {
           "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
           "settings": {
@@ -606,6 +611,7 @@
         "badges",
         "liquid_mQDYcJ",
         "liquid_Wn8UgL",
+        "liquid_c8dKBm",
         "kaching_bundles_app_block_hikxdA",
         "image_jhEQwJ",
         "liquid_dUc7Te",
@@ -724,7 +730,6 @@
     },
     "custom_liquid_4DHJAR": {
       "type": "custom-liquid",
-      "name": "Custom Liquid",
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
