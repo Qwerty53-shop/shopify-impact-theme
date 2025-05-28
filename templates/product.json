@@ -29,7 +29,6 @@
       "block_order": [
         "heading_4CPnYa"
       ],
-      "name": "SS - Parallax Banner",
       "settings": {
         "parallax": false,
         "parallax_mobile": false,
@@ -107,7 +106,6 @@
         "logo_UaLVyb",
         "logo_fPa9ep"
       ],
-      "name": "Logo list",
       "settings": {
         "full_width": true,
         "stack_mobile": true,
@@ -194,29 +192,34 @@
         "heading_Ag4dEJ": {
           "type": "heading",
           "settings": {
-            "text": "Une peau plus lisse, une apparence plus éclatante",
-            "heading_tag": "h3",
-            "text_color": "",
-            "gradient": ""
+            "title": "Talk about your brand",
+            "title_highlight_color": "#6d388b",
+            "heading_size": "h1"
           }
         }
       },
       "block_order": [
         "heading_Ag4dEJ"
       ],
-      "name": "Rich text",
       "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "custom_colors_background": "#ffffff",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2e2a39",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d"
       }
     },
     "custom_liquid_8QdCUD": {
       "type": "custom-liquid",
-      "name": "Custom Liquid",
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
@@ -229,7 +232,6 @@
     },
     "custom_liquid_NPdW9r": {
       "type": "custom-liquid",
-      "name": "Custom Liquid",
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
@@ -388,12 +390,6 @@
           "type": "payment_terms",
           "settings": {}
         },
-        "description": {
-          "type": "description",
-          "settings": {
-            "collapse_content": false
-          }
-        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -482,7 +478,6 @@
         "image_dfdXA9",
         "rating",
         "payment_terms",
-        "description",
         "variant_picker",
         "quantity_selector",
         "kaching_bundles_app_block_3JzAX9",
@@ -515,7 +510,6 @@
     },
     "custom_liquid_DGb9GB": {
       "type": "custom-liquid",
-      "name": "Custom Liquid",
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
@@ -528,7 +522,6 @@
     },
     "custom_liquid_abgRUh": {
       "type": "custom-liquid",
-      "name": "Custom Liquid",
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
@@ -541,7 +534,6 @@
     },
     "custom_liquid_fnFghG": {
       "type": "custom-liquid",
-      "name": "Custom Liquid",
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
@@ -554,7 +546,6 @@
     },
     "banner_DKyA47": {
       "type": "banner",
-      "name": "SS - Parallax Banner",
       "settings": {
         "parallax": false,
         "parallax_mobile": false,
