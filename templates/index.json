@@ -528,6 +528,12 @@
           "type": "separator",
           "settings": {}
         },
+        "liquid_t3JrfA": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Compteur d'achats</title>\n    <style>\n        body {\n            font-family: Arial, sans-serif;\n            background-color: #f5f5f5;\n            margin: 0;\n            padding: 20px;\n            display: flex;\n            justify-content: center;\n            align-items: center;\n            min-height: 100vh;\n        }\n\n        .purchase-counter {\n            display: flex;\n            align-items: center;\n            background-color: white;\n            padding: 12px 16px;\n            border-radius: 20px;\n            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);\n            font-size: 14px;\n            color: #333;\n            gap: 8px;\n        }\n\n        .pulse-dot {\n            width: 8px;\n            height: 8px;\n            background-color: #22c55e;\n            border-radius: 50%;\n            animation: pulse 2s infinite;\n        }\n\n        @keyframes pulse {\n            0% {\n                transform: scale(0.95);\n                box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.7);\n            }\n            \n            70% {\n                transform: scale(1);\n                box-shadow: 0 0 0 8px rgba(34, 197, 94, 0);\n            }\n            \n            100% {\n                transform: scale(0.95);\n                box-shadow: 0 0 0 0 rgba(34, 197, 94, 0);\n            }\n        }\n\n        #purchase-count {\n            font-weight: bold;\n            color: #22c55e;\n        }\n\n        span {\n            white-space: nowrap;\n        }\n    </style>\n</head>\n<body>\n    <div class=\"purchase-counter\">\n        <div class=\"pulse-dot\"></div>\n        <span>\n            <span id=\"purchase-count\">200</span> achats effectués aujourd'hui\n        </span>\n    </div>\n\n    <script>\n        // Animation du compteur (optionnel)\n        function animateCounter() {\n            const counter = document.getElementById('purchase-count');\n            const targetValue = 200;\n            let currentValue = 0;\n            const increment = targetValue / 50;\n            const timer = setInterval(() => {\n                currentValue += increment;\n                if (currentValue >= targetValue) {\n                    currentValue = targetValue;\n                    clearInterval(timer);\n                }\n                counter.textContent = Math.floor(currentValue);\n            }, 30);\n        }\n\n        // Démarrer l'animation au chargement\n        window.addEventListener('load', animateCounter);\n    </script>\n</body>\n</html>"
+          }
+        },
         "buy-buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -618,6 +624,7 @@
         "image_jhEQwJ",
         "liquid_dUc7Te",
         "separator_Lzn8Rb",
+        "liquid_t3JrfA",
         "buy-buttons",
         "liquid_iGMA7G",
         "image_R4BMay",
