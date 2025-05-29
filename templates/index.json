@@ -515,7 +515,7 @@
           "settings": {
             "image": "shopify://shop_images/Ajouter_un_sous-titre_500_x_250_px_1.svg",
             "alignment": "center",
-            "max_width": 500
+            "max_width": 350
           }
         },
         "liquid_dUc7Te": {
