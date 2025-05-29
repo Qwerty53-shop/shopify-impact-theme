@@ -282,7 +282,7 @@
         "item_Ba4Wzi": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/avant.svg",
+            "image": "shopify://shop_images/avant_600_x_600_px_1000_x_1000_px_500_x_500_px.svg",
             "column_size": "3",
             "title": "Caroline R.",
             "heading_tag": "h6",
