@@ -14,6 +14,7 @@
       "blocks": {
         "heading_8dpniF": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "<p>Retrouvez une peau rajeunie sans chirurgie avec quelques gouttes par jour</p>",
             "heading_custom": true,
@@ -36,7 +37,7 @@
         "banner_fixed_height": 750,
         "banner_fixed_height_mobile": 560,
         "image": "shopify://shop_images/Add_a_heading_1.png",
-        "image_mobile": "shopify://shop_images/May_19_2025_05_47_21_PM.png",
+        "image_mobile": "shopify://shop_images/RELACHES_3.svg",
         "overlay": 0,
         "content_maxwidth": 65,
         "content_maxwidth_mobile": 100,
