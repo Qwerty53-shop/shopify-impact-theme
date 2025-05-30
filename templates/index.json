@@ -86,7 +86,9 @@
         "video_dVjHnw": {
           "type": "video",
           "settings": {
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video": "shopify://files/videos/video 7.mp4",
+            "video_url": "",
+            "preload_video": "shopify://files/videos/video 2.mp4",
             "modal_heading": "<h4>Modal Heading</h4>",
             "modal_text": "<p>Modal Text</p>"
           }
@@ -94,7 +96,9 @@
         "video_dbzWdW": {
           "type": "video",
           "settings": {
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video": "shopify://files/videos/video 5.mp4",
+            "video_url": "",
+            "preload_video": "shopify://files/videos/video 3.mp4",
             "modal_heading": "<h4>Modal Heading</h4>",
             "modal_text": "<p>Modal Text</p>"
           }
@@ -102,6 +106,7 @@
         "video_mdRgBU": {
           "type": "video",
           "settings": {
+            "video": "shopify://files/videos/video 3.mp4",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "modal_heading": "<h4>Modal Heading</h4>",
             "modal_text": "<p>Modal Text</p>"
@@ -110,15 +115,9 @@
         "video_VFwbpE": {
           "type": "video",
           "settings": {
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "modal_heading": "<h4>Modal Heading</h4>",
-            "modal_text": "<p>Modal Text</p>"
-          }
-        },
-        "video_9h4i44": {
-          "type": "video",
-          "settings": {
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video": "shopify://files/videos/video 6.mp4",
+            "video_url": "",
+            "preload_video": "shopify://files/videos/video 4.mp4",
             "modal_heading": "<h4>Modal Heading</h4>",
             "modal_text": "<p>Modal Text</p>"
           }
@@ -128,8 +127,7 @@
         "video_dVjHnw",
         "video_dbzWdW",
         "video_mdRgBU",
-        "video_VFwbpE",
-        "video_9h4i44"
+        "video_VFwbpE"
       ],
       "name": "SS - Product Videos",
       "settings": {
