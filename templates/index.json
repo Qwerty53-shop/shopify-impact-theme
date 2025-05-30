@@ -80,6 +80,170 @@
         "background_gradient": "linear-gradient(60deg, rgba(255, 255, 255, 1), rgba(23, 29, 33, 1) 98%)"
       }
     },
+    "storie_insta_4wKfhD": {
+      "type": "storie-insta",
+      "blocks": {
+        "video_dVjHnw": {
+          "type": "video",
+          "settings": {
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "modal_heading": "<h4>Modal Heading</h4>",
+            "modal_text": "<p>Modal Text</p>"
+          }
+        },
+        "video_dbzWdW": {
+          "type": "video",
+          "settings": {
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "modal_heading": "<h4>Modal Heading</h4>",
+            "modal_text": "<p>Modal Text</p>"
+          }
+        },
+        "video_mdRgBU": {
+          "type": "video",
+          "settings": {
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "modal_heading": "<h4>Modal Heading</h4>",
+            "modal_text": "<p>Modal Text</p>"
+          }
+        },
+        "video_VFwbpE": {
+          "type": "video",
+          "settings": {
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "modal_heading": "<h4>Modal Heading</h4>",
+            "modal_text": "<p>Modal Text</p>"
+          }
+        },
+        "video_9h4i44": {
+          "type": "video",
+          "settings": {
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "modal_heading": "<h4>Modal Heading</h4>",
+            "modal_text": "<p>Modal Text</p>"
+          }
+        }
+      },
+      "block_order": [
+        "video_dVjHnw",
+        "video_dbzWdW",
+        "video_mdRgBU",
+        "video_VFwbpE",
+        "video_9h4i44"
+      ],
+      "name": "SS - Product Videos",
+      "settings": {
+        "videos_position": "above_description",
+        "use_metafield": false,
+        "heading": "<h2>WHAT OUR FELLOWS SAY</h2>",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 18,
+        "heading_size_mobile": 18,
+        "heading_height": 130,
+        "heading_align": "center",
+        "heading_align_mobile": "center",
+        "slider_view": 3,
+        "slider_view_mobile": 3,
+        "slider_gap": 16,
+        "slider_gap_mobile": 16,
+        "slider_mt": 20,
+        "card_radius": 10,
+        "card_border_thickness": 0,
+        "card_shadow": true,
+        "video_ratio": "portrait",
+        "video_ratio_mobile": "portrait",
+        "video_overlay": 0.3,
+        "icon_size": 34,
+        "icon_size_mobile": 34,
+        "icon_border_thickness": 1,
+        "icon_position_mobile": "bottom_left",
+        "icon_position": "bottom_left",
+        "hide_icon": false,
+        "arrow_size": 35,
+        "arrow_size_mobile": 35,
+        "arrow_radius": 5,
+        "arrow_border_thickness": 0,
+        "arrow_hover_shadow": true,
+        "arrow_show_desktop": true,
+        "arrow_show_mobile": true,
+        "show_content": false,
+        "modal_width": 30,
+        "modal_width_mobile": 95,
+        "modal_padding_vertical": 0,
+        "modal_padding_vertical_mobile": 0,
+        "modal_padding_horizontal": 0,
+        "modal_padding_horizontal_mobile": 0,
+        "modal_radius": 16,
+        "modal_border_thickness": 0,
+        "modal_overlay": 50,
+        "close_size": 42,
+        "close_size_mobile": 42,
+        "close_radius": 8,
+        "close_border_thickness": 0,
+        "buttons_size": 48,
+        "buttons_size_mobile": 48,
+        "buttons_radius": 8,
+        "buttons_border_thickness": 0,
+        "modal_video_radius": 0,
+        "modal_video_border_thickness": 0,
+        "modal_video_ratio": "portrait",
+        "modal_video_ratio_mobile": "portrait",
+        "modal_heading_custom": false,
+        "modal_heading_font": "josefin_sans_n4",
+        "modal_heading_size": 28,
+        "modal_heading_size_mobile": 28,
+        "modal_heading_height": 130,
+        "modal_heading_align": "center",
+        "modal_heading_align_mobile": "center",
+        "modal_text_custom": false,
+        "modal_text_font": "josefin_sans_n4",
+        "modal_text_size": 16,
+        "modal_text_size_mobile": 16,
+        "modal_text_height": 130,
+        "modal_text_align": "center",
+        "modal_text_align_mobile": "center",
+        "modal_text_mt": 16,
+        "card_bg_color": "#FFFFFF",
+        "card_border_color": "#000000",
+        "card_shadow_color": "#000000",
+        "video_overlay_color": "#000000",
+        "icon_bg_color": "#000000",
+        "icon_border_color": "#FFFFFF",
+        "icon_color": "#FFFFFF",
+        "arrow_bg_color": "#FFFFFF",
+        "arrow_bg_hover_color": "#FFFFFF",
+        "arrow_border_color": "#000000",
+        "arrow_border_hover_color": "#000000",
+        "arrow_icon_color": "#1c1c1c",
+        "arrow_icon_hover_color": "#1c1c1c",
+        "modal_bg_color": "#FFFFFF",
+        "modal_border_color": "#000000",
+        "close_bg_color": "#FFFFFF",
+        "close_border_color": "#000000",
+        "close_icon_color": "#FFFFFF",
+        "buttons_bg_color": "#FFFFFF",
+        "buttons_border_color": "#000000",
+        "buttons_icon_color": "#FFFFFF",
+        "modal_video_border_color": "#000000",
+        "modal_content_bg_color": "#FFFFFF",
+        "modal_content_border_color": "#000000",
+        "modal_heading_color": "#000000",
+        "modal_text_color": "#000000",
+        "heading_color": "#000000",
+        "background_color": "#FFFFFF",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "padding_horizontal": 0,
+        "padding_horizontal_mobile": 0,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
     "logo_list_TgC8yg": {
       "type": "logo-list",
       "blocks": {
@@ -546,6 +710,12 @@
             "liquid": "<div class=\"payment-logos-container\">\n    <!-- Visa -->\n    <img class=\"payment-logo\" src=\"data:image/svg+xml,%3Csvg width='780' height='500' enable-background='new 0 0 780 500' version='1.1' viewBox='0 0 780 500' xml:space='preserve' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M40,0h700c22.092,0,40,17.909,40,40v420c0,22.092-17.908,40-40,40H40c-22.091,0-40-17.908-40-40V40 C0,17.909,17.909,0,40,0z' fill='%230E4595'/%3E%3Cpath d='m293.2 348.73l33.361-195.76h53.36l-33.385 195.76h-53.336zm246.11-191.54c-10.57-3.966-27.137-8.222-47.822-8.222-52.725 0-89.865 26.55-90.18 64.603-0.299 28.13 26.514 43.822 46.752 53.186 20.771 9.595 27.752 15.714 27.654 24.283-0.131 13.121-16.586 19.116-31.922 19.116-21.357 0-32.703-2.967-50.227-10.276l-6.876-3.11-7.489 43.823c12.463 5.464 35.51 10.198 59.438 10.443 56.09 0 92.5-26.246 92.916-66.882 0.199-22.269-14.016-39.216-44.801-53.188-18.65-9.055-30.072-15.099-29.951-24.268 0-8.137 9.668-16.839 30.557-16.839 17.449-0.27 30.09 3.535 39.938 7.5l4.781 2.26 7.232-42.429m137.31-4.223h-41.232c-12.773 0-22.332 3.487-27.941 16.234l-79.244 179.4h56.031s9.16-24.123 11.232-29.418c6.125 0 60.555 0.084 68.338 0.084 1.596 6.853 6.49 29.334 6.49 29.334h49.514l-43.188-195.64zm-65.418 126.41c4.412-11.279 21.26-54.723 21.26-54.723-0.316 0.522 4.379-11.334 7.074-18.684l3.605 16.879s10.219 46.729 12.354 56.528h-44.293zm-363.3-126.41l-52.24 133.5-5.567-27.13c-9.725-31.273-40.025-65.155-73.898-82.118l47.766 171.2 56.456-0.064 84.004-195.39h-56.521' fill='%23fff'/%3E%3Cpath d='m146.92 152.96h-86.041l-0.681 4.073c66.938 16.204 111.23 55.363 129.62 102.41l-18.71-89.96c-3.23-12.395-12.597-16.094-24.186-16.527' fill='%23F2AE14'/%3E%3C/svg%3E\" alt=\"Visa\">\n    <!-- Mastercard -->\n    <img class=\"payment-logo\" src=\"data:image/svg+xml,%3Csvg width='780' height='500' enable-background='new 0 0 780 500' version='1.1' viewBox='0 0 780 500' xml:space='preserve' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M40,0h700c22.092,0,40,17.909,40,40v420c0,22.092-17.908,40-40,40H40c-22.091,0-40-17.908-40-40V40 C0,17.909,17.909,0,40,0z' fill='%2316366F'/%3E%3Cpath d='m449.01 250c0 99.143-80.37 179.5-179.51 179.5s-179.5-80.361-179.5-179.5c0-99.133 80.362-179.5 179.5-179.5 99.137 0 179.51 80.37 179.51 179.5' fill='%23D9222A'/%3E%3Cpath d='m510.49 70.496c-46.38 0-88.643 17.596-120.5 46.466-6.49 5.889-12.548 12.237-18.125 18.996h36.266c4.966 6.037 9.536 12.388 13.685 19.013h-63.635c-3.827 6.121-7.28 12.469-10.341 19.008h84.312c2.893 6.185 5.431 12.53 7.6 19.004h-99.512c-2.091 6.235-3.832 12.581-5.217 19.009h109.94c2.689 12.49 4.044 25.231 4.041 38.008 0 19.934-3.254 39.113-9.254 57.02h-99.512c2.164 6.479 4.7 12.825 7.595 19.01h84.317c-3.064 6.54-6.52 12.889-10.347 19.013h-63.625c4.154 6.629 8.73 12.979 13.685 18.996h36.258c-5.57 6.772-11.63 13.126-18.13 19.012 31.86 28.867 74.118 46.454 120.5 46.454 99.138-1e-3 179.51-80.362 179.51-179.5 0-99.13-80.37-179.5-179.51-179.5' fill='%23EE9F2D'/%3E%3C/svg%3E\" alt=\"Mastercard\">\n    <!-- PayPal -->\n    <img class=\"payment-logo\" src=\"https://www.paypalobjects.com/webstatic/mktg/logo/pp_cc_mark_111x69.jpg\" alt=\"PayPal\">\n    <!-- Apple Pay -->\n    <img class=\"payment-logo\" src=\"https://icons.veryicon.com/png/o/business/third-party-sharing-payment/apple-pay.png\">\n    <!-- Google Pay -->\n    <img class=\"payment-logo\" src=\"https://cdn.shopify.com/s/files/1/0932/1719/4322/files/Google_Pay_Logo_svg.png?v=1743348768\" alt=\"Google Pay\">\n   \n   \n\n<style>\n    .payment-logos-container {\n        display: flex;\n        justify-content: center;\n        gap: 10px;\n        margin-top: 20px;\n        flex-wrap: wrap;\n    }\n\n    .payment-logo {\n        width: 35px; /* Réduit la taille des logos */\n        height: auto;\n        object-fit: contain;\n    }\n</style>"
           }
         },
+        "liquid_NJJ6nz": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div id='ss-product-videos'></div>"
+          }
+        },
         "image_R4BMay": {
           "type": "image",
           "settings": {
@@ -621,6 +791,7 @@
         "separator_Lzn8Rb",
         "buy-buttons",
         "liquid_iGMA7G",
+        "liquid_NJJ6nz",
         "image_R4BMay",
         "collapsible_text_6iwDje",
         "collapsible_text_x9eWmk",
@@ -909,6 +1080,7 @@
   "order": [
     "banner_76Hbw4",
     "slideshow",
+    "storie_insta_4wKfhD",
     "logo_list_TgC8yg",
     "custom_html_bdTEDF",
     "slideshow_QYyeay",
