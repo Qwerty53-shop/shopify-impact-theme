@@ -663,6 +663,14 @@
             "product": "{{section.settings.product}}"
           }
         },
+        "image_3pM3wz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Ajouter_un_sous-titre_500_x_250_px_5.svg",
+            "alignment": "start",
+            "max_width": 500
+          }
+        },
         "text_dARDWL": {
           "type": "text",
           "settings": {
@@ -779,6 +787,7 @@
         "image_jhEQwJ",
         "liquid_c8dKBm",
         "kaching_bundles_app_block_hikxdA",
+        "image_3pM3wz",
         "text_dARDWL",
         "liquid_dUc7Te",
         "separator_Lzn8Rb",
