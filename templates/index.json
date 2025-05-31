@@ -706,7 +706,7 @@
         "image_R4BMay": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/badge_confianc_CTA.png",
+            "image": "shopify://shop_images/Payement_securise_1.svg",
             "alignment": "center",
             "max_width": 500
           }
