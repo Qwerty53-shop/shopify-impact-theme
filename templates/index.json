@@ -157,7 +157,9 @@
         "video_Tbh8LA": {
           "type": "video",
           "settings": {
+            "video": "shopify://files/videos/video 4.mp4",
             "video_url": "",
+            "preload_video": "shopify://files/videos/video 4.mp4",
             "modal_heading": "<h4>Modal Heading</h4>",
             "modal_text": "<p>Modal Text</p>"
           }
@@ -165,7 +167,9 @@
         "video_pVFTPL": {
           "type": "video",
           "settings": {
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video": "shopify://files/videos/video 2.mp4",
+            "video_url": "",
+            "preload_video": "shopify://files/videos/video 2.mp4",
             "modal_heading": "<h4>Modal Heading</h4>",
             "modal_text": "<p>Modal Text</p>"
           }
@@ -173,15 +177,9 @@
         "video_qFYRJk": {
           "type": "video",
           "settings": {
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "modal_heading": "<h4>Modal Heading</h4>",
-            "modal_text": "<p>Modal Text</p>"
-          }
-        },
-        "video_6nz7jE": {
-          "type": "video",
-          "settings": {
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video": "shopify://files/videos/video 3.mp4",
+            "video_url": "",
+            "preload_video": "shopify://files/videos/video 3.mp4",
             "modal_heading": "<h4>Modal Heading</h4>",
             "modal_text": "<p>Modal Text</p>"
           }
@@ -191,8 +189,7 @@
         "video_BUMzHb",
         "video_Tbh8LA",
         "video_pVFTPL",
-        "video_qFYRJk",
-        "video_6nz7jE"
+        "video_qFYRJk"
       ],
       "name": "SS - Product Videos",
       "settings": {
