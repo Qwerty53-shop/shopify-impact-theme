@@ -673,6 +673,7 @@
         },
         "text_dARDWL": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p><strong>OFFRE VALABLE SEULEMENT AUJOURD'HUI !</strong></p>"
           }
