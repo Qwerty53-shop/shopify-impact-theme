@@ -672,16 +672,15 @@
             "max_width": 500
           }
         },
-        "text_dARDWL": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p><strong>OFFRE VALABLE SEULEMENT AUJOURD'HUI !</strong></p>"
-          }
-        },
         "separator_Lzn8Rb": {
           "type": "separator",
           "settings": {}
+        },
+        "text_dARDWL": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>OFFRE VALABLE SEULEMENT AUJOURD'HUI !</strong></p>"
+          }
         },
         "liquid_dUc7Te": {
           "type": "liquid",
@@ -798,8 +797,8 @@
         "liquid_c8dKBm",
         "kaching_bundles_app_block_hikxdA",
         "image_3pM3wz",
-        "text_dARDWL",
         "separator_Lzn8Rb",
+        "text_dARDWL",
         "liquid_dUc7Te",
         "liquid_Wn8UgL",
         "buy-buttons",
